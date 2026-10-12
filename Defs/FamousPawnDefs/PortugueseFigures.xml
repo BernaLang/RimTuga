@@ -912,4 +912,112 @@
     <adulthood>PT_EcaQueiros_Adult</adulthood>
   </PortugueseColonists.FamousPawnDef>
 
+  <!-- ================================================================== -->
+  <!--               CULT FIGURES, ODDBALLS & LEGENDS                      -->
+  <!-- ================================================================== -->
+
+  <!-- Tino de Rans (Vitorino Silva) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_TinoDeRans</defName>
+    <name>
+      <first>Vitorino</first>
+      <nick>Tino</nick>
+      <last>Silva</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_TinoDeRans_Child</childhood>
+    <adulthood>PT_TinoDeRans_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- O Emplastro (Fernando Santos) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Emplastro</defName>
+    <name>
+      <first>Fernando</first>
+      <nick>Emplastro</nick>
+      <last>Santos</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_Emplastro_Child</childhood>
+    <adulthood>PT_Emplastro_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Conan Osíris (Tiago Miranda) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_ConanOsiris</defName>
+    <name>
+      <first>Tiago</first>
+      <nick>Conan</nick>
+      <last>Miranda</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_ConanOsiris_Child</childhood>
+    <adulthood>PT_ConanOsiris_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Diogo Alves, the aqueduct killer (19th century) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_DiogoAlves</defName>
+    <name>
+      <first>Diogo</first>
+      <nick>Pancada</nick>
+      <last>Alves</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_DiogoAlves_Child</childhood>
+    <adulthood>PT_DiogoAlves_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Maya (Eunice Maia Morais de Carvalho). Last name "Maia": the part of her name she chose for her stage name. -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Maya</defName>
+    <name>
+      <first>Eunice</first>
+      <nick>Maya</nick>
+      <last>Maia</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_Maya_Child</childhood>
+    <adulthood>PT_Maya_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Ana Malhoa -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_AnaMalhoa</defName>
+    <name>
+      <first>Ana</first>
+      <nick>Turbinada</nick>
+      <last>Malhoa</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_AnaMalhoa_Child</childhood>
+    <adulthood>PT_AnaMalhoa_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- O Velho do Restelo (fictional, from Os Lusíadas; name invented for the game) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_VelhoRestelo</defName>
+    <name>
+      <first>Velho</first>
+      <nick>Agoirento</nick>
+      <last>do Restelo</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_VelhoRestelo_Child</childhood>
+    <adulthood>PT_VelhoRestelo_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Bruno Aleixo (fictional, created by GANA) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_BrunoAleixo</defName>
+    <name>
+      <first>Bruno</first>
+      <nick>Aleixo</nick>
+      <last>Aleixo</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_BrunoAleixo_Child</childhood>
+    <adulthood>PT_BrunoAleixo_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
 </Defs>

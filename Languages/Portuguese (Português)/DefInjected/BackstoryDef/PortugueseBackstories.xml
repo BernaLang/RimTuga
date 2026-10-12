@@ -699,4 +699,88 @@
   <PT_EcaQueiros_Adult.titleShort>romancista</PT_EcaQueiros_Adult.titleShort>
   <PT_EcaQueiros_Adult.description>Enquanto servia como cônsul em Havana, em Inglaterra e em Paris, [PAWN_nameDef] escreveu romances que troçavam sem piedade da hipocrisia da sociedade portuguesa. «Os Maias» continua a ser considerado o grande romance português, e os seus restos mortais repousam hoje no Panteão Nacional.</PT_EcaQueiros_Adult.description>
 
+  <!-- ================================================================== -->
+  <!--               FIGURAS DE CULTO, EXCÊNTRICOS E LENDAS                -->
+  <!-- ================================================================== -->
+
+  <!-- ==================== Tino de Rans ==================== -->
+
+  <PT_TinoDeRans_Child.title>rapaz da aldeia de Rans</PT_TinoDeRans_Child.title>
+  <PT_TinoDeRans_Child.titleShort>rapaz da aldeia</PT_TinoDeRans_Child.titleShort>
+  <PT_TinoDeRans_Child.description>[PAWN_nameDef] cresceu em Rans, uma aldeia de Penafiel, e começou a trabalhar cedo, aprendendo a fazer a calçada portuguesa pedra a pedra.</PT_TinoDeRans_Child.description>
+
+  <PT_TinoDeRans_Adult.title>candidato do povo</PT_TinoDeRans_Adult.title>
+  <PT_TinoDeRans_Adult.titleShort>calceteiro</PT_TinoDeRans_Adult.titleShort>
+  <PT_TinoDeRans_Adult.description>Calceteiro, presidente de junta, cantor de «Pão, Pão, Fiambre, Fiambre», concorrente de reality shows e mais do que uma vez candidato a Presidente da República: [PAWN_nameDef] já fez de tudo, sempre com o mesmo otimismo inabalável e o martelo de calceteiro por perto.</PT_TinoDeRans_Adult.description>
+
+  <!-- ==================== O Emplastro ==================== -->
+
+  <PT_Emplastro_Child.title>miúdo de Gaia</PT_Emplastro_Child.title>
+  <PT_Emplastro_Child.titleShort>miúdo</PT_Emplastro_Child.titleShort>
+  <PT_Emplastro_Child.description>[PAWN_nameDef] cresceu pobre em Vila Nova de Gaia, com quatro irmãos, e encontrou cedo o grande amor da sua vida: o FC Porto.</PT_Emplastro_Child.description>
+
+  <PT_Emplastro_Adult.title>lendário intruso dos diretos</PT_Emplastro_Adult.title>
+  <PT_Emplastro_Adult.titleShort>emplastro</PT_Emplastro_Adult.titleShort>
+  <PT_Emplastro_Adult.description>Há mais de trinta anos que, sempre que uma equipa de televisão entra em direto perto do Porto, [PAWN_nameDef] aparece de alguma forma mesmo atrás do repórter, a sorrir para a câmara. Entre diretos, trabalhou quinze anos numa panificadora. Os jornalistas brincam que uma grande notícia no Porto só é oficial quando o Emplastro aparece.</PT_Emplastro_Adult.description>
+
+  <!-- ==================== Conan Osíris ==================== -->
+
+  <PT_ConanOsiris_Child.title>bailarino de quarto</PT_ConanOsiris_Child.title>
+  <PT_ConanOsiris_Child.titleShort>bailarino</PT_ConanOsiris_Child.titleShort>
+  <PT_ConanOsiris_Child.description>A crescer entre Lisboa e o Cacém, [PAWN_nameDef] aprendeu sozinho a dançar em frente ao espelho e fazia canções estranhas que mais ninguém se atreveria a fazer.</PT_ConanOsiris_Child.description>
+
+  <PT_ConanOsiris_Adult.title>excentricidade da Eurovisão</PT_ConanOsiris_Adult.title>
+  <PT_ConanOsiris_Adult.titleShort>cantor</PT_ConanOsiris_Adult.titleShort>
+  <PT_ConanOsiris_Adult.description>Depois de estudar design gráfico e de passar anos a trabalhar numa sex shop em Lisboa, [PAWN_nameDef] venceu o Festival da Canção com «Telemóveis», uma canção sobre partir o telemóvel, cantada meio como fado e meio como nada que alguém já tivesse ouvido. Não chegou à final da Eurovisão, mas o país nunca mais a esqueceu.</PT_ConanOsiris_Adult.description>
+
+  <!-- ==================== Diogo Alves ==================== -->
+
+  <PT_DiogoAlves_Child.title>fugitivo galego</PT_DiogoAlves_Child.title>
+  <PT_DiogoAlves_Child.titleShort>fugitivo</PT_DiogoAlves_Child.titleShort>
+  <PT_DiogoAlves_Child.description>Nascido numa aldeia pobre da Galiza, [PAWN_nameDef] saiu de casa novo e veio para Lisboa à procura de trabalho, como milhares de galegos do seu tempo.</PT_DiogoAlves_Child.description>
+
+  <PT_DiogoAlves_Adult.title>assassino do aqueduto</PT_DiogoAlves_Adult.title>
+  <PT_DiogoAlves_Adult.titleShort>assassino</PT_DiogoAlves_Adult.titleShort>
+  <PT_DiogoAlves_Adult.description>Nos anos 1830, diz a lenda, [PAWN_nameDef] esperava no grande Aqueduto das Águas Livres, roubava quem passava e atirava-o lá de cima para o vale; as mortes começaram por ser tomadas por suicídios. Foi enforcado em 1841, e a sua cabeça, conservada num frasco, ainda está guardada na Faculdade de Medicina de Lisboa.</PT_DiogoAlves_Adult.description>
+
+  <!-- ==================== Maya ==================== -->
+
+  <PT_Maya_Child.title>menina dos mistérios</PT_Maya_Child.title>
+  <PT_Maya_Child.titleShort>sonhadora</PT_Maya_Child.titleShort>
+  <PT_Maya_Child.description>A crescer na Amadora, [PAWN_nameDef] era fascinada por horóscopos, cartas e tudo o que fosse misterioso, e nada lhe agradava mais do que ter plateia.</PT_Maya_Child.description>
+
+  <PT_Maya_Adult.title>taróloga da televisão</PT_Maya_Adult.title>
+  <PT_Maya_Adult.titleShort>taróloga</PT_Maya_Adult.titleShort>
+  <PT_Maya_Adult.description>Professora primária, atriz de revista, artista de circo, astróloga de jornal: [PAWN_nameDef] experimentou de tudo antes de se tornar a taróloga mais conhecida do país, a prever o ano que aí vem para a nação inteira na televisão e a apresentar programas desde a hora do pequeno-almoço até muito depois da meia-noite.</PT_Maya_Adult.description>
+
+  <!-- ==================== Ana Malhoa ==================== -->
+
+  <PT_AnaMalhoa_Child.title>filha de cantor</PT_AnaMalhoa_Child.title>
+  <PT_AnaMalhoa_Child.titleShort>estrela infantil</PT_AnaMalhoa_Child.titleShort>
+  <PT_AnaMalhoa_Child.description>[PAWN_nameDef] já cantava em palco com o pai, um cantor popular, desde os seis anos, e aos quinze já apresentava um programa infantil na televisão.</PT_AnaMalhoa_Child.description>
+
+  <PT_AnaMalhoa_Adult.title>rainha turbinada da pop</PT_AnaMalhoa_Adult.title>
+  <PT_AnaMalhoa_Adult.titleShort>estrela pop</PT_AnaMalhoa_Adult.titleShort>
+  <PT_AnaMalhoa_Adult.description>Misturando pop, pimba e reggaeton, [PAWN_nameDef] tornou-se a artista pop que mais discos vendeu em Portugal. Ninguém vende uma canção, ou uma alcunha como «Turbinada», com mais energia.</PT_AnaMalhoa_Adult.description>
+
+  <!-- ==================== O Velho do Restelo ==================== -->
+
+  <PT_VelhoRestelo_Child.title>criança preocupada</PT_VelhoRestelo_Child.title>
+  <PT_VelhoRestelo_Child.titleShort>preocupado</PT_VelhoRestelo_Child.titleShort>
+  <PT_VelhoRestelo_Child.description>Já em rapaz, no Restelo, [PAWN_nameDef] avisava as outras crianças de que subir às árvores ia acabar em tragédia. Normalmente acabava, e ele nunca os deixou esquecer.</PT_VelhoRestelo_Child.description>
+
+  <PT_VelhoRestelo_Adult.title>profeta da desgraça</PT_VelhoRestelo_Adult.title>
+  <PT_VelhoRestelo_Adult.titleShort>agoirento</PT_VelhoRestelo_Adult.titleShort>
+  <PT_VelhoRestelo_Adult.description>Quando a armada de Vasco da Gama partiu para a Índia em 1497, um velho de aspeto venerando pôs-se na praia do Restelo a amaldiçoar em voz alta a vã cobiça de glória que os ia afogar a todos. Camões imortalizou o seu discurso n'«Os Lusíadas», e desde então todo o português do contra é chamado «Velho do Restelo». Continua certo de que vai tudo acabar mal.</PT_VelhoRestelo_Adult.description>
+
+  <!-- ==================== Bruno Aleixo ==================== -->
+
+  <PT_BrunoAleixo_Child.title>criatura de Coimbra</PT_BrunoAleixo_Child.title>
+  <PT_BrunoAleixo_Child.titleShort>criatura</PT_BrunoAleixo_Child.titleShort>
+  <PT_BrunoAleixo_Child.description>Ninguém sabe bem o que [PAWN_nameDef] é: qualquer coisa entre um urso e um cão, nascido em Coimbra com raízes brasileiras. Passou a infância a ter opiniões fortes sobre tudo e a não fazer nada sobre nenhuma delas.</PT_BrunoAleixo_Child.description>
+
+  <PT_BrunoAleixo_Adult.title>filósofo de sofá</PT_BrunoAleixo_Adult.title>
+  <PT_BrunoAleixo_Adult.titleShort>filósofo</PT_BrunoAleixo_Adult.titleShort>
+  <PT_BrunoAleixo_Adult.description>Depois da recruta nas Operações Especiais em Lamego, [PAWN_nameDef] instalou-se numa vida de conversas intermináveis e absurdas com os amigos: um busto de Napoleão que fala e um homem pré-histórico da serra do Buçaco que precisa de legendas. Tem conselhos para toda a gente, e nenhum presta.</PT_BrunoAleixo_Adult.description>
+
 </LanguageData>

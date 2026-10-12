@@ -2889,4 +2889,352 @@
     <shuffleable>false</shuffleable>
   </BackstoryDef>
 
+  <!-- ================================================================== -->
+  <!--               CULT FIGURES, ODDBALLS & LEGENDS                      -->
+  <!-- ================================================================== -->
+
+  <!-- ==================== Tino de Rans ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_TinoDeRans_Child</defName>
+    <slot>Childhood</slot>
+    <title>Rans village boy</title>
+    <titleShort>village boy</titleShort>
+    <description>[PAWN_nameDef] grew up in Rans, a village in Penafiel, and started working young, learning to lay Portugal's traditional cobblestone pavements one stone at a time.</description>
+    <skillGains>
+      <Construction>2</Construction>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_TinoDeRans_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>people's candidate</title>
+    <titleShort>paver</titleShort>
+    <description>Cobblestone paver, parish council president, singer of "Pão, Pão, Fiambre, Fiambre", reality show contestant and candidate for President of the Republic more than once: [PAWN_nameDef] has done it all with the same unshakeable optimism, and a paver's hammer never far away.</description>
+    <skillGains>
+      <Construction>4</Construction>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <NaturalMood>1</NaturalMood>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== O Emplastro ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Emplastro_Child</defName>
+    <slot>Childhood</slot>
+    <title>Gaia kid</title>
+    <titleShort>kid</titleShort>
+    <description>[PAWN_nameDef] grew up poor in Vila Nova de Gaia with four siblings, and found the great love of [PAWN_possessive] life early: FC Porto.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Emplastro_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>legendary photobomber</title>
+    <titleShort>photobomber</titleShort>
+    <description>For more than thirty years, whenever a TV crew went live anywhere near Porto, [PAWN_nameDef] somehow appeared right behind the reporter, smiling at the camera. Between broadcasts [PAWN_pronoun] worked for fifteen years at a bakery. Reporters joke that a big story in Porto isn't official until the Emplastro shows up.</description>
+    <skillGains>
+      <Cooking>3</Cooking>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <SpeedOffset>1</SpeedOffset>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Conan Osíris ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_ConanOsiris_Child</defName>
+    <slot>Childhood</slot>
+    <title>bedroom dancer</title>
+    <titleShort>dancer</titleShort>
+    <description>Growing up between Lisbon and Cacém, [PAWN_nameDef] taught [PAWN_objective]self to dance in front of the mirror and made strange songs nobody else would have dared to make.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_ConanOsiris_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>Eurovision oddity</title>
+    <titleShort>singer</titleShort>
+    <description>After studying graphic design and spending years working in a Lisbon sex shop, [PAWN_nameDef] won the Portuguese Eurovision selection with "Telemóveis", a song about smashing your phone, sung half like fado and half like nothing anyone had ever heard. It didn't reach the final, but the country never forgot it.</description>
+    <skillGains>
+      <Artistic>5</Artistic>
+      <Social>2</Social>
+      <Crafting>1</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Diogo Alves ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_DiogoAlves_Child</defName>
+    <slot>Childhood</slot>
+    <title>Galician runaway</title>
+    <titleShort>runaway</titleShort>
+    <description>Born into a poor village in Galicia, [PAWN_nameDef] left home young and came to Lisbon looking for work, like thousands of Galicians of [PAWN_possessive] time.</description>
+    <skillGains>
+      <Melee>2</Melee>
+      <Animals>1</Animals>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_DiogoAlves_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>aqueduct killer</title>
+    <titleShort>killer</titleShort>
+    <description>In the 1830s, legend says, [PAWN_nameDef] waited on Lisbon's great aqueduct, robbing passers-by and throwing them off into the valley below; the deaths were at first taken for suicides. [PAWN_pronoun] was hanged in 1841, and [PAWN_possessive] head, preserved in a jar, is still kept at Lisbon's faculty of medicine.</description>
+    <skillGains>
+      <Melee>5</Melee>
+      <Crafting>2</Crafting>
+      <Social>-1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Psychopath>0</Psychopath>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Maya ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Maya_Child</defName>
+    <slot>Childhood</slot>
+    <title>girl of mysteries</title>
+    <titleShort>dreamer</titleShort>
+    <description>Growing up in Amadora, [PAWN_nameDef] was fascinated by horoscopes, cards and anything mysterious, and loved nothing more than an audience.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Maya_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>TV tarot reader</title>
+    <titleShort>tarot reader</titleShort>
+    <description>Primary school teacher, revue actress, circus artist, newspaper astrologer: [PAWN_nameDef] tried it all before becoming the country's best-known tarot reader, predicting the year ahead for the whole nation on television and hosting shows from breakfast time to well past midnight.</description>
+    <skillGains>
+      <Social>5</Social>
+      <Artistic>2</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <PsychicSensitivity>1</PsychicSensitivity>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Ana Malhoa ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_AnaMalhoa_Child</defName>
+    <slot>Childhood</slot>
+    <title>singer's daughter</title>
+    <titleShort>child star</titleShort>
+    <description>[PAWN_nameDef] was singing on stage with [PAWN_possessive] father, a popular singer, from the age of six, and was hosting a children's TV show by fifteen.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_AnaMalhoa_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>pop turbo queen</title>
+    <titleShort>pop star</titleShort>
+    <description>Mixing pop, pimba and reggaeton, [PAWN_nameDef] became the best-selling pop artist in Portugal. Nobody sells a song, or a nickname like "Turbinada", with more energy.</description>
+    <skillGains>
+      <Artistic>4</Artistic>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Beauty>1</Beauty>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== O Velho do Restelo (fictional, from Os Lusíadas) ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_VelhoRestelo_Child</defName>
+    <slot>Childhood</slot>
+    <title>worried child</title>
+    <titleShort>worrier</titleShort>
+    <description>Even as a boy in Restelo, [PAWN_nameDef] warned the other children that climbing trees would end in tragedy. It usually did, and [PAWN_pronoun] never let them forget it.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_VelhoRestelo_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>prophet of doom</title>
+    <titleShort>doomsayer</titleShort>
+    <description>As Vasco da Gama's fleet set sail for India in 1497, a venerable old man stood on the beach of Restelo and loudly cursed the vain greed for glory that would drown them all. Camões immortalised [PAWN_possessive] speech in "Os Lusíadas", and ever since, every Portuguese naysayer has been called a "Velho do Restelo". [PAWN_pronoun] is still certain it will all end badly.</description>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <NaturalMood>-1</NaturalMood>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Bruno Aleixo (fictional, by GANA) ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_BrunoAleixo_Child</defName>
+    <slot>Childhood</slot>
+    <title>Coimbra creature</title>
+    <titleShort>creature</titleShort>
+    <description>Nobody is quite sure what [PAWN_nameDef] is: something between a bear and a dog, born in Coimbra with Brazilian roots. [PAWN_pronoun] spent [PAWN_possessive] childhood having strong opinions about everything and doing nothing about any of them.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Animals>1</Animals>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_BrunoAleixo_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>armchair philosopher</title>
+    <titleShort>philosopher</titleShort>
+    <description>After basic training at the special operations school in Lamego, [PAWN_nameDef] settled into a life of endless, absurd conversations with [PAWN_possessive] friends: a talking bust of Napoleon and a prehistoric man from the Buçaco forest who needs subtitles. [PAWN_pronoun] has advice for everyone, and none of it is good.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Artistic>2</Artistic>
+      <Melee>2</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Industriousness>-1</Industriousness>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
 </Defs>

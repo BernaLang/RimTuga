@@ -9,7 +9,7 @@ Portuguese Colonists is a RimWorld mod that fills your world with Portuguese col
 ## Features
 
 - **Portuguese names:** over 300 first names, 160+ last names and 180+ nicknames are added to the random name pool. Expect pawns like Gonçalo "Tremoço" Magalhães or Matilde "Varina" Sousa. Many nicknames come straight from Porto and Northern slang.
-- **68 famous Portuguese figures:** kings and queens, navigators, poets, scientists, athletes, footballers, fadistas, comedians and TV hosts. Each has a hand-written childhood and adulthood backstory. Like RimWorld's own famous characters, they occasionally show up as colonists, wanderers, traders or raiders. Will it be Afonso Henriques, Amália Rodrigues, Rui Nabeiro, or Cristiano Ronaldo shouting *SIUUU*?
+- **76 famous Portuguese figures:** kings and queens, navigators, poets, scientists, athletes, footballers, fadistas, comedians, TV hosts, and a few cult legends and oddballs. Each has a hand-written childhood and adulthood backstory. Like RimWorld's own famous characters, they occasionally show up as colonists, wanderers, traders or raiders. Will it be Afonso Henriques, Amália Rodrigues, Rui Nabeiro, or Cristiano Ronaldo shouting *SIUUU*?
 - **Not overpowered:** famous figures get vanilla-level skill bonuses, so they're fun to find but don't break your game.
 - **Translated:** every backstory is available in European Portuguese, which is also used when the game is set to Brazilian Portuguese.
 

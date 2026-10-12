@@ -26,7 +26,7 @@ Açoriana, Alentejana, Algarvia, Azeiteira, Bacana, Badalhoca, Beirã, Besuntas,
 #### Unisex nicknames (75)
 Alfacinha, Alho Chocho, Aloquete, Andorinha, Bacalhau, Bagaço, Barona, Benfiquista, Bifana, Bisga, Bitaites, Broa, Cabeça de Giz, Cagarola, Caldo Verde, Canalha, Caracol, Carago, Cegonha, Chaço, Chouriço, Chuço, Cimbalino, Coiras, Cruzeta, Dragão, Espadachim, Estapor, Fadista, Fino, Fixe, Foguete, Formiga, Francesinha, Fronha, Gavião, Ginjinha, Guna, Jeco, Lince, Lisboeta, Lobo, Lontra, Madeirense, Manguela, Marechal, Medronho, Mitra, Mocho, Moina, Molete, Mor, Narizinho de Cheiro, Pastel de Nata, Pimba, Pitosga, Playmobil, Portista, Portuense, Rabelo, Regueifa, Rojão, Sardinha, Saudade, Selo, Sêmea, Sertã, Sostra, Sportinguista, Tecla 3, Toupeira, Touro, Tremoço, Tuga, Xiripiti
 
-## Personas (68)
+## Personas (76)
 
 ### Historical
 
@@ -115,3 +115,16 @@ Alfacinha, Alho Chocho, Aloquete, Andorinha, Bacalhau, Bagaço, Barona, Benfiqui
 | Teresa 'Teresa' Guilherme | The TV host who brought *Big Brother* to Portugal. |
 | Ana 'Pipoca' Garcia Martins | Sarcastic blogger and humorist known as *A Pipoca Mais Doce*. |
 | Mariana 'Bumba' Cabral | Comedian and podcaster known as *Bumba na Fofinha*. |
+
+### Cult figures, oddballs & legends
+
+| In game | Who they are |
+|---|---|
+| Vitorino 'Tino' Silva | Tino de Rans, cobblestone paver from Penafiel turned singer, reality star and presidential candidate. |
+| Fernando 'Emplastro' Santos | Porto's legendary photobomber, who has appeared behind TV reporters for over 30 years. |
+| Tiago 'Conan' Miranda | Conan Osíris, who went to Eurovision 2019 with *Telemóveis*, the song about breaking your phone. |
+| Diogo 'Pancada' Alves | 19th-century "aqueduct killer" of Lisbon. His head is still kept in a jar at the medical school. |
+| Eunice 'Maya' Maia | Maya, the country's best-known TV tarot reader. |
+| Ana 'Turbinada' Malhoa | Pop and pimba star, the best-selling pop artist in Portugal. |
+| Velho 'Agoirento' do Restelo | The old pessimist from *Os Lusíadas* who cursed Vasco da Gama's voyage. *(Fictional; the name is invented for the game.)* |
+| Bruno 'Aleixo' Aleixo | The cult animated bear-dog creature from Coimbra, created by GANA. *(Fictional.)* |
