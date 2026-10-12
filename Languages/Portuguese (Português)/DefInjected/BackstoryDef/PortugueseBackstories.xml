@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--
+    Tradução para português europeu de Defs/BackstoryDefs/PortugueseBackstories.xml
+    Cada figura tem género fixo, por isso os títulos já estão no género certo e os
+    pronomes estão escritos diretamente (ele/ela) em vez de [PAWN_pronoun].
+  -->
+
+  <!-- ==================== D. Afonso Henriques ==================== -->
+
+  <PT_AfonsoHenriques_Child.title>príncipe rebelde</PT_AfonsoHenriques_Child.title>
+  <PT_AfonsoHenriques_Child.titleShort>príncipe</PT_AfonsoHenriques_Child.titleShort>
+  <PT_AfonsoHenriques_Child.description>[PAWN_nameDef] cresceu como um príncipe sem reino, a ver a mãe entregar o condado a nobres estrangeiros. Ainda rapaz, armou-se cavaleiro a si próprio numa catedral e jurou recuperar o que era seu.</PT_AfonsoHenriques_Child.description>
+
+  <PT_AfonsoHenriques_Adult.title>rei fundador</PT_AfonsoHenriques_Adult.title>
+  <PT_AfonsoHenriques_Adult.titleShort>rei</PT_AfonsoHenriques_Adult.titleShort>
+  <PT_AfonsoHenriques_Adult.description>[PAWN_nameDef] derrotou o exército da própria mãe e transformou um condado rebelde num reino à força da espada. Depois de conquistar Lisboa aos mouros num longo cerco, passou o resto da vida a empurrar a fronteira para sul. Reis não esfregam chãos.</PT_AfonsoHenriques_Adult.description>
+
+  <!-- ==================== Luís de Camões ==================== -->
+
+  <PT_LuisCamoes_Child.title>estudante dos clássicos</PT_LuisCamoes_Child.title>
+  <PT_LuisCamoes_Child.titleShort>estudante</PT_LuisCamoes_Child.titleShort>
+  <PT_LuisCamoes_Child.description>Nascido numa família da pequena nobreza caída em desgraça, [PAWN_nameDef] foi educado nos clássicos. Devorava poesia latina e italiana e já escrevia versos enquanto os outros rapazes brincavam às espadas.</PT_LuisCamoes_Child.description>
+
+  <PT_LuisCamoes_Adult.title>poeta soldado</PT_LuisCamoes_Adult.title>
+  <PT_LuisCamoes_Adult.titleShort>poeta</PT_LuisCamoes_Adult.titleShort>
+  <PT_LuisCamoes_Adult.description>[PAWN_nameDef] perdeu um olho a combater no Norte de África, foi preso depois de uma rixa nas ruas de Lisboa e mandado servir nas Índias. Quando o navio naufragou na foz do Mekong, nadou até terra a segurar acima das ondas o manuscrito de um poema épico. Esse poema tornou-se a obra fundadora da literatura portuguesa.</PT_LuisCamoes_Adult.description>
+
+  <!-- ==================== Vasco da Gama ==================== -->
+
+  <PT_VascoGama_Child.title>nobre do porto</PT_VascoGama_Child.title>
+  <PT_VascoGama_Child.titleShort>nobre</PT_VascoGama_Child.titleShort>
+  <PT_VascoGama_Child.description>Filho do alcaide de Sines, uma pequena vila piscatória da costa alentejana, [PAWN_nameDef] cresceu a ver os navios chegar e partir. Aprendeu matemática e navegação e sonhava com o que haveria para lá do horizonte.</PT_VascoGama_Child.description>
+
+  <PT_VascoGama_Adult.title>navegador</PT_VascoGama_Adult.title>
+  <PT_VascoGama_Adult.titleShort>navegador</PT_VascoGama_Adult.titleShort>
+  <PT_VascoGama_Adult.description>[PAWN_nameDef] comandou a primeira armada a navegar da Europa até à Índia, dobrando o Cabo da Boa Esperança, e abriu uma rota marítima que mudou o mundo. Capitão severo e por vezes brutal, manteve as tripulações unidas através de tempestades, escorbuto e quase-motins.</PT_VascoGama_Adult.description>
+
+  <!-- ==================== Brites de Almeida ==================== -->
+
+  <PT_BritesAlmeida_Child.title>órfã selvagem</PT_BritesAlmeida_Child.title>
+  <PT_BritesAlmeida_Child.titleShort>órfã</PT_BritesAlmeida_Child.titleShort>
+  <PT_BritesAlmeida_Child.description>Diz a lenda que [PAWN_nameDef] nasceu em Faro com seis dedos em cada mão, ombros largos e um feitio a condizer. Órfã desde cedo, fez-se à estrada e resolvia todas as discussões à força de punho.</PT_BritesAlmeida_Child.description>
+
+  <PT_BritesAlmeida_Adult.title>padeira guerreira</PT_BritesAlmeida_Adult.title>
+  <PT_BritesAlmeida_Adult.titleShort>padeira</PT_BritesAlmeida_Adult.titleShort>
+  <PT_BritesAlmeida_Adult.description>Depois de anos de vagabundagem, de ser raptada por piratas e de uma fuga audaz, [PAWN_nameDef] assentou como padeira em Aljubarrota. No dia da grande batalha contra Castela, encontrou sete soldados inimigos escondidos no seu forno e matou-os a todos com a pá do pão.</PT_BritesAlmeida_Adult.description>
+
+  <!-- ==================== D. Sebastião ==================== -->
+
+  <PT_SebastiaoRei_Child.title>rei menino</PT_SebastiaoRei_Child.title>
+  <PT_SebastiaoRei_Child.titleShort>rei menino</PT_SebastiaoRei_Child.titleShort>
+  <PT_SebastiaoRei_Child.description>[PAWN_nameDef] nasceu já depois da morte do pai e foi coroado aos três anos, o tão desejado herdeiro de uma dinastia à beira do fim. Educado pelos jesuítas com histórias de cruzadas, o jovem rei só sonhava com a glória em batalha.</PT_SebastiaoRei_Child.description>
+
+  <PT_SebastiaoRei_Adult.title>rei perdido</PT_SebastiaoRei_Adult.title>
+  <PT_SebastiaoRei_Adult.titleShort>rei</PT_SebastiaoRei_Adult.titleShort>
+  <PT_SebastiaoRei_Adult.description>Contra todos os conselhos, [PAWN_nameDef] levou a flor da nobreza portuguesa numa cruzada a Marrocos e desapareceu na batalha de Alcácer Quibir. Sem herdeiro, Portugal caiu nas mãos de Espanha, e durante séculos o povo esperou que o seu rei regressasse numa manhã de nevoeiro.\n\nParece que finalmente regressou.</PT_SebastiaoRei_Adult.description>
+
+  <!-- ==================== Aristides de Sousa Mendes ==================== -->
+
+  <PT_SousaMendes_Child.title>gémeo fidalgo</PT_SousaMendes_Child.title>
+  <PT_SousaMendes_Child.titleShort>gémeo</PT_SousaMendes_Child.titleShort>
+  <PT_SousaMendes_Child.description>[PAWN_nameDef] cresceu numa confortável casa senhorial nas serras da Beira, inseparável do irmão gémeo. Os dois rapazes foram juntos estudar Direito e seguiram ambos a carreira diplomática.</PT_SousaMendes_Child.description>
+
+  <PT_SousaMendes_Adult.title>cônsul rebelde</PT_SousaMendes_Adult.title>
+  <PT_SousaMendes_Adult.titleShort>cônsul</PT_SousaMendes_Adult.titleShort>
+  <PT_SousaMendes_Adult.description>Em junho de 1940, com as ruas de Bordéus cheias de refugiados em fuga ao avanço nazi, o cônsul [PAWN_nameDef] desobedeceu a ordens diretas e assinou vistos dia e noite para quem os pedisse. Milhares escaparam através de Portugal graças a ele. [PAWN_nameDef] foi castigado, perdeu a carreira e morreu pobre, mas é hoje recordado como um dos grandes heróis da guerra.</PT_SousaMendes_Adult.description>
+
+  <!-- ==================== Salgueiro Maia ==================== -->
+
+  <PT_SalgueiroMaia_Child.title>rapaz alentejano</PT_SalgueiroMaia_Child.title>
+  <PT_SalgueiroMaia_Child.titleShort>rapaz</PT_SalgueiroMaia_Child.titleShort>
+  <PT_SalgueiroMaia_Child.description>[PAWN_nameDef] cresceu em Castelo de Vide, uma vila no alto de um monte perto da fronteira espanhola, onde passava mais tempo com cavalos do que com os livros da escola.</PT_SalgueiroMaia_Child.description>
+
+  <PT_SalgueiroMaia_Adult.title>capitão de Abril</PT_SalgueiroMaia_Adult.title>
+  <PT_SalgueiroMaia_Adult.titleShort>capitão</PT_SalgueiroMaia_Adult.titleShort>
+  <PT_SalgueiroMaia_Adult.description>No 25 de Abril de 1974, o capitão de cavalaria [PAWN_nameDef] levou uma coluna de blindados de Santarém até Lisboa e, sem disparar um tiro, obrigou o chefe da ditadura a render-se. Depois recusou todas as medalhas e cargos políticos e voltou discretamente para o quartel.</PT_SalgueiroMaia_Adult.description>
+
+  <!-- ==================== José Saramago ==================== -->
+
+  <PT_Saramago_Child.title>filho de camponeses</PT_Saramago_Child.title>
+  <PT_Saramago_Child.titleShort>camponês</PT_Saramago_Child.titleShort>
+  <PT_Saramago_Child.description>[PAWN_nameDef] nasceu numa família de camponeses sem terra numa aldeia do Ribatejo. O apelido «Saramago», nome de um rábano silvestre e alcunha da família na aldeia, foi acrescentado por um funcionário do registo sem que ninguém reparasse. A pobreza obrigou-o a deixar a escola cedo.</PT_Saramago_Child.description>
+
+  <PT_Saramago_Adult.title>romancista Nobel</PT_Saramago_Adult.title>
+  <PT_Saramago_Adult.titleShort>romancista</PT_Saramago_Adult.titleShort>
+  <PT_Saramago_Adult.description>[PAWN_nameDef] foi serralheiro, funcionário público, tradutor e jornalista antes de se tornar famoso como romancista, já tarde na vida. As suas frases longas e quase sem pontuação valeram-lhe o Prémio Nobel da Literatura.</PT_Saramago_Adult.description>
+
+  <!-- ==================== Fernando Pessoa ==================== -->
+
+  <PT_FernandoPessoa_Child.title>colegial nas colónias</PT_FernandoPessoa_Child.title>
+  <PT_FernandoPessoa_Child.titleShort>colegial</PT_FernandoPessoa_Child.titleShort>
+  <PT_FernandoPessoa_Child.description>Depois da morte do pai, [PAWN_nameDef] seguiu a mãe e o padrasto até Durban, na África do Sul. Criança calada e estudiosa, dominou o inglês, ganhou um prémio pelas suas composições e inventou amigos imaginários que trocavam cartas entre si.</PT_FernandoPessoa_Child.description>
+
+  <PT_FernandoPessoa_Adult.title>poeta de muitos nomes</PT_FernandoPessoa_Adult.title>
+  <PT_FernandoPessoa_Adult.titleShort>poeta</PT_FernandoPessoa_Adult.titleShort>
+  <PT_FernandoPessoa_Adult.description>De dia, [PAWN_nameDef] traduzia correspondência comercial em escritórios de Lisboa. De noite, escrevia como dezenas de poetas inventados, cada um com a sua biografia, estilo e filosofia. Quase nada foi publicado em vida, mas depois da sua morte foi encontrada uma arca com mais de 25 000 páginas.</PT_FernandoPessoa_Adult.description>
+
+  <!-- ==================== Amália Rodrigues ==================== -->
+
+  <PT_AmaliaRodrigues_Child.title>vendedora de fruta</PT_AmaliaRodrigues_Child.title>
+  <PT_AmaliaRodrigues_Child.titleShort>vendedora</PT_AmaliaRodrigues_Child.titleShort>
+  <PT_AmaliaRodrigues_Child.description>Criada pela avó numa casa pobre de Lisboa, [PAWN_nameDef] vendia fruta no cais e cantava para atrair os fregueses. Quem passava parava mais vezes para ouvir do que para comprar.</PT_AmaliaRodrigues_Child.description>
+
+  <PT_AmaliaRodrigues_Adult.title>rainha do fado</PT_AmaliaRodrigues_Adult.title>
+  <PT_AmaliaRodrigues_Adult.titleShort>fadista</PT_AmaliaRodrigues_Adult.titleShort>
+  <PT_AmaliaRodrigues_Adult.description>[PAWN_nameDef] levou o fado, a canção melancólica dos becos de Lisboa, às salas de concerto de todo o mundo. Vestida de negro e de olhos fechados, cantava a saudade e o destino com tanta força que até quem não percebia uma palavra chorava. Quando morreu, o país inteiro ficou de luto.</PT_AmaliaRodrigues_Adult.description>
+
+  <!-- ==================== Zeca Afonso ==================== -->
+
+  <PT_ZecaAfonso_Child.title>criança do mundo</PT_ZecaAfonso_Child.title>
+  <PT_ZecaAfonso_Child.titleShort>viajante</PT_ZecaAfonso_Child.titleShort>
+  <PT_ZecaAfonso_Child.description>[PAWN_nameDef] passou a infância entre Aveiro, Angola, Moçambique e Timor, para onde quer que o trabalho do pai, juiz, levasse a família. As canções e os ritmos que ouviu pelo caminho ficaram com ele para a vida.</PT_ZecaAfonso_Child.description>
+
+  <PT_ZecaAfonso_Adult.title>cantor de intervenção</PT_ZecaAfonso_Adult.title>
+  <PT_ZecaAfonso_Adult.titleShort>cantor</PT_ZecaAfonso_Adult.titleShort>
+  <PT_ZecaAfonso_Adult.description>Professor e cantautor, [PAWN_nameDef] escreveu canções contra a ditadura que foram proibidas, censuradas e cantadas na mesma. Na noite do 25 de Abril de 1974, a sua canção «Grândola, Vila Morena» passou na rádio como senha para a revolução que devolveu a democracia a Portugal.</PT_ZecaAfonso_Adult.description>
+
+  <!-- ==================== Eusébio ==================== -->
+
+  <PT_Eusebio_Child.title>avançado descalço</PT_Eusebio_Child.title>
+  <PT_Eusebio_Child.titleShort>avançado</PT_Eusebio_Child.titleShort>
+  <PT_Eusebio_Child.description>[PAWN_nameDef] cresceu num bairro pobre de Lourenço Marques, em Moçambique, a jogar futebol descalço com bolas feitas de meias e trapos. Já nessa altura, ninguém o conseguia apanhar.</PT_Eusebio_Child.description>
+
+  <PT_Eusebio_Adult.title>pantera negra</PT_Eusebio_Adult.title>
+  <PT_Eusebio_Adult.titleShort>avançado</PT_Eusebio_Adult.titleShort>
+  <PT_Eusebio_Adult.description>Contratado pelo Benfica, [PAWN_nameDef] tornou-se um dos avançados mais letais que o mundo já viu, vencendo a Taça dos Campeões Europeus e a Bola de Ouro. No Mundial de 1966 foi o melhor marcador, com quatro golos numa só reviravolta frente à Coreia do Norte, depois de Portugal estar a perder por três.</PT_Eusebio_Adult.description>
+
+  <!-- ==================== Cristiano Ronaldo ==================== -->
+
+  <PT_CristianoRonaldo_Child.title>futebolista de rua</PT_CristianoRonaldo_Child.title>
+  <PT_CristianoRonaldo_Child.titleShort>futebolista</PT_CristianoRonaldo_Child.titleShort>
+  <PT_CristianoRonaldo_Child.description>[PAWN_nameDef] cresceu numa casa pequena nas encostas do Funchal, na Madeira, a chutar uma bola pelas ruas do nascer ao pôr do sol. Os vizinhos chamavam-lhe «chorão», porque chorava sempre que a equipa perdia.</PT_CristianoRonaldo_Child.description>
+
+  <PT_CristianoRonaldo_Adult.title>lenda do futebol</PT_CristianoRonaldo_Adult.title>
+  <PT_CristianoRonaldo_Adult.titleShort>lenda</PT_CristianoRonaldo_Adult.titleShort>
+  <PT_CristianoRonaldo_Adult.description>[PAWN_nameDef] tornou-se um dos maiores futebolistas de todos os tempos, ganhando troféus em Inglaterra, Espanha e Itália e marcando mais golos por seleções do que qualquer outro jogador na história. Um regime de treino implacável e uma dieta rigorosa mantiveram-no em plena forma muito depois da idade em que a maioria dos atletas se retira.\n\nSiuuu!</PT_CristianoRonaldo_Adult.description>
+
+  <!-- ==================== José Mourinho ==================== -->
+
+  <PT_JoseMourinho_Child.title>filho de guarda-redes</PT_JoseMourinho_Child.title>
+  <PT_JoseMourinho_Child.titleShort>olheiro</PT_JoseMourinho_Child.titleShort>
+  <PT_JoseMourinho_Child.description>Filho de um guarda-redes profissional de Setúbal, [PAWN_nameDef] passou a infância à beira do relvado. Ainda adolescente, já observava adversários e escrevia relatórios de jogo para a equipa do pai.</PT_JoseMourinho_Child.description>
+
+  <PT_JoseMourinho_Adult.title>special one</PT_JoseMourinho_Adult.title>
+  <PT_JoseMourinho_Adult.titleShort>treinador</PT_JoseMourinho_Adult.titleShort>
+  <PT_JoseMourinho_Adult.description>[PAWN_nameDef] começou como tradutor de um treinador estrangeiro e acabou como um dos treinadores mais titulados da história do futebol, vencendo a Liga dos Campeões com o FC Porto e com o Inter. Brilhante, provocador e sempre com uma frase afiada para a imprensa, um dia apresentou-se simplesmente como «a special one».</PT_JoseMourinho_Adult.description>
+
+  <!-- ==================== Jorge Jesus ==================== -->
+
+  <PT_JorgeJesus_Child.title>futebolista da Amadora</PT_JorgeJesus_Child.title>
+  <PT_JorgeJesus_Child.titleShort>futebolista</PT_JorgeJesus_Child.titleShort>
+  <PT_JorgeJesus_Child.description>[PAWN_nameDef] cresceu na Amadora, nos arredores de Lisboa, onde a única coisa de que gostava mais do que jogar futebol era falar de futebol.</PT_JorgeJesus_Child.description>
+
+  <PT_JorgeJesus_Adult.title>treinador de futebol</PT_JorgeJesus_Adult.title>
+  <PT_JorgeJesus_Adult.titleShort>mister</PT_JorgeJesus_Adult.titleShort>
+  <PT_JorgeJesus_Adult.description>Depois de uma carreira modesta como jogador, [PAWN_nameDef] tornou-se um dos treinadores mais bem-sucedidos do futebol português, ganhando títulos no Benfica antes de conquistar a América do Sul com o Flamengo. Fogoso à beira do relvado e famoso por inventar palavras novas nas conferências de imprensa, nunca deixou que a gramática atrapalhasse uma boa palestra.</PT_JorgeJesus_Adult.description>
+
+  <!-- ==================== Éder ==================== -->
+
+  <PT_Eder_Child.title>menino do lar</PT_Eder_Child.title>
+  <PT_Eder_Child.titleShort>acolhido</PT_Eder_Child.titleShort>
+  <PT_Eder_Child.description>Nascido na Guiné-Bissau, [PAWN_nameDef] veio para Portugal ainda bebé. Quando a família deixou de poder cuidar dele, cresceu num lar de acolhimento perto de Coimbra, onde um clube local lhe deu as primeiras botas de futebol.</PT_Eder_Child.description>
+
+  <PT_Eder_Adult.title>herói improvável</PT_Eder_Adult.title>
+  <PT_Eder_Adult.titleShort>avançado</PT_Eder_Adult.titleShort>
+  <PT_Eder_Adult.description>Durante anos gozado por adeptos e imprensa como o «patinho feio» da seleção, [PAWN_nameDef] saiu do banco na final do Euro 2016 frente à França. Ao minuto 109 marcou o único golo do jogo e deu a Portugal o seu primeiro grande título.</PT_Eder_Adult.description>
+
+  <!-- ==================== Rosa Mota ==================== -->
+
+  <PT_RosaMota_Child.title>corredora da Foz</PT_RosaMota_Child.title>
+  <PT_RosaMota_Child.titleShort>corredora</PT_RosaMota_Child.titleShort>
+  <PT_RosaMota_Child.description>[PAWN_nameDef] cresceu junto ao mar, no Porto, a correr para todo o lado em vez de andar. Os rapazes do bairro raramente a conseguiam acompanhar.</PT_RosaMota_Child.description>
+
+  <PT_RosaMota_Adult.title>campeã da maratona</PT_RosaMota_Adult.title>
+  <PT_RosaMota_Adult.titleShort>maratonista</PT_RosaMota_Adult.titleShort>
+  <PT_RosaMota_Adult.description>Pequena, franzina e aparentemente incansável, [PAWN_nameDef] tornou-se a melhor maratonista do mundo: três vezes campeã europeia, campeã do mundo e a primeira mulher portuguesa a ganhar o ouro olímpico, em Seul, em 1988.</PT_RosaMota_Adult.description>
+
+  <!-- ==================== Telma Monteiro ==================== -->
+
+  <PT_TelmaMonteiro_Child.title>miúda do tatami</PT_TelmaMonteiro_Child.title>
+  <PT_TelmaMonteiro_Child.titleShort>judoca</PT_TelmaMonteiro_Child.titleShort>
+  <PT_TelmaMonteiro_Child.description>[PAWN_nameDef] era uma miúda irrequieta de Lisboa que encontrou a sua vocação da primeira vez que pisou um tatami. Aprendeu depressa que, quanto maiores são, maior é a queda.</PT_TelmaMonteiro_Child.description>
+
+  <PT_TelmaMonteiro_Adult.title>campeã de judo</PT_TelmaMonteiro_Adult.title>
+  <PT_TelmaMonteiro_Adult.titleShort>judoca</PT_TelmaMonteiro_Adult.titleShort>
+  <PT_TelmaMonteiro_Adult.description>Numa carreira de vinte anos, [PAWN_nameDef] foi seis vezes campeã europeia, mais do que qualquer outro judoca na história, e ganhou o bronze olímpico no Rio. Depois de se retirar, continuou ligada à modalidade, a coordenar o judo do seu clube.</PT_TelmaMonteiro_Adult.description>
+
+  <!-- ==================== Patrícia Mamona ==================== -->
+
+  <PT_PatriciaMamona_Child.title>saltadora do recreio</PT_PatriciaMamona_Child.title>
+  <PT_PatriciaMamona_Child.titleShort>saltadora</PT_PatriciaMamona_Child.titleShort>
+  <PT_PatriciaMamona_Child.description>Filha de imigrantes angolanos em Lisboa, [PAWN_nameDef] era sempre quem saltava mais alto e mais longe no recreio da escola, e ainda arranjava tempo para ser a melhor aluna da turma.</PT_PatriciaMamona_Child.description>
+
+  <PT_PatriciaMamona_Adult.title>triplista</PT_PatriciaMamona_Adult.title>
+  <PT_PatriciaMamona_Adult.titleShort>triplista</PT_PatriciaMamona_Adult.titleShort>
+  <PT_PatriciaMamona_Adult.description>[PAWN_nameDef] estudou engenharia biomédica nos Estados Unidos enquanto treinava triplo salto. De volta à Europa, sagrou-se campeã europeia e depois, em Tóquio, saltou para lá dos quinze metros, batendo o recorde nacional e conquistando a medalha de prata olímpica.</PT_PatriciaMamona_Adult.description>
+
+  <!-- ==================== Iúri Leitão ==================== -->
+
+  <PT_IuriLeitao_Child.title>ciclista de Viana</PT_IuriLeitao_Child.title>
+  <PT_IuriLeitao_Child.titleShort>ciclista</PT_IuriLeitao_Child.titleShort>
+  <PT_IuriLeitao_Child.description>[PAWN_nameDef] cresceu em Viana do Castelo, a correr de bicicleta pelas subidas e descidas do Minho e a desmontá-la na garagem sempre que alguma coisa chiava.</PT_IuriLeitao_Child.description>
+
+  <PT_IuriLeitao_Adult.title>ciclista olímpico</PT_IuriLeitao_Adult.title>
+  <PT_IuriLeitao_Adult.titleShort>ciclista</PT_IuriLeitao_Adult.titleShort>
+  <PT_IuriLeitao_Adult.description>Nos Jogos Olímpicos de Paris, [PAWN_nameDef] ganhou a prata no omnium e depois o ouro no madison, tornando-se o primeiro atleta português a conquistar duas medalhas nos mesmos Jogos. Viana do Castelo fê-lo o seu mais jovem Cidadão de Honra de sempre.</PT_IuriLeitao_Adult.description>
+
+  <!-- ==================== Mariza ==================== -->
+
+  <PT_Mariza_Child.title>cantora da taberna</PT_Mariza_Child.title>
+  <PT_Mariza_Child.titleShort>cantora</PT_Mariza_Child.titleShort>
+  <PT_Mariza_Child.description>Nascida em Moçambique, [PAWN_nameDef] cresceu na Mouraria, um dos bairros mais antigos e pobres de Lisboa, onde os pais tinham uma pequena taberna. Já cantava fado com os clientes antes de saber ler.</PT_Mariza_Child.description>
+
+  <PT_Mariza_Adult.title>estrela do fado</PT_Mariza_Adult.title>
+  <PT_Mariza_Adult.titleShort>fadista</PT_Mariza_Adult.titleShort>
+  <PT_Mariza_Adult.description>Com o seu cabelo curto platinado e a sua voz poderosa, [PAWN_nameDef] levou o fado para um novo século, enchendo salas de concerto de Londres a Nova Iorque e tornando-se a voz de uma nova geração de fadistas.</PT_Mariza_Adult.description>
+
+  <!-- ==================== Salvador Sobral ==================== -->
+
+  <PT_SalvadorSobral_Child.title>irmão musical</PT_SalvadorSobral_Child.title>
+  <PT_SalvadorSobral_Child.titleShort>miúdo</PT_SalvadorSobral_Child.titleShort>
+  <PT_SalvadorSobral_Child.description>[PAWN_nameDef] cresceu em Lisboa numa casa cheia de música, a cantar com a irmã mais velha e a apaixonar-se por velhos discos de jazz.</PT_SalvadorSobral_Child.description>
+
+  <PT_SalvadorSobral_Adult.title>vencedor da Eurovisão</PT_SalvadorSobral_Adult.title>
+  <PT_SalvadorSobral_Adult.titleShort>cantor</PT_SalvadorSobral_Adult.titleShort>
+  <PT_SalvadorSobral_Adult.description>Depois de estudar jazz em Barcelona, [PAWN_nameDef] cantou na Eurovisão de 2017 uma discreta canção de amor escrita pela irmã e deu a Portugal a primeira vitória ao fim de mais de cinquenta anos de tentativas. Meses depois recebeu um transplante de coração, e não tardou a voltar aos palcos com um coração novo.</PT_SalvadorSobral_Adult.description>
+
+  <!-- ==================== Quim Barreiros ==================== -->
+
+  <PT_QuimBarreiros_Child.title>baterista da banda</PT_QuimBarreiros_Child.title>
+  <PT_QuimBarreiros_Child.titleShort>baterista</PT_QuimBarreiros_Child.titleShort>
+  <PT_QuimBarreiros_Child.description>Aos nove anos, [PAWN_nameDef] já tocava bateria no conjunto de baile do pai, em Vila Praia de Âncora. Pouco depois pegou no acordeão e nunca mais o largou.</PT_QuimBarreiros_Child.description>
+
+  <PT_QuimBarreiros_Adult.title>acordeonista pimba</PT_QuimBarreiros_Adult.title>
+  <PT_QuimBarreiros_Adult.titleShort>acordeonista</PT_QuimBarreiros_Adult.titleShort>
+  <PT_QuimBarreiros_Adult.description>Depois de anos na banda da Força Aérea, [PAWN_nameDef] começou a escrever canções brejeiras cheias de duplos sentidos sobre bacalhau, cabritinhas e a garagem da vizinha. Avós, pais e filhos cantam cada palavra nos arraiais de todo o país e nas comunidades emigrantes lá fora.</PT_QuimBarreiros_Adult.description>
+
+  <!-- ==================== Tony Carreira ==================== -->
+
+  <PT_TonyCarreira_Child.title>filho de emigrantes</PT_TonyCarreira_Child.title>
+  <PT_TonyCarreira_Child.titleShort>emigrante</PT_TonyCarreira_Child.titleShort>
+  <PT_TonyCarreira_Child.description>Nascido numa pequena aldeia serrana do centro de Portugal, [PAWN_nameDef] cresceu como filho de emigrantes em França, com um pé em cada país e sempre uma canção nos lábios.</PT_TonyCarreira_Child.description>
+
+  <PT_TonyCarreira_Adult.title>cantor romântico</PT_TonyCarreira_Adult.title>
+  <PT_TonyCarreira_Adult.titleShort>cantor</PT_TonyCarreira_Adult.titleShort>
+  <PT_TonyCarreira_Adult.description>[PAWN_nameDef] tornou-se um dos cantores que mais discos venderam na história de Portugal, com baladas românticas sobre o amor, a saudade e a vida de emigrante. Os seus concertos esgotam pavilhões cheios de fãs dedicados que sabem todas as letras de cor.</PT_TonyCarreira_Adult.description>
+
+  <!-- ==================== Fernando Mendes ==================== -->
+
+  <PT_FernandoMendes_Child.title>palhaço da turma</PT_FernandoMendes_Child.title>
+  <PT_FernandoMendes_Child.titleShort>palhaço</PT_FernandoMendes_Child.titleShort>
+  <PT_FernandoMendes_Child.description>[PAWN_nameDef] descobriu cedo que fazer as pessoas rir era muito mais fácil do que fazer os trabalhos de casa. Os professores desesperavam, mas os colegas adoravam-no.</PT_FernandoMendes_Child.description>
+
+  <PT_FernandoMendes_Adult.title>apresentador de concursos</PT_FernandoMendes_Adult.title>
+  <PT_FernandoMendes_Adult.titleShort>apresentador</PT_FernandoMendes_Adult.titleShort>
+  <PT_FernandoMendes_Adult.description>Depois de anos nos palcos do teatro de revista de Lisboa, [PAWN_nameDef] tornou-se o apresentador de um concurso de televisão de longa duração em que os concorrentes adivinham os preços de produtos do dia a dia. O público adorava o seu calor humano, a sua gargalhada e as suas piadas sem fim, e ele tornou-se presença habitual em todas as salas de Portugal.</PT_FernandoMendes_Adult.description>
+
+  <!-- ==================== Herman José ==================== -->
+
+  <PT_HermanJose_Child.title>miúdo meio alemão</PT_HermanJose_Child.title>
+  <PT_HermanJose_Child.titleShort>miúdo</PT_HermanJose_Child.titleShort>
+  <PT_HermanJose_Child.description>Nascido em Lisboa, filho de pai alemão e mãe portuguesa, [PAWN_nameDef] passou a infância a imitar todos os sotaques, professores e vizinhos que lhe apareciam à frente.</PT_HermanJose_Child.description>
+
+  <PT_HermanJose_Adult.title>lenda da comédia</PT_HermanJose_Adult.title>
+  <PT_HermanJose_Adult.titleShort>humorista</PT_HermanJose_Adult.titleShort>
+  <PT_HermanJose_Adult.description>Há mais de quatro décadas que [PAWN_nameDef] é o rei da comédia na televisão portuguesa, tendo inventado dezenas de personagens e sketches inesquecíveis que o país inteiro ainda cita.</PT_HermanJose_Adult.description>
+
+  <!-- ==================== Ricardo Araújo Pereira ==================== -->
+
+  <PT_RicardoAraujoPereira_Child.title>benfiquista estudioso</PT_RicardoAraujoPereira_Child.title>
+  <PT_RicardoAraujoPereira_Child.titleShort>estudante</PT_RicardoAraujoPereira_Child.titleShort>
+  <PT_RicardoAraujoPereira_Child.description>[PAWN_nameDef] cresceu em Lisboa a ler tudo o que lhe vinha parar às mãos e a sofrer cada jogo do Benfica como se disso dependesse a sua vida.</PT_RicardoAraujoPereira_Child.description>
+
+  <PT_RicardoAraujoPereira_Adult.title>satírico</PT_RicardoAraujoPereira_Adult.title>
+  <PT_RicardoAraujoPereira_Adult.titleShort>satírico</PT_RicardoAraujoPereira_Adult.titleShort>
+  <PT_RicardoAraujoPereira_Adult.description>Como um dos quatro elementos dos Gato Fedorento, [PAWN_nameDef] mudou para sempre o humor português. Tornou-se depois o satírico mais afiado do país, entrevistando primeiros-ministros que se arrependeram de lá ter ido.</PT_RicardoAraujoPereira_Adult.description>
+
+  <!-- ==================== Cristina Ferreira ==================== -->
+
+  <PT_CristinaFerreira_Child.title>miúda da feira</PT_CristinaFerreira_Child.title>
+  <PT_CristinaFerreira_Child.titleShort>feirante</PT_CristinaFerreira_Child.titleShort>
+  <PT_CristinaFerreira_Child.description>Filha única de feirantes da Malveira, [PAWN_nameDef] cresceu atrás da banca da família, a aprender a falar com toda a gente e a nunca perder uma venda.</PT_CristinaFerreira_Child.description>
+
+  <PT_CristinaFerreira_Adult.title>magnata da televisão</PT_CristinaFerreira_Adult.title>
+  <PT_CristinaFerreira_Adult.titleShort>apresentadora</PT_CristinaFerreira_Adult.titleShort>
+  <PT_CristinaFerreira_Adult.description>Antiga professora de História, [PAWN_nameDef] tornou-se a apresentadora da manhã mais popular do país e passou depois a dirigir um canal de televisão. Pelo caminho construiu um império de roupa, revistas e perfumes, e não gosta de perder nem a feijões.</PT_CristinaFerreira_Adult.description>
+
+  <!-- ==================== Manuel Luís Goucha ==================== -->
+
+  <PT_Goucha_Child.title>ajudante de cozinha</PT_Goucha_Child.title>
+  <PT_Goucha_Child.titleShort>ajudante</PT_Goucha_Child.titleShort>
+  <PT_Goucha_Child.description>[PAWN_nameDef] passou a infância na cozinha da família, a provar tudo e a conversar com todos os que entravam pela porta.</PT_Goucha_Child.description>
+
+  <PT_Goucha_Adult.title>apresentador da manhã</PT_Goucha_Adult.title>
+  <PT_Goucha_Adult.titleShort>apresentador</PT_Goucha_Adult.titleShort>
+  <PT_Goucha_Adult.description>Há décadas que [PAWN_nameDef] faz companhia ao país todas as manhãs, a cozinhar em direto, a entrevistar toda a gente e sem nunca ficar sem assunto.</PT_Goucha_Adult.description>
+
+  <!-- ==================== Catarina Furtado ==================== -->
+
+  <PT_CatarinaFurtado_Child.title>aluna de ballet</PT_CatarinaFurtado_Child.title>
+  <PT_CatarinaFurtado_Child.titleShort>bailarina</PT_CatarinaFurtado_Child.titleShort>
+  <PT_CatarinaFurtado_Child.description>[PAWN_nameDef] estudou dança no Conservatório Nacional, em Lisboa, e passou a infância de collants e sapatilhas de pontas.</PT_CatarinaFurtado_Child.description>
+
+  <PT_CatarinaFurtado_Adult.title>apresentadora e embaixadora</PT_CatarinaFurtado_Adult.title>
+  <PT_CatarinaFurtado_Adult.titleShort>apresentadora</PT_CatarinaFurtado_Adult.titleShort>
+  <PT_CatarinaFurtado_Adult.description>[PAWN_nameDef] tornou-se uma das caras mais queridas da televisão portuguesa, apresentando os maiores programas de talentos e de dança e até a Eurovisão. Longe das câmaras, passou décadas como embaixadora de boa vontade das Nações Unidas, a lutar pelos direitos das mulheres e raparigas.</PT_CatarinaFurtado_Adult.description>
+
+  <!-- ==================== Daniela Ruah ==================== -->
+
+  <PT_DanielaRuah_Child.title>estrela juvenil de novelas</PT_DanielaRuah_Child.title>
+  <PT_DanielaRuah_Child.titleShort>atriz</PT_DanielaRuah_Child.titleShort>
+  <PT_DanielaRuah_Child.description>Nascida em Boston, filha de pais portugueses, [PAWN_nameDef] mudou-se para Lisboa ainda pequena. Aos dezasseis anos conseguiu um papel numa novela portuguesa e ficou rendida à representação.</PT_DanielaRuah_Child.description>
+
+  <PT_DanielaRuah_Adult.title>agente de Hollywood</PT_DanielaRuah_Adult.title>
+  <PT_DanielaRuah_Adult.titleShort>atriz</PT_DanielaRuah_Adult.titleShort>
+  <PT_DanielaRuah_Adult.description>[PAWN_nameDef] passou catorze anos a interpretar uma agente especial federal numa série policial americana, a arrombar portas e a sacar da arma em ecrãs de todo o mundo. Cá em casa, foi uma das apresentadoras da Eurovisão em Lisboa.</PT_DanielaRuah_Adult.description>
+
+  <!-- ==================== Joana Vasconcelos ==================== -->
+
+  <PT_JoanaVasconcelos_Child.title>miúda habilidosa</PT_JoanaVasconcelos_Child.title>
+  <PT_JoanaVasconcelos_Child.titleShort>artesã</PT_JoanaVasconcelos_Child.titleShort>
+  <PT_JoanaVasconcelos_Child.description>Nascida em Paris, filha de pais portugueses no exílio, [PAWN_nameDef] cresceu em Lisboa rodeada de bordados, croché e objetos domésticos em que não conseguia parar de mexer.</PT_JoanaVasconcelos_Child.description>
+
+  <PT_JoanaVasconcelos_Adult.title>artista monumental</PT_JoanaVasconcelos_Adult.title>
+  <PT_JoanaVasconcelos_Adult.titleShort>artista</PT_JoanaVasconcelos_Adult.titleShort>
+  <PT_JoanaVasconcelos_Adult.description>[PAWN_nameDef] cria obras gigantes a partir de objetos do dia a dia: sapatos de salto alto feitos de tachos, lustres feitos de tampões, criaturas enormes de croché. Foi a primeira mulher e a artista mais jovem de sempre a expor no Palácio de Versalhes.</PT_JoanaVasconcelos_Adult.description>
+
+  <!-- ==================== Ljubomir Stanisic ==================== -->
+
+  <PT_Ljubomir_Child.title>padeiro em tempo de guerra</PT_Ljubomir_Child.title>
+  <PT_Ljubomir_Child.titleShort>padeiro</PT_Ljubomir_Child.titleShort>
+  <PT_Ljubomir_Child.description>[PAWN_nameDef] era adolescente em Sarajevo quando rebentou a guerra da Bósnia. Aos catorze anos já trabalhava de noite numa padaria e estudava de dia para ajudar a sustentar a família.</PT_Ljubomir_Child.description>
+
+  <PT_Ljubomir_Adult.title>chef pesadelo</PT_Ljubomir_Adult.title>
+  <PT_Ljubomir_Adult.titleShort>chef</PT_Ljubomir_Adult.titleShort>
+  <PT_Ljubomir_Adult.description>[PAWN_nameDef] chegou a Portugal aos dezanove anos sem nada e tornou-se um dos chefs mais celebrados de Lisboa. Na televisão, irrompe por restaurantes falidos aos gritos e aos palavrões, prova tudo e, não se sabe bem como, deixa-os melhor do que estavam.</PT_Ljubomir_Adult.description>
+
+  <!-- ==================== Marcelo Rebelo de Sousa ==================== -->
+
+  <PT_Marcelo_Child.title>aluno precoce</PT_Marcelo_Child.title>
+  <PT_Marcelo_Child.titleShort>aluno</PT_Marcelo_Child.titleShort>
+  <PT_Marcelo_Child.description>Filho de um político, [PAWN_nameDef] cresceu em Lisboa a ler jornais ao pequeno-almoço e a discutir política com quem o quisesse ouvir. Foi o melhor aluno de todas as turmas por onde passou.</PT_Marcelo_Child.description>
+
+  <PT_Marcelo_Adult.title>presidente dos afetos</PT_Marcelo_Adult.title>
+  <PT_Marcelo_Adult.titleShort>presidente</PT_Marcelo_Adult.titleShort>
+  <PT_Marcelo_Adult.description>Professor de Direito e comentador televisivo de domingo à noite durante décadas, [PAWN_nameDef] foi eleito Presidente da República e passou dez anos a abraçar, beijar e tirar selfies com toda a gente que encontrava. Dormindo apenas umas poucas horas por noite, parecia estar em todo o lado ao mesmo tempo, e chegou até a nadar mar adentro para ajudar a salvar duas pessoas em apuros.</PT_Marcelo_Adult.description>
+
+  <!-- ==================== António Guterres ==================== -->
+
+  <PT_Guterres_Child.title>melhor aluno</PT_Guterres_Child.title>
+  <PT_Guterres_Child.titleShort>aluno</PT_Guterres_Child.titleShort>
+  <PT_Guterres_Child.description>[PAWN_nameDef] foi um aluno brilhante em Lisboa e ganhou o prémio nacional para o melhor aluno do liceu antes de ir estudar engenharia.</PT_Guterres_Child.description>
+
+  <PT_Guterres_Adult.title>diplomata mundial</PT_Guterres_Adult.title>
+  <PT_Guterres_Adult.titleShort>diplomata</PT_Guterres_Adult.titleShort>
+  <PT_Guterres_Adult.description>Depois de ser Primeiro-Ministro de Portugal, [PAWN_nameDef] passou dez anos à frente da agência da ONU para os refugiados e foi depois escolhido para Secretário-Geral das Nações Unidas. Passou a vida a tentar convencer as pessoas a não fazer guerras e recusa-se a pegar numa arma.</PT_Guterres_Adult.description>
+
+  <!-- ================================================================== -->
+  <!--                  FIGURAS MODERNAS - ENTERTAINERS                    -->
+  <!-- ================================================================== -->
+
+  <!-- ==================== Nuno Markl ==================== -->
+
+  <PT_NunoMarkl_Child.title>colecionador de cultura pop</PT_NunoMarkl_Child.title>
+  <PT_NunoMarkl_Child.titleShort>colecionador</PT_NunoMarkl_Child.titleShort>
+  <PT_NunoMarkl_Child.description>[PAWN_nameDef] cresceu na Lisboa dos anos 80 a encher cadernetas de cromos, a gravar desenhos animados em VHS e a decorar todos os anúncios de brinquedos da televisão. Nunca deitou nada fora.</PT_NunoMarkl_Child.description>
+
+  <PT_NunoMarkl_Adult.title>contador de histórias da rádio</PT_NunoMarkl_Adult.title>
+  <PT_NunoMarkl_Adult.titleShort>radialista</PT_NunoMarkl_Adult.titleShort>
+  <PT_NunoMarkl_Adult.description>Há décadas que [PAWN_nameDef] acorda o país na rádio, a contar notícias absurdas mas verdadeiras sobre homens que morderam cães e a homenagear brinquedos e programas de televisão há muito esquecidos. Também escreve humor para televisão e dá voz a personagens de desenhos animados.</PT_NunoMarkl_Adult.description>
+
+  <!-- ==================== Bruno Nogueira ==================== -->
+
+  <PT_BrunoNogueira_Child.title>brincalhão irrequieto</PT_BrunoNogueira_Child.title>
+  <PT_BrunoNogueira_Child.titleShort>brincalhão</PT_BrunoNogueira_Child.titleShort>
+  <PT_BrunoNogueira_Child.description>[PAWN_nameDef] era o miúdo que nunca conseguia estar quieto nas aulas, sempre com um comentário sarcástico na ponta da língua que punha a turma inteira a rir, e às vezes até o professor.</PT_BrunoNogueira_Child.description>
+
+  <PT_BrunoNogueira_Adult.title>animador do confinamento</PT_BrunoNogueira_Adult.title>
+  <PT_BrunoNogueira_Adult.titleShort>humorista</PT_BrunoNogueira_Adult.titleShort>
+  <PT_BrunoNogueira_Adult.description>Humorista e ator, [PAWN_nameDef] passou anos a pôr Portugal a rir em palco e no ecrã. Quando o país confinou em 2020, começou a fazer diretos no Instagram todas as noites, já tarde, com amigos e sem guião, e mais de cem mil pessoas ligavam-se para se fazerem companhia umas às outras.</PT_BrunoNogueira_Adult.description>
+
+  <!-- ==================== Fernando Rocha ==================== -->
+
+  <PT_FernandoRocha_Child.title>colecionador de anedotas</PT_FernandoRocha_Child.title>
+  <PT_FernandoRocha_Child.titleShort>brincalhão</PT_FernandoRocha_Child.titleShort>
+  <PT_FernandoRocha_Child.description>A crescer no Porto, [PAWN_nameDef] colecionava anedotas como os outros miúdos colecionavam cromos da bola, e contava-as a quem quer que ficasse quieto tempo suficiente.</PT_FernandoRocha_Child.description>
+
+  <PT_FernandoRocha_Adult.title>mestre da anedota</PT_FernandoRocha_Adult.title>
+  <PT_FernandoRocha_Adult.titleShort>humorista</PT_FernandoRocha_Adult.titleShort>
+  <PT_FernandoRocha_Adult.description>[PAWN_nameDef] ganhou um concurso de humor na televisão e tornou-se o mestre incontestado da anedota no país, quanto mais picante melhor, contada em palco, na televisão e na internet. Tem uma anedota para cada ocasião, e várias para as ocasiões erradas.</PT_FernandoRocha_Adult.description>
+
+  <!-- ==================== César Mourão ==================== -->
+
+  <PT_CesarMourao_Child.title>aluno de última hora</PT_CesarMourao_Child.title>
+  <PT_CesarMourao_Child.titleShort>aluno</PT_CesarMourao_Child.titleShort>
+  <PT_CesarMourao_Child.description>Na escola, [PAWN_nameDef] nunca preparava nada com antecedência e preferia inventar tudo na hora. Não se sabe como, mas resultava sempre.</PT_CesarMourao_Child.description>
+
+  <PT_CesarMourao_Adult.title>mestre do improviso</PT_CesarMourao_Adult.title>
+  <PT_CesarMourao_Adult.titleShort>improvisador</PT_CesarMourao_Adult.titleShort>
+  <PT_CesarMourao_Adult.description>Mestre do teatro de improviso, [PAWN_nameDef] consegue chegar a uma aldeia, passar dois dias a ouvir as histórias da gente da terra e transformá-las num espetáculo de humor para essas mesmas pessoas, sem guião e sem rede.</PT_CesarMourao_Adult.description>
+
+  <!-- ==================== João Baião ==================== -->
+
+  <PT_JoaoBaiao_Child.title>escuteiro artista</PT_JoaoBaiao_Child.title>
+  <PT_JoaoBaiao_Child.titleShort>artista</PT_JoaoBaiao_Child.titleShort>
+  <PT_JoaoBaiao_Child.description>Desde muito pequeno que [PAWN_nameDef] montava peças para quem as quisesse ver, e acabou a dirigir o grupo de teatro do seu agrupamento de escuteiros.</PT_JoaoBaiao_Child.description>
+
+  <PT_JoaoBaiao_Adult.title>apresentador hiperativo</PT_JoaoBaiao_Adult.title>
+  <PT_JoaoBaiao_Adult.titleShort>apresentador</PT_JoaoBaiao_Adult.titleShort>
+  <PT_JoaoBaiao_Adult.description>Depois de anos de teatro clássico e de revista, [PAWN_nameDef] tornou-se o apresentador mais enérgico da televisão portuguesa, apresentando programas de variedades a um ritmo que ninguém tinha visto antes. Décadas depois, continua com mais energia do que o resto do estúdio todo junto.</PT_JoaoBaiao_Adult.description>
+
+  <!-- ==================== Toy ==================== -->
+
+  <PT_Toy_Child.title>cantor de Setúbal</PT_Toy_Child.title>
+  <PT_Toy_Child.titleShort>cantor</PT_Toy_Child.titleShort>
+  <PT_Toy_Child.description>[PAWN_nameDef] começou a cantar em Setúbal aos cinco anos e entrou num grupo de teatro local aos onze. Aos quinze fez as malas e emigrou para a Alemanha.</PT_Toy_Child.description>
+
+  <PT_Toy_Adult.title>cantor popular</PT_Toy_Adult.title>
+  <PT_Toy_Adult.titleShort>cantor</PT_Toy_Adult.titleShort>
+  <PT_Toy_Adult.description>De dia, [PAWN_nameDef] trabalhava como torneiro mecânico na Alemanha; à noite, cantava em bandas. De volta a Portugal tornou-se um dos grandes nomes da música popular, com êxitos que aldeias inteiras cantam nas festas de verão, normalmente toda a noite.</PT_Toy_Adult.description>
+
+  <!-- ==================== Luís Franco-Bastos ==================== -->
+
+  <PT_FrancoBastos_Child.title>imitador de vozes</PT_FrancoBastos_Child.title>
+  <PT_FrancoBastos_Child.titleShort>imitador</PT_FrancoBastos_Child.titleShort>
+  <PT_FrancoBastos_Child.description>[PAWN_nameDef] passou a infância a imitar as vozes de professores, familiares e apresentadores de televisão, para grande irritação de todos eles.</PT_FrancoBastos_Child.description>
+
+  <PT_FrancoBastos_Adult.title>imitador profissional</PT_FrancoBastos_Adult.title>
+  <PT_FrancoBastos_Adult.titleShort>humorista</PT_FrancoBastos_Adult.titleShort>
+  <PT_FrancoBastos_Adult.description>[PAWN_nameDef] ficou famoso por imitar toda a gente da vida pública, do Presidente da República ao Cristiano Ronaldo, tão bem que quem ouvia não distinguia o original da cópia. Hoje em dia prefere fazer stand-up com a sua própria voz, sobre a sua própria família.</PT_FrancoBastos_Adult.description>
+
+  <!-- ==================== Joana Marques ==================== -->
+
+  <PT_JoanaMarques_Child.title>miúda atenta</PT_JoanaMarques_Child.title>
+  <PT_JoanaMarques_Child.titleShort>miúda</PT_JoanaMarques_Child.titleShort>
+  <PT_JoanaMarques_Child.description>[PAWN_nameDef] cresceu a reparar em todas as coisas ridículas que os adultos à sua volta diziam e faziam, e a guardar tudo para mais tarde.</PT_JoanaMarques_Child.description>
+
+  <PT_JoanaMarques_Adult.title>humorista extremamente desagradável</PT_JoanaMarques_Adult.title>
+  <PT_JoanaMarques_Adult.titleShort>humorista</PT_JoanaMarques_Adult.titleShort>
+  <PT_JoanaMarques_Adult.description>Todas as manhãs na rádio, [PAWN_nameDef] desmonta os momentos mais embaraçosos da vida pública portuguesa numa rubrica orgulhosamente chamada «Extremamente Desagradável». Quando uma dupla pop a processou em mais de um milhão de euros por causa de um vídeo humorístico, foi a tribunal, ganhou e transformou o caso todo em material novo.</PT_JoanaMarques_Adult.description>
+
+  <!-- ==================== Maria Rueff ==================== -->
+
+  <PT_MariaRueff_Child.title>imitadora da turma</PT_MariaRueff_Child.title>
+  <PT_MariaRueff_Child.titleShort>imitadora</PT_MariaRueff_Child.titleShort>
+  <PT_MariaRueff_Child.description>Nascida em Moçambique, [PAWN_nameDef] cresceu a estudar as vozes, as caras e o andar de toda a gente à sua volta, e conseguia transformar qualquer pessoa numa personagem em segundos.</PT_MariaRueff_Child.description>
+
+  <PT_MariaRueff_Adult.title>atriz de comédia</PT_MariaRueff_Adult.title>
+  <PT_MariaRueff_Adult.titleShort>atriz</PT_MariaRueff_Adult.titleShort>
+  <PT_MariaRueff_Adult.description>Parceira de longa data de Herman José, [PAWN_nameDef] criou dezenas de personagens inesquecíveis na televisão e no teatro, incluindo um taxista lisboeta muito falador chamado Zé Manel. Poucas pessoas no país conseguem pôr uma plateia a chorar a rir como ela.</PT_MariaRueff_Adult.description>
+
+  <!-- ==================== Teresa Guilherme ==================== -->
+
+  <PT_TeresaGuilherme_Child.title>miúda dos bastidores</PT_TeresaGuilherme_Child.title>
+  <PT_TeresaGuilherme_Child.titleShort>miúda</PT_TeresaGuilherme_Child.titleShort>
+  <PT_TeresaGuilherme_Child.description>Filha de um cantor e de uma fadista, [PAWN_nameDef] cresceu entre Portugal e o Brasil, passando mais tempo nos bastidores do que em casa e ajudando a montar os espetáculos dos pais.</PT_TeresaGuilherme_Child.description>
+
+  <PT_TeresaGuilherme_Adult.title>rainha dos reality shows</PT_TeresaGuilherme_Adult.title>
+  <PT_TeresaGuilherme_Adult.titleShort>apresentadora</PT_TeresaGuilherme_Adult.titleShort>
+  <PT_TeresaGuilherme_Adult.description>[PAWN_nameDef] trouxe o Big Brother para Portugal em 2000 e passou anos a fechar desconhecidos numa casa e a vê-los discutir, em direto para todo o país. Já depois dos sessenta voltou à universidade para estudar psicologia, talvez para perceber finalmente o que tinha visto.</PT_TeresaGuilherme_Adult.description>
+
+  <!-- ==================== Ana Garcia Martins (A Pipoca Mais Doce) ==================== -->
+
+  <PT_PipocaMaisDoce_Child.title>tagarela lisboeta</PT_PipocaMaisDoce_Child.title>
+  <PT_PipocaMaisDoce_Child.titleShort>tagarela</PT_PipocaMaisDoce_Child.titleShort>
+  <PT_PipocaMaisDoce_Child.description>[PAWN_nameDef] cresceu em Lisboa com uma opinião sobre absolutamente tudo e uma vontade irresistível de a partilhar.</PT_PipocaMaisDoce_Child.description>
+
+  <PT_PipocaMaisDoce_Adult.title>bloguer sarcástica</PT_PipocaMaisDoce_Adult.title>
+  <PT_PipocaMaisDoce_Adult.titleShort>bloguer</PT_PipocaMaisDoce_Adult.titleShort>
+  <PT_PipocaMaisDoce_Adult.description>Em 2004, [PAWN_nameDef] criou um blogue por passatempo, a escrever como «a pipoca mais doce». Tornou-se um dos blogues mais lidos do país, e a sua autora sarcástica e autodepreciativa passou para os livros, a rádio, a televisão e quase um milhão de seguidores nas redes.</PT_PipocaMaisDoce_Adult.description>
+
+  <!-- ==================== Mariana Cabral (Bumba na Fofinha) ==================== -->
+
+  <PT_BumbaNaFofinha_Child.title>miúda de família grande</PT_BumbaNaFofinha_Child.title>
+  <PT_BumbaNaFofinha_Child.titleShort>miúda</PT_BumbaNaFofinha_Child.titleShort>
+  <PT_BumbaNaFofinha_Child.description>A crescer numa família grande de Lisboa, [PAWN_nameDef] aprendeu cedo que, numa mesa de jantar cheia, quem é ouvido é quem tem mais piada.</PT_BumbaNaFofinha_Child.description>
+
+  <PT_BumbaNaFofinha_Adult.title>humorista da internet</PT_BumbaNaFofinha_Adult.title>
+  <PT_BumbaNaFofinha_Adult.titleShort>humorista</PT_BumbaNaFofinha_Adult.titleShort>
+  <PT_BumbaNaFofinha_Adult.description>O que começou como um blogue para a família e os amigos com o estranho nome «Bumba na Fofinha» fez de [PAWN_nameDef] uma das humoristas mais populares do país, com vídeos no YouTube, podcasts de sucesso e espetáculos de stand-up que esgotam em menos de uma hora.</PT_BumbaNaFofinha_Adult.description>
+
+  <!-- ================================================================== -->
+  <!--             FIGURAS MODERNAS - CIÊNCIA, ARTES E DESPORTO            -->
+  <!-- ================================================================== -->
+
+  <!-- ==================== Álvaro Siza Vieira ==================== -->
+
+  <PT_SizaVieira_Child.title>aspirante a escultor</PT_SizaVieira_Child.title>
+  <PT_SizaVieira_Child.titleShort>desenhador</PT_SizaVieira_Child.titleShort>
+  <PT_SizaVieira_Child.description>A crescer em Matosinhos, junto ao mar, [PAWN_nameDef] desenhava sem parar e sonhava ser escultor. O pai tinha outras ideias e mandou-o estudar arquitetura.</PT_SizaVieira_Child.description>
+
+  <PT_SizaVieira_Adult.title>mestre arquiteto</PT_SizaVieira_Adult.title>
+  <PT_SizaVieira_Adult.titleShort>arquiteto</PT_SizaVieira_Adult.titleShort>
+  <PT_SizaVieira_Adult.description>[PAWN_nameDef] tornou-se o arquiteto português mais celebrado, vencendo o Prémio Pritzker com edifícios brancos e serenos que parecem nascer da paisagem. As suas piscinas de água salgada escavadas nas rochas de Leça continuam a ser dos sítios mais bonitos do mundo para nadar.</PT_SizaVieira_Adult.description>
+
+  <!-- ==================== Elvira Fortunato ==================== -->
+
+  <PT_ElviraFortunato_Child.title>curiosa de Almada</PT_ElviraFortunato_Child.title>
+  <PT_ElviraFortunato_Child.titleShort>curiosa</PT_ElviraFortunato_Child.titleShort>
+  <PT_ElviraFortunato_Child.description>A crescer em Almada, [PAWN_nameDef] queria saber como tudo funcionava, e desmontava tudo o que lhe vinha parar às mãos para descobrir.</PT_ElviraFortunato_Child.description>
+
+  <PT_ElviraFortunato_Adult.title>cientista de materiais</PT_ElviraFortunato_Adult.title>
+  <PT_ElviraFortunato_Adult.titleShort>cientista</PT_ElviraFortunato_Adult.titleShort>
+  <PT_ElviraFortunato_Adult.description>A cientista de materiais [PAWN_nameDef] criou o primeiro transístor de papel do mundo, abrindo caminho a chips recicláveis e a eletrónica impressa em materiais do dia a dia. O seu trabalho em eletrónica sustentável valeu-lhe algumas das maiores distinções científicas da Europa.</PT_ElviraFortunato_Adult.description>
+
+  <!-- ==================== António Damásio ==================== -->
+
+  <PT_AntonioDamasio_Child.title>aluno curioso</PT_AntonioDamasio_Child.title>
+  <PT_AntonioDamasio_Child.titleShort>aluno</PT_AntonioDamasio_Child.titleShort>
+  <PT_AntonioDamasio_Child.description>[PAWN_nameDef] cresceu em Lisboa a fazer o tipo de perguntas a que os adultos não sabiam responder, sobretudo sobre a razão de as pessoas sentirem o que sentem.</PT_AntonioDamasio_Child.description>
+
+  <PT_AntonioDamasio_Adult.title>neurocientista</PT_AntonioDamasio_Adult.title>
+  <PT_AntonioDamasio_Adult.titleShort>neurologista</PT_AntonioDamasio_Adult.titleShort>
+  <PT_AntonioDamasio_Adult.description>O neurologista [PAWN_nameDef] fez carreira nos Estados Unidos a estudar o cérebro humano e mostrou que as emoções não são inimigas da razão, mas essenciais para ela. Os seus livros, a começar por «O Erro de Descartes», são lidos em todo o mundo.</PT_AntonioDamasio_Adult.description>
+
+  <!-- ==================== Paula Rego ==================== -->
+
+  <PT_PaulaRego_Child.title>contadora de histórias sombrias</PT_PaulaRego_Child.title>
+  <PT_PaulaRego_Child.titleShort>desenhadora</PT_PaulaRego_Child.titleShort>
+  <PT_PaulaRego_Child.description>Em menina, em Lisboa, [PAWN_nameDef] cresceu a ouvir contos de fadas e histórias populares assustadoras, e desenhava-os obsessivamente. Os pais mandaram-na estudar para Inglaterra para fugir ao ar sufocante da ditadura.</PT_PaulaRego_Child.description>
+
+  <PT_PaulaRego_Adult.title>pintora de histórias</PT_PaulaRego_Adult.title>
+  <PT_PaulaRego_Adult.titleShort>pintora</PT_PaulaRego_Adult.titleShort>
+  <PT_PaulaRego_Adult.description>A partir do seu ateliê em Londres, [PAWN_nameDef] tornou-se uma das grandes pintoras do seu tempo, com quadros fortes e inquietantes sobre mulheres, famílias e contos de fadas. Em Cascais há um museu dedicado à sua obra, a Casa das Histórias.</PT_PaulaRego_Adult.description>
+
+  <!-- ==================== Rui Nabeiro ==================== -->
+
+  <PT_RuiNabeiro_Child.title>rapaz do café da raia</PT_RuiNabeiro_Child.title>
+  <PT_RuiNabeiro_Child.titleShort>rapaz do café</PT_RuiNabeiro_Child.titleShort>
+  <PT_RuiNabeiro_Child.description>Nascido numa família pobre de Campo Maior, junto à fronteira, [PAWN_nameDef] já torrava café com o pai e os tios aos doze anos, e levava-o para Espanha num carrinho de mão.</PT_RuiNabeiro_Child.description>
+
+  <PT_RuiNabeiro_Adult.title>rei do café</PT_RuiNabeiro_Adult.title>
+  <PT_RuiNabeiro_Adult.titleShort>empresário</PT_RuiNabeiro_Adult.titleShort>
+  <PT_RuiNabeiro_Adult.description>[PAWN_nameDef] fundou a Delta Cafés e fez dela a marca de café mais conhecida de Portugal, sem nunca sair da sua pequena vila alentejana. Conhecia os trabalhadores pelo nome e gastou uma fortuna na sua terra, e o país inteiro tratava-o simplesmente por «o Comendador».</PT_RuiNabeiro_Adult.description>
+
+  <!-- ==================== Carlos Lopes ==================== -->
+
+  <PT_CarlosLopes_Child.title>ajudante na mina</PT_CarlosLopes_Child.title>
+  <PT_CarlosLopes_Child.titleShort>ajudante</PT_CarlosLopes_Child.titleShort>
+  <PT_CarlosLopes_Child.description>Nascido numa família humilde numa aldeia perto de Viseu, [PAWN_nameDef] foi trabalhar muito novo como ajudante numa mina, e passava os tempos livres a correr atrás de uma bola no campo da terra.</PT_CarlosLopes_Child.description>
+
+  <PT_CarlosLopes_Adult.title>campeão olímpico da maratona</PT_CarlosLopes_Adult.title>
+  <PT_CarlosLopes_Adult.titleShort>corredor</PT_CarlosLopes_Adult.titleShort>
+  <PT_CarlosLopes_Adult.description>Duas semanas antes dos Jogos Olímpicos de 1984, [PAWN_nameDef] foi atropelado enquanto treinava em Lisboa. Correu a maratona de Los Angeles na mesma, ganhou-a aos 37 anos com um recorde olímpico que durou 24 anos, e deu a Portugal a sua primeira medalha de ouro olímpica de sempre.</PT_CarlosLopes_Adult.description>
+
+  <!-- ==================== Fernanda Ribeiro ==================== -->
+
+  <PT_FernandaRibeiro_Child.title>miúda rápida demais</PT_FernandaRibeiro_Child.title>
+  <PT_FernandaRibeiro_Child.titleShort>corredora</PT_FernandaRibeiro_Child.titleShort>
+  <PT_FernandaRibeiro_Child.description>Em menina, em Penafiel, [PAWN_nameDef] ganhava a atletas muito mais velhas com tanta facilidade que alguns organizadores se recusavam a acreditar que uma criança pudesse ter vencido.</PT_FernandaRibeiro_Child.description>
+
+  <PT_FernandaRibeiro_Adult.title>campeã olímpica</PT_FernandaRibeiro_Adult.title>
+  <PT_FernandaRibeiro_Adult.titleShort>corredora</PT_FernandaRibeiro_Adult.titleShort>
+  <PT_FernandaRibeiro_Adult.description>Na final dos 10 000 metros dos Jogos de Atlanta, em 1996, [PAWN_nameDef] estava dez metros atrás da recordista mundial com a meta à vista. Apanhou-a, ganhou o ouro com recorde olímpico e tornou-se uma das maiores atletas portuguesas de sempre.</PT_FernandaRibeiro_Adult.description>
+
+  <!-- ==================== Fernando Pimenta ==================== -->
+
+  <PT_FernandoPimenta_Child.title>miúdo hiperativo do rio</PT_FernandoPimenta_Child.title>
+  <PT_FernandoPimenta_Child.titleShort>canoísta</PT_FernandoPimenta_Child.titleShort>
+  <PT_FernandoPimenta_Child.description>[PAWN_nameDef] era um miúdo tão hiperativo em Ponte de Lima que alguém sugeriu metê-lo num caiaque no rio Lima para gastar energias. Nunca mais saiu de lá.</PT_FernandoPimenta_Child.description>
+
+  <PT_FernandoPimenta_Adult.title>campeão de canoagem</PT_FernandoPimenta_Adult.title>
+  <PT_FernandoPimenta_Adult.titleShort>canoísta</PT_FernandoPimenta_Adult.titleShort>
+  <PT_FernandoPimenta_Adult.description>Com duas medalhas olímpicas, vários títulos mundiais e bem mais de cem medalhas internacionais, [PAWN_nameDef] é o canoísta mais medalhado da história de Portugal. Chama aos calos das mãos as suas «medalhas invisíveis».</PT_FernandoPimenta_Adult.description>
+
+  <!-- ==================== Miguel Oliveira ==================== -->
+
+  <PT_MiguelOliveira_Child.title>piloto de minimotas</PT_MiguelOliveira_Child.title>
+  <PT_MiguelOliveira_Child.titleShort>piloto</PT_MiguelOliveira_Child.titleShort>
+  <PT_MiguelOliveira_Child.description>[PAWN_nameDef] já corria de minimota em Almada quase antes de os pés lhe chegarem aos pousa-pés, e passava o resto do tempo na garagem com as mãos cheias de óleo.</PT_MiguelOliveira_Child.description>
+
+  <PT_MiguelOliveira_Adult.title>vencedor no MotoGP</PT_MiguelOliveira_Adult.title>
+  <PT_MiguelOliveira_Adult.titleShort>piloto</PT_MiguelOliveira_Adult.titleShort>
+  <PT_MiguelOliveira_Adult.description>O «Falcão de Almada» tornou-se o primeiro piloto português a vencer uma corrida de MotoGP, arrancando a primeira vitória na última curva. Mais tarde, [PAWN_nameDef] venceu o Grande Prémio de Portugal em Portimão, partindo da pole position e liderando todas as voltas.</PT_MiguelOliveira_Adult.description>
+
+  <!-- ==================== Sophia de Mello Breyner Andresen ==================== -->
+
+  <PT_SophiaMelloBreyner_Child.title>menina do mar</PT_SophiaMelloBreyner_Child.title>
+  <PT_SophiaMelloBreyner_Child.titleShort>sonhadora</PT_SophiaMelloBreyner_Child.titleShort>
+  <PT_SophiaMelloBreyner_Child.description>[PAWN_nameDef] cresceu numa velha família do Porto e passava longos verões na praia da Granja, onde o mar, a luz e os jardins da infância se tornaram a matéria dos seus poemas.</PT_SophiaMelloBreyner_Child.description>
+
+  <PT_SophiaMelloBreyner_Adult.title>poeta do mar</PT_SophiaMelloBreyner_Adult.title>
+  <PT_SophiaMelloBreyner_Adult.titleShort>poeta</PT_SophiaMelloBreyner_Adult.titleShort>
+  <PT_SophiaMelloBreyner_Adult.description>[PAWN_nameDef] tornou-se uma das maiores poetas portuguesas e venceu o Prémio Camões. Os seus contos infantis, como «A Menina do Mar», são lidos em todas as escolas do país, e o poema em que saudou o 25 de Abril como «a madrugada que eu esperava» faz parte da memória da revolução.</PT_SophiaMelloBreyner_Adult.description>
+
+  <!-- ==================== Gago Coutinho ==================== -->
+
+  <PT_GagoCoutinho_Child.title>observador de estrelas</PT_GagoCoutinho_Child.title>
+  <PT_GagoCoutinho_Child.titleShort>observador</PT_GagoCoutinho_Child.titleShort>
+  <PT_GagoCoutinho_Child.description>[PAWN_nameDef] cresceu em Lisboa fascinado por mapas e estrelas, e entrou para a Marinha para ver esses lugares com os próprios olhos.</PT_GagoCoutinho_Child.description>
+
+  <PT_GagoCoutinho_Adult.title>navegador aéreo</PT_GagoCoutinho_Adult.title>
+  <PT_GagoCoutinho_Adult.titleShort>navegador</PT_GagoCoutinho_Adult.titleShort>
+  <PT_GagoCoutinho_Adult.description>Oficial da Marinha e cartógrafo, [PAWN_nameDef] inventou um sextante que podia ser usado a bordo de um avião. Em 1922 usou-o para guiar a primeira travessia aérea do Atlântico Sul, de Lisboa ao Rio de Janeiro, encontrando ilhas minúsculas no meio do oceano apenas com o sol e as estrelas.</PT_GagoCoutinho_Adult.description>
+
+  <!-- ==================== Sacadura Cabral ==================== -->
+
+  <PT_SacaduraCabral_Child.title>destemido</PT_SacaduraCabral_Child.title>
+  <PT_SacaduraCabral_Child.titleShort>destemido</PT_SacaduraCabral_Child.titleShort>
+  <PT_SacaduraCabral_Child.description>[PAWN_nameDef] era o rapaz que subia às árvores mais altas e saltava dos muros mais altos. Quando inventaram os aviões, era óbvio onde ele ia parar.</PT_SacaduraCabral_Child.description>
+
+  <PT_SacaduraCabral_Adult.title>pioneiro da aviação</PT_SacaduraCabral_Adult.title>
+  <PT_SacaduraCabral_Adult.titleShort>aviador</PT_SacaduraCabral_Adult.titleShort>
+  <PT_SacaduraCabral_Adult.description>O aviador naval [PAWN_nameDef] pilotou o hidroavião na primeira travessia aérea do Atlântico Sul, em 1922, com Gago Coutinho a navegar. Destruíram dois aviões pelo caminho, acabaram a viagem num terceiro e foram recebidos no Rio de Janeiro como heróis.</PT_SacaduraCabral_Adult.description>
+
+  <!-- ================================================================== -->
+  <!--                    MAIS FIGURAS HISTÓRICAS                          -->
+  <!-- ================================================================== -->
+
+  <!-- ==================== Infante D. Henrique ==================== -->
+
+  <PT_InfanteHenrique_Child.title>príncipe do Porto</PT_InfanteHenrique_Child.title>
+  <PT_InfanteHenrique_Child.titleShort>príncipe</PT_InfanteHenrique_Child.titleShort>
+  <PT_InfanteHenrique_Child.description>Nascido no Porto, filho do rei D. João I e de D. Filipa de Lencastre, [PAWN_nameDef] cresceu na corte com os irmãos, educado na cavalaria, na matemática e em histórias de terras para lá do mundo conhecido.</PT_InfanteHenrique_Child.description>
+
+  <PT_InfanteHenrique_Adult.title>patrono dos descobrimentos</PT_InfanteHenrique_Adult.title>
+  <PT_InfanteHenrique_Adult.titleShort>infante</PT_InfanteHenrique_Adult.titleShort>
+  <PT_InfanteHenrique_Adult.description>Conhecido como o Navegador, [PAWN_nameDef] quase nunca navegou. Em vez disso, reuniu pilotos, cartógrafos e construtores navais e enviou expedição atrás de expedição pela costa de África abaixo, dando início à Era dos Descobrimentos.</PT_InfanteHenrique_Adult.description>
+
+  <!-- ==================== Fernão de Magalhães ==================== -->
+
+  <PT_FernaoMagalhaes_Child.title>pajem da corte</PT_FernaoMagalhaes_Child.title>
+  <PT_FernaoMagalhaes_Child.titleShort>pajem</PT_FernaoMagalhaes_Child.titleShort>
+  <PT_FernaoMagalhaes_Child.description>Nascido numa família da pequena nobreza do norte de Portugal, [PAWN_nameDef] serviu como pajem na corte em Lisboa, onde só se falava de especiarias, navios e das Índias.</PT_FernaoMagalhaes_Child.description>
+
+  <PT_FernaoMagalhaes_Adult.title>circum-navegador</PT_FernaoMagalhaes_Adult.title>
+  <PT_FernaoMagalhaes_Adult.titleShort>explorador</PT_FernaoMagalhaes_Adult.titleShort>
+  <PT_FernaoMagalhaes_Adult.description>Desprezado pelo rei de Portugal, [PAWN_nameDef] foi navegar ao serviço de Espanha e comandou a primeira viagem de circum-navegação do mundo. Descobriu o estreito no extremo da América do Sul que ainda tem o seu nome e atravessou o Pacífico, mas morreu em combate nas Filipinas antes do fim da viagem.</PT_FernaoMagalhaes_Adult.description>
+
+  <!-- ==================== Marquês de Pombal ==================== -->
+
+  <PT_MarquesPombal_Child.title>fidalgo ambicioso</PT_MarquesPombal_Child.title>
+  <PT_MarquesPombal_Child.titleShort>fidalgo</PT_MarquesPombal_Child.titleShort>
+  <PT_MarquesPombal_Child.description>Nascido na pequena fidalguia de Lisboa, [PAWN_nameDef] cresceu com mais ambição do que dinheiro, a estudar Direito e História à espera da sua oportunidade.</PT_MarquesPombal_Child.description>
+
+  <PT_MarquesPombal_Adult.title>ministro de mão de ferro</PT_MarquesPombal_Adult.title>
+  <PT_MarquesPombal_Adult.titleShort>ministro</PT_MarquesPombal_Adult.titleShort>
+  <PT_MarquesPombal_Adult.description>Quando o grande terramoto de 1755 destruiu Lisboa, o primeiro-ministro [PAWN_nameDef] tomou conta da situação: enterrar os mortos, alimentar os vivos, reconstruir. Ergueu uma cidade nova de ruas direitas e edifícios à prova de sismos, e governou o país com mão de ferro durante mais de vinte anos.</PT_MarquesPombal_Adult.description>
+
+  <!-- ==================== Inês de Castro ==================== -->
+
+  <PT_InesCastro_Child.title>fidalga galega</PT_InesCastro_Child.title>
+  <PT_InesCastro_Child.titleShort>fidalga</PT_InesCastro_Child.titleShort>
+  <PT_InesCastro_Child.description>[PAWN_nameDef] nasceu numa das famílias nobres mais poderosas da Galiza e veio para Portugal como aia da noiva do herdeiro do trono.</PT_InesCastro_Child.description>
+
+  <PT_InesCastro_Adult.title>rainha depois de morta</PT_InesCastro_Adult.title>
+  <PT_InesCastro_Adult.titleShort>rainha</PT_InesCastro_Adult.titleShort>
+  <PT_InesCastro_Adult.description>O príncipe D. Pedro apaixonou-se perdidamente por [PAWN_nameDef] em vez da mulher, e o rei, temendo a influência da família dela, mandou matá-la em Coimbra. Quando Pedro subiu ao trono, perseguiu os assassinos, e diz a lenda que mandou coroar o seu corpo e obrigou a corte a beijar-lhe a mão: a que depois de morta foi rainha.</PT_InesCastro_Adult.description>
+
+  <!-- ==================== Rainha Santa Isabel ==================== -->
+
+  <PT_RainhaSantaIsabel_Child.title>princesa de Aragão</PT_RainhaSantaIsabel_Child.title>
+  <PT_RainhaSantaIsabel_Child.titleShort>princesa</PT_RainhaSantaIsabel_Child.titleShort>
+  <PT_RainhaSantaIsabel_Child.description>Princesa de Aragão, [PAWN_nameDef] foi casada com o rei D. Dinis de Portugal aos doze anos. Já em menina era conhecida por dar aos pobres tudo o que tinha.</PT_RainhaSantaIsabel_Child.description>
+
+  <PT_RainhaSantaIsabel_Adult.title>rainha santa</PT_RainhaSantaIsabel_Adult.title>
+  <PT_RainhaSantaIsabel_Adult.titleShort>rainha</PT_RainhaSantaIsabel_Adult.titleShort>
+  <PT_RainhaSantaIsabel_Adult.description>A rainha [PAWN_nameDef] fundou hospitais, deu de comer a quem tinha fome e por duas vezes se meteu entre exércitos para impedir o marido e o filho de irem à guerra. Diz a lenda que o rei a apanhou um dia a levar pão aos pobres no regaço, mas quando ela o abriu, o pão tinha-se transformado em rosas.</PT_RainhaSantaIsabel_Adult.description>
+
+  <!-- ==================== Maria da Fonte ==================== -->
+
+  <PT_MariaDaFonte_Child.title>rapariga do campo minhota</PT_MariaDaFonte_Child.title>
+  <PT_MariaDaFonte_Child.titleShort>lavradeira</PT_MariaDaFonte_Child.titleShort>
+  <PT_MariaDaFonte_Child.description>[PAWN_nameDef] cresceu a trabalhar os campos à volta da Póvoa de Lanhoso, nas verdes colinas do Minho, onde a gente era pobre, devota e de cabeça quente.</PT_MariaDaFonte_Child.description>
+
+  <PT_MariaDaFonte_Adult.title>líder da revolta</PT_MariaDaFonte_Adult.title>
+  <PT_MariaDaFonte_Adult.titleShort>revoltosa</PT_MariaDaFonte_Adult.titleShort>
+  <PT_MariaDaFonte_Adult.description>Em 1846, quando o governo proibiu os enterros dentro das igrejas e aumentou os impostos, as mulheres do Minho revoltaram-se, armadas de forquilhas e foices. A sua líder, recordada como [PAWN_nameDef] embora ninguém saiba ao certo quem era, começou uma revolta que se espalhou pelo país inteiro e fez cair o governo.</PT_MariaDaFonte_Adult.description>
+
+  <!-- ==================== Carolina Beatriz Ângelo ==================== -->
+
+  <PT_CarolinaAngelo_Child.title>rapariga que queria mais</PT_CarolinaAngelo_Child.title>
+  <PT_CarolinaAngelo_Child.titleShort>estudante</PT_CarolinaAngelo_Child.titleShort>
+  <PT_CarolinaAngelo_Child.description>A crescer na Guarda, [PAWN_nameDef] decidiu cedo que ia estudar medicina, numa altura em que quase nenhuma mulher em Portugal ia à universidade.</PT_CarolinaAngelo_Child.description>
+
+  <PT_CarolinaAngelo_Adult.title>cirurgiã pioneira</PT_CarolinaAngelo_Adult.title>
+  <PT_CarolinaAngelo_Adult.titleShort>cirurgiã</PT_CarolinaAngelo_Adult.titleShort>
+  <PT_CarolinaAngelo_Adult.description>[PAWN_nameDef] foi a primeira mulher a operar num hospital português. Em 1911 reparou que a lei eleitoral só exigia que os eleitores soubessem ler e fossem chefes de família, e, sendo viúva com uma filha, ela era-o. Levou o caso a tribunal, ganhou e tornou-se a primeira mulher a votar em Portugal. A lei foi logo alterada para que ninguém lhe seguisse o exemplo.</PT_CarolinaAngelo_Adult.description>
+
+  <!-- ==================== Bocage ==================== -->
+
+  <PT_Bocage_Child.title>versejador de Setúbal</PT_Bocage_Child.title>
+  <PT_Bocage_Child.titleShort>versejador</PT_Bocage_Child.titleShort>
+  <PT_Bocage_Child.description>[PAWN_nameDef] já escrevia versos em Setúbal antes de a maioria das crianças saber escrever o nome, e usava-os para fazer troça de quem o aborrecesse.</PT_Bocage_Child.description>
+
+  <PT_Bocage_Adult.title>poeta boémio</PT_Bocage_Adult.title>
+  <PT_Bocage_Adult.titleShort>poeta</PT_Bocage_Adult.titleShort>
+  <PT_Bocage_Adult.description>Depois de desertar da Marinha na Índia, [PAWN_nameDef] voltou para Lisboa e tornou-se o poeta mais brilhante e mais escandaloso do seu tempo. A sua sátira levou-o às prisões da Inquisição, e dois séculos depois todas as anedotas porcas de Portugal ainda se contam sobre «o Bocage».</PT_Bocage_Adult.description>
+
+  <!-- ==================== Eça de Queirós ==================== -->
+
+  <PT_EcaQueiros_Child.title>rapaz dos livros</PT_EcaQueiros_Child.title>
+  <PT_EcaQueiros_Child.titleShort>leitor</PT_EcaQueiros_Child.titleShort>
+  <PT_EcaQueiros_Child.description>Nascido na Póvoa de Varzim e criado sobretudo pelos avós, [PAWN_nameDef] encontrou companhia nos livros e, mais tarde, nas tertúlias de estudantes de Coimbra.</PT_EcaQueiros_Child.description>
+
+  <PT_EcaQueiros_Adult.title>romancista e cônsul</PT_EcaQueiros_Adult.title>
+  <PT_EcaQueiros_Adult.titleShort>romancista</PT_EcaQueiros_Adult.titleShort>
+  <PT_EcaQueiros_Adult.description>Enquanto servia como cônsul em Havana, em Inglaterra e em Paris, [PAWN_nameDef] escreveu romances que troçavam sem piedade da hipocrisia da sociedade portuguesa. «Os Maias» continua a ser considerado o grande romance português, e os seus restos mortais repousam hoje no Panteão Nacional.</PT_EcaQueiros_Adult.description>
+
+</LanguageData>

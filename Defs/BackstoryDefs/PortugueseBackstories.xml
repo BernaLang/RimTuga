@@ -1,0 +1,2892 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--
+    Backstories for the Portuguese figures in PawnBioDefs/PortugueseFigures.xml.
+    All are shuffleable=false so they only appear on their famous owner, never on random pawns.
+    spawnCategories decide which factions can roll the famous figure: Offworld = starting colonists,
+    Outlander = outlander towns/traders/wanderers, Pirate = raiders. Without them the bios never spawn.
+    Naming: PT_<Person>_Child / PT_<Person>_Adult
+
+    Balance (kept close to vanilla):
+      Childhood: 2-3 skills, biggest bonus +3, total about +3 to +4
+      Adulthood: 2-3 skills, biggest bonus +5 (+6 at most), total about +6 to +8
+      A good forced trait or no drawbacks = lower skill total; a disabled work type = slightly higher
+  -->
+
+  <!-- ================================================================== -->
+  <!--                          HISTORICAL FIGURES                         -->
+  <!-- ================================================================== -->
+
+  <!-- ==================== D. Afonso Henriques ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_AfonsoHenriques_Child</defName>
+    <slot>Childhood</slot>
+    <title>rebel prince</title>
+    <titleShort>prince</titleShort>
+    <description>[PAWN_nameDef] grew up a prince without a kingdom, watching [PAWN_possessive] mother hand the county to foreign nobles. Still a boy, [PAWN_pronoun] knighted [PAWN_objective]self in a cathedral and swore to take back what was [PAWN_possessive].</description>
+    <skillGains>
+      <Melee>2</Melee>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_AfonsoHenriques_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>founding king</title>
+    <titleShort>king</titleShort>
+    <description>[PAWN_nameDef] defeated [PAWN_possessive] own mother's army and turned a rebellious county into a kingdom by the sword. After taking Lisbon from the Moors in a long siege, [PAWN_pronoun] spent the rest of [PAWN_possessive] life pushing the frontier south. Kings do not scrub floors.</description>
+    <skillGains>
+      <Melee>5</Melee>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables>Cleaning</workDisables>
+    <forcedTraits>
+      <Brawler>0</Brawler>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Luís de Camões ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_LuisCamoes_Child</defName>
+    <slot>Childhood</slot>
+    <title>student of the classics</title>
+    <titleShort>student</titleShort>
+    <description>Born into a minor noble family that had fallen on hard times, [PAWN_nameDef] was educated in the classics. [PAWN_nameDef] devoured Latin and Italian poetry and was already writing verse while other boys were playing with swords.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Artistic>2</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_LuisCamoes_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>soldier poet</title>
+    <titleShort>poet</titleShort>
+    <description>[PAWN_nameDef] lost an eye fighting in North Africa, was jailed after a street brawl in Lisbon and was shipped off to serve in the Indies. When [PAWN_possessive] ship sank at the mouth of the Mekong, [PAWN_pronoun] swam ashore holding the manuscript of an epic poem above the waves. That poem became the founding work of Portuguese literature.</description>
+    <skillGains>
+      <Artistic>5</Artistic>
+      <Melee>3</Melee>
+      <Social>-1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Vasco da Gama ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_VascoGama_Child</defName>
+    <slot>Childhood</slot>
+    <title>harbour noble</title>
+    <titleShort>noble</titleShort>
+    <description>The son of the governor of Sines, a small fishing town on the Alentejo coast, [PAWN_nameDef] grew up watching ships come and go. [PAWN_nameDef] learned mathematics and navigation and dreamed of what lay beyond the horizon.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_VascoGama_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>navigator</title>
+    <titleShort>navigator</titleShort>
+    <description>[PAWN_nameDef] commanded the first fleet to sail from Europe around the Cape of Good Hope to India, opening a sea route that changed the world. A stern and sometimes brutal captain, [PAWN_pronoun] held [PAWN_possessive] crews together through storms, scurvy and near-mutiny.</description>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Social>2</Social>
+      <Shooting>2</Shooting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Nerves>1</Nerves>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Brites de Almeida ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_BritesAlmeida_Child</defName>
+    <slot>Childhood</slot>
+    <title>wild orphan</title>
+    <titleShort>orphan</titleShort>
+    <description>Legend says [PAWN_nameDef] was born in Faro with six fingers on each hand, broad shoulders and a temper to match. Orphaned young, [PAWN_pronoun] took to the road and settled every argument with [PAWN_possessive] fists.</description>
+    <skillGains>
+      <Melee>3</Melee>
+      <Social>-1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_BritesAlmeida_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>battle baker</title>
+    <titleShort>baker</titleShort>
+    <description>After years of wandering, a kidnapping by pirates and a daring escape, [PAWN_nameDef] settled down as the baker of Aljubarrota. On the day of the great battle against Castile, [PAWN_pronoun] found seven enemy soldiers hiding in [PAWN_possessive] oven and killed every one of them with a bread peel.</description>
+    <skillGains>
+      <Cooking>5</Cooking>
+      <Melee>4</Melee>
+      <Social>-2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Brawler>0</Brawler>
+    </forcedTraits>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== D. Sebastião ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_SebastiaoRei_Child</defName>
+    <slot>Childhood</slot>
+    <title>child king</title>
+    <titleShort>child king</titleShort>
+    <description>[PAWN_nameDef] was born after [PAWN_possessive] father's death and crowned at the age of three, the long-awaited heir of a dynasty on the brink. Raised by Jesuits on tales of crusades, the young king dreamed only of glory in battle.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_SebastiaoRei_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>lost king</title>
+    <titleShort>king</titleShort>
+    <description>Against all advice, [PAWN_nameDef] led the flower of Portugal's nobility on a crusade into Morocco and vanished at the battle of Alcácer Quibir. With no heir, Portugal fell to Spain, and for centuries the people waited for their king to ride back out of the fog one morning.\n\nIt seems [PAWN_pronoun] finally has.</description>
+    <skillGains>
+      <Melee>4</Melee>
+      <Social>2</Social>
+      <Shooting>2</Shooting>
+    </skillGains>
+    <workDisables>ManualDumb</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Aristides de Sousa Mendes ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_SousaMendes_Child</defName>
+    <slot>Childhood</slot>
+    <title>country gentleman's twin</title>
+    <titleShort>twin</titleShort>
+    <description>[PAWN_nameDef] grew up in a comfortable country house in the Beira hills, inseparable from [PAWN_possessive] twin brother. The two boys were sent off together to study law, and both followed the same path into the diplomatic service.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_SousaMendes_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>rebel consul</title>
+    <titleShort>consul</titleShort>
+    <description>In June 1940, with refugees fleeing the Nazi advance crowding the streets of Bordeaux, consul [PAWN_nameDef] defied direct orders and signed visas day and night for anyone who asked. Thousands escaped through Portugal thanks to [PAWN_objective]. [PAWN_nameDef] was punished, stripped of [PAWN_possessive] career and died poor, but is now remembered as one of the great heroes of the war.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Kind>0</Kind>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Salgueiro Maia ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_SalgueiroMaia_Child</defName>
+    <slot>Childhood</slot>
+    <title>Alentejo boy</title>
+    <titleShort>boy</titleShort>
+    <description>[PAWN_nameDef] grew up in Castelo de Vide, a hilltop town near the Spanish border, where [PAWN_pronoun] spent more time with horses than with schoolbooks.</description>
+    <skillGains>
+      <Animals>2</Animals>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_SalgueiroMaia_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>captain of April</title>
+    <titleShort>captain</titleShort>
+    <description>On 25 April 1974, cavalry captain [PAWN_nameDef] led a column of armoured cars from Santarém into Lisbon and, without firing a shot, forced the head of the dictatorship to surrender. Afterwards [PAWN_pronoun] turned down every medal and political post and quietly went back to the barracks.</description>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Social>3</Social>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Nerves>1</Nerves>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== José Saramago ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Saramago_Child</defName>
+    <slot>Childhood</slot>
+    <title>peasant's son</title>
+    <titleShort>farm boy</titleShort>
+    <description>[PAWN_nameDef] was born to landless peasants in a Ribatejo village. The surname "Saramago", the name of a wild radish and the family's village nickname, was added by a registry clerk without anyone noticing. Poverty forced [PAWN_objective] to leave school early.</description>
+    <skillGains>
+      <Plants>2</Plants>
+      <Animals>1</Animals>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Saramago_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>Nobel novelist</title>
+    <titleShort>novelist</titleShort>
+    <description>[PAWN_nameDef] worked as a locksmith, a civil servant, a translator and a journalist before becoming famous as a novelist late in life. [PAWN_possessive] long sentences with almost no punctuation won [PAWN_objective] the Nobel Prize in Literature.</description>
+    <skillGains>
+      <Artistic>5</Artistic>
+      <Intellectual>2</Intellectual>
+      <Crafting>1</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Fernando Pessoa ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_FernandoPessoa_Child</defName>
+    <slot>Childhood</slot>
+    <title>colonial schoolboy</title>
+    <titleShort>schoolboy</titleShort>
+    <description>After [PAWN_possessive] father died, [PAWN_nameDef] followed [PAWN_possessive] mother and stepfather to Durban, South Africa. A quiet, bookish child, [PAWN_pronoun] mastered English, won a prize for [PAWN_possessive] essays and invented imaginary friends who wrote letters to one another.</description>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Artistic>2</Artistic>
+      <Social>-1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_FernandoPessoa_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>poet of many names</title>
+    <titleShort>poet</titleShort>
+    <description>By day [PAWN_nameDef] translated business letters in Lisbon offices. By night [PAWN_pronoun] wrote as dozens of invented poets, each with their own life story, style and philosophy. Almost nothing was published in [PAWN_possessive] lifetime, but after [PAWN_possessive] death a trunk with more than 25,000 pages was found.</description>
+    <skillGains>
+      <Artistic>5</Artistic>
+      <Intellectual>4</Intellectual>
+      <Social>-2</Social>
+    </skillGains>
+    <workDisables>ManualDumb</workDisables>
+    <forcedTraits>
+      <Neurotic>1</Neurotic>
+    </forcedTraits>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Amália Rodrigues ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_AmaliaRodrigues_Child</defName>
+    <slot>Childhood</slot>
+    <title>fruit seller</title>
+    <titleShort>vendor</titleShort>
+    <description>Raised by [PAWN_possessive] grandmother in a poor Lisbon household, [PAWN_nameDef] sold fruit on the city docks and sang to draw in customers. Passers-by stopped more often to listen than to buy.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Artistic>2</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_AmaliaRodrigues_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>queen of fado</title>
+    <titleShort>fadista</titleShort>
+    <description>[PAWN_nameDef] carried fado, the mournful song of Lisbon's back streets, to concert halls around the world. Dressed in black with eyes closed, [PAWN_pronoun] sang of longing and fate so powerfully that audiences who understood not a word wept anyway. When [PAWN_pronoun] died, the whole country went into mourning.</description>
+    <skillGains>
+      <Artistic>6</Artistic>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Zeca Afonso ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_ZecaAfonso_Child</defName>
+    <slot>Childhood</slot>
+    <title>far-flung child</title>
+    <titleShort>wanderer</titleShort>
+    <description>[PAWN_nameDef] spent [PAWN_possessive] childhood moving between Aveiro, Angola, Mozambique and Timor, wherever [PAWN_possessive] father's work as a judge took the family. The songs and rhythms [PAWN_pronoun] heard along the way stayed with [PAWN_objective] for life.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_ZecaAfonso_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>protest singer</title>
+    <titleShort>singer</titleShort>
+    <description>A teacher and songwriter, [PAWN_nameDef] wrote songs against the dictatorship that were banned, censored and sung anyway. On the night of 25 April 1974, [PAWN_possessive] song "Grândola, Vila Morena" was played on the radio as the signal for the revolution that brought democracy back to Portugal.</description>
+    <skillGains>
+      <Artistic>5</Artistic>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Eusébio ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Eusebio_Child</defName>
+    <slot>Childhood</slot>
+    <title>barefoot striker</title>
+    <titleShort>striker</titleShort>
+    <description>[PAWN_nameDef] grew up in a poor neighbourhood of Lourenço Marques, Mozambique, playing football barefoot with balls made of rolled-up socks and rags. Even then, nobody could catch [PAWN_objective].</description>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Eusebio_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>black panther</title>
+    <titleShort>striker</titleShort>
+    <description>Signed by Benfica, [PAWN_nameDef] became one of the deadliest strikers the world had ever seen, winning the European Cup and the Ballon d'Or. At the 1966 World Cup [PAWN_pronoun] finished top scorer, including four goals in a single comeback against North Korea after Portugal fell three goals behind.</description>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <SpeedOffset>1</SpeedOffset>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ================================================================== -->
+  <!--                           MODERN FIGURES                            -->
+  <!-- ================================================================== -->
+
+  <!-- ==================== Cristiano Ronaldo ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_CristianoRonaldo_Child</defName>
+    <slot>Childhood</slot>
+    <title>street footballer</title>
+    <titleShort>footballer</titleShort>
+    <description>[PAWN_nameDef] grew up in a small house on the hills of Funchal, Madeira, kicking a ball through the streets from sunrise to sunset. The neighbours called [PAWN_objective] "cry-baby", because [PAWN_pronoun] sobbed every time [PAWN_possessive] team lost.</description>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_CristianoRonaldo_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>football legend</title>
+    <titleShort>legend</titleShort>
+    <description>[PAWN_nameDef] became one of the greatest footballers who ever lived, winning trophies in England, Spain and Italy and scoring more international goals than anyone in history. A ruthless training regime and a strict diet kept [PAWN_possessive] body in peak condition long after most athletes retire.\n\nSiuuu!</description>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>3</Melee>
+      <Social>2</Social>
+      <Cooking>-2</Cooking>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <SpeedOffset>2</SpeedOffset>
+    </forcedTraits>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== José Mourinho ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_JoseMourinho_Child</defName>
+    <slot>Childhood</slot>
+    <title>goalkeeper's son</title>
+    <titleShort>scout</titleShort>
+    <description>The son of a professional goalkeeper from Setúbal, [PAWN_nameDef] spent [PAWN_possessive] childhood on the touchline. As a teenager [PAWN_pronoun] was already scouting opponents and writing match reports for [PAWN_possessive] father's team.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_JoseMourinho_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>special one</title>
+    <titleShort>manager</titleShort>
+    <description>[PAWN_nameDef] started out as a translator for a foreign coach and ended up as one of the most decorated football managers in history, winning the Champions League with Porto and Inter. Brilliant, provocative and never short of a sharp line for the press, [PAWN_pronoun] once introduced [PAWN_objective]self simply as "a special one".</description>
+    <skillGains>
+      <Social>4</Social>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Nerves>1</Nerves>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Jorge Jesus ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_JorgeJesus_Child</defName>
+    <slot>Childhood</slot>
+    <title>Amadora footballer</title>
+    <titleShort>footballer</titleShort>
+    <description>[PAWN_nameDef] grew up in Amadora, on the outskirts of Lisbon, where the only thing [PAWN_pronoun] cared about more than football was talking about football.</description>
+    <skillGains>
+      <Melee>2</Melee>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_JorgeJesus_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>football coach</title>
+    <titleShort>mister</titleShort>
+    <description>After a modest playing career, [PAWN_nameDef] became one of the most successful coaches in Portuguese football, winning titles with Benfica before conquering South America with Flamengo. Fiery on the touchline and famous for inventing new words in [PAWN_possessive] press conferences, [PAWN_pronoun] has never let grammar get in the way of a good team talk.</description>
+    <skillGains>
+      <Social>3</Social>
+      <Intellectual>3</Intellectual>
+      <Melee>2</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Éder ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Eder_Child</defName>
+    <slot>Childhood</slot>
+    <title>care home kid</title>
+    <titleShort>foster kid</titleShort>
+    <description>Born in Guinea-Bissau, [PAWN_nameDef] came to Portugal as a toddler. When [PAWN_possessive] family could no longer care for [PAWN_objective], [PAWN_pronoun] grew up in a children's home near Coimbra, where a local club gave [PAWN_objective] [PAWN_possessive] first pair of football boots.</description>
+    <skillGains>
+      <Melee>2</Melee>
+      <Shooting>1</Shooting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Eder_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>unlikely hero</title>
+    <titleShort>striker</titleShort>
+    <description>Mocked for years by fans and press as the national team's "ugly duckling", [PAWN_nameDef] came off the bench in the final of Euro 2016 against France. In the 109th minute [PAWN_pronoun] scored the only goal of the match and gave Portugal its first major trophy.</description>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>3</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Nerves>1</Nerves>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Rosa Mota ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_RosaMota_Child</defName>
+    <slot>Childhood</slot>
+    <title>Foz runner</title>
+    <titleShort>runner</titleShort>
+    <description>[PAWN_nameDef] grew up by the sea in Porto, running everywhere instead of walking. The local boys could rarely keep up with [PAWN_objective].</description>
+    <skillGains>
+      <Melee>1</Melee>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_RosaMota_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>marathon champion</title>
+    <titleShort>marathoner</titleShort>
+    <description>Small, slight and seemingly tireless, [PAWN_nameDef] became the best marathon runner in the world: three times European champion, world champion, and the first Portuguese woman to win Olympic gold, in Seoul in 1988.</description>
+    <skillGains>
+      <Melee>3</Melee>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <SpeedOffset>2</SpeedOffset>
+    </forcedTraits>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Telma Monteiro ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_TelmaMonteiro_Child</defName>
+    <slot>Childhood</slot>
+    <title>dojo kid</title>
+    <titleShort>judoka</titleShort>
+    <description>[PAWN_nameDef] was a restless Lisbon kid who found [PAWN_possessive] calling the first time [PAWN_pronoun] stepped onto a judo mat. [PAWN_nameDef] quickly learned that the bigger they are, the harder they fall.</description>
+    <skillGains>
+      <Melee>3</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_TelmaMonteiro_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>judo champion</title>
+    <titleShort>judoka</titleShort>
+    <description>Over a twenty-year career [PAWN_nameDef] became six-time European champion, more than any other judoka in history, and won Olympic bronze in Rio. After retiring, [PAWN_pronoun] stayed in the sport, running the judo section of [PAWN_possessive] club.</description>
+    <skillGains>
+      <Melee>5</Melee>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Brawler>0</Brawler>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Patrícia Mamona ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_PatriciaMamona_Child</defName>
+    <slot>Childhood</slot>
+    <title>playground jumper</title>
+    <titleShort>jumper</titleShort>
+    <description>The daughter of Angolan immigrants in Lisbon, [PAWN_nameDef] was always the one jumping highest and furthest in the schoolyard, and still found time to be top of the class.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_PatriciaMamona_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>triple jumper</title>
+    <titleShort>jumper</titleShort>
+    <description>[PAWN_nameDef] studied biomedical engineering in the United States while training as a triple jumper. Back in Europe, [PAWN_pronoun] became European champion and then, in Tokyo, jumped beyond fifteen metres for a national record and an Olympic silver medal.</description>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Medicine>2</Medicine>
+      <Melee>2</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <SpeedOffset>1</SpeedOffset>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Iúri Leitão ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_IuriLeitao_Child</defName>
+    <slot>Childhood</slot>
+    <title>Viana cyclist</title>
+    <titleShort>cyclist</titleShort>
+    <description>[PAWN_nameDef] grew up in Viana do Castelo, racing [PAWN_possessive] bike up and down the hills of the Minho and taking it apart in the garage whenever something squeaked.</description>
+    <skillGains>
+      <Crafting>2</Crafting>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_IuriLeitao_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>Olympic cyclist</title>
+    <titleShort>cyclist</titleShort>
+    <description>At the Paris Olympics [PAWN_nameDef] won silver in the omnium and then gold in the madison, becoming the first Portuguese athlete ever to win two medals at the same Games. Viana do Castelo made [PAWN_objective] its youngest ever honorary citizen.</description>
+    <skillGains>
+      <Melee>2</Melee>
+      <Crafting>2</Crafting>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <SpeedOffset>1</SpeedOffset>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Mariza ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Mariza_Child</defName>
+    <slot>Childhood</slot>
+    <title>tavern singer</title>
+    <titleShort>singer</titleShort>
+    <description>Born in Mozambique, [PAWN_nameDef] grew up in Mouraria, one of Lisbon's oldest and poorest neighbourhoods, where [PAWN_possessive] parents ran a small tavern. [PAWN_nameDef] was singing fado with the regulars before [PAWN_pronoun] could read.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Social>1</Social>
+      <Cooking>1</Cooking>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Mariza_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>fado star</title>
+    <titleShort>fadista</titleShort>
+    <description>With [PAWN_possessive] short platinum hair and powerful voice, [PAWN_nameDef] took fado into a new century, filling concert halls from London to New York and becoming the voice of a new generation of fadistas.</description>
+    <skillGains>
+      <Artistic>6</Artistic>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Salvador Sobral ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_SalvadorSobral_Child</defName>
+    <slot>Childhood</slot>
+    <title>musical sibling</title>
+    <titleShort>kid</titleShort>
+    <description>[PAWN_nameDef] grew up in Lisbon in a house full of music, singing along with [PAWN_possessive] older sister and falling in love with old jazz records.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_SalvadorSobral_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>Eurovision winner</title>
+    <titleShort>singer</titleShort>
+    <description>After studying jazz in Barcelona, [PAWN_nameDef] sang a quiet love song written by [PAWN_possessive] sister at Eurovision 2017 and gave Portugal its first win after more than fifty years of trying. Months later [PAWN_pronoun] received a heart transplant, and soon went back on stage with a new heart.</description>
+    <skillGains>
+      <Artistic>5</Artistic>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Quim Barreiros ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_QuimBarreiros_Child</defName>
+    <slot>Childhood</slot>
+    <title>band drummer</title>
+    <titleShort>drummer</titleShort>
+    <description>At nine years old [PAWN_nameDef] was already playing drums in [PAWN_possessive] father's dance band in Vila Praia de Âncora. Soon after, [PAWN_pronoun] picked up the accordion and never put it down again.</description>
+    <skillGains>
+      <Artistic>3</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_QuimBarreiros_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>pimba accordionist</title>
+    <titleShort>accordionist</titleShort>
+    <description>After years in the Air Force band, [PAWN_nameDef] began writing cheeky songs full of double meanings about codfish, goats and the neighbour's garage. Grandparents, parents and children sing every word at village festivals all over Portugal and in emigrant communities abroad.</description>
+    <skillGains>
+      <Artistic>4</Artistic>
+      <Social>4</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Tony Carreira ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_TonyCarreira_Child</defName>
+    <slot>Childhood</slot>
+    <title>emigrant kid</title>
+    <titleShort>emigrant</titleShort>
+    <description>Born in a tiny mountain village in central Portugal, [PAWN_nameDef] grew up as the child of emigrants in France, with one foot in each country and a song always on [PAWN_possessive] lips.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_TonyCarreira_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>romantic crooner</title>
+    <titleShort>crooner</titleShort>
+    <description>[PAWN_nameDef] became one of the best-selling singers in Portuguese history with romantic ballads about love, longing and the life of the emigrant. [PAWN_possessive] concerts sell out arenas full of devoted fans who know every word.</description>
+    <skillGains>
+      <Artistic>4</Artistic>
+      <Social>4</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Fernando Mendes ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_FernandoMendes_Child</defName>
+    <slot>Childhood</slot>
+    <title>class clown</title>
+    <titleShort>clown</titleShort>
+    <description>[PAWN_nameDef] found out early that making people laugh was much easier than doing homework. The teachers despaired, but the other children adored [PAWN_objective].</description>
+    <skillGains>
+      <Social>3</Social>
+      <Artistic>1</Artistic>
+      <Intellectual>-1</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_FernandoMendes_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>game show host</title>
+    <titleShort>host</titleShort>
+    <description>After years on the stages of Lisbon's revue theatres, [PAWN_nameDef] became the host of a long-running TV game show where contestants guess the prices of everyday goods. Audiences loved [PAWN_possessive] warmth, booming laugh and endless jokes, and [PAWN_pronoun] became a fixture in every Portuguese living room.</description>
+    <skillGains>
+      <Social>5</Social>
+      <Artistic>2</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Kind>0</Kind>
+    </forcedTraits>
+    <bodyTypeGlobal>Fat</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Herman José ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_HermanJose_Child</defName>
+    <slot>Childhood</slot>
+    <title>half-German kid</title>
+    <titleShort>kid</titleShort>
+    <description>Born in Lisbon to a German father and a Portuguese mother, [PAWN_nameDef] spent [PAWN_possessive] childhood imitating every accent, teacher and neighbour [PAWN_pronoun] came across.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_HermanJose_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>comedy legend</title>
+    <titleShort>comedian</titleShort>
+    <description>For more than four decades [PAWN_nameDef] has been the king of Portuguese television comedy, inventing dozens of unforgettable characters and sketches that the whole country still quotes.</description>
+    <skillGains>
+      <Social>5</Social>
+      <Artistic>3</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Ricardo Araújo Pereira ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_RicardoAraujoPereira_Child</defName>
+    <slot>Childhood</slot>
+    <title>bookish Benfica fan</title>
+    <titleShort>student</titleShort>
+    <description>[PAWN_nameDef] grew up in Lisbon reading everything [PAWN_pronoun] could get [PAWN_possessive] hands on, and suffering through every Benfica match as if [PAWN_possessive] life depended on it.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_RicardoAraujoPereira_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>satirist</title>
+    <titleShort>satirist</titleShort>
+    <description>As one of the four members of the comedy group Gato Fedorento, [PAWN_nameDef] changed Portuguese humour forever. [PAWN_nameDef] went on to become the country's sharpest satirist, interviewing prime ministers who regretted it afterwards.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Artistic>2</Artistic>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Cristina Ferreira ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_CristinaFerreira_Child</defName>
+    <slot>Childhood</slot>
+    <title>market kid</title>
+    <titleShort>market kid</titleShort>
+    <description>The only daughter of market traders in Malveira, [PAWN_nameDef] grew up behind the family stall, learning how to talk to anyone and how never to lose a sale.</description>
+    <skillGains>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_CristinaFerreira_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>TV tycoon</title>
+    <titleShort>host</titleShort>
+    <description>A former history teacher, [PAWN_nameDef] became the most popular morning TV host in the country and then moved into running a television channel. [PAWN_nameDef] built a business empire of clothes, magazines and perfume along the way, and hates losing at anything.</description>
+    <skillGains>
+      <Social>5</Social>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Industriousness>1</Industriousness>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Manuel Luís Goucha ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Goucha_Child</defName>
+    <slot>Childhood</slot>
+    <title>kitchen helper</title>
+    <titleShort>helper</titleShort>
+    <description>[PAWN_nameDef] spent [PAWN_possessive] childhood in the family kitchen, tasting everything and chatting with everyone who came through the door.</description>
+    <skillGains>
+      <Cooking>2</Cooking>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Goucha_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>morning TV host</title>
+    <titleShort>host</titleShort>
+    <description>For decades [PAWN_nameDef] has kept the country company every morning, cooking live on air, interviewing anyone and everyone and never running out of things to say.</description>
+    <skillGains>
+      <Social>5</Social>
+      <Cooking>3</Cooking>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Catarina Furtado ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_CatarinaFurtado_Child</defName>
+    <slot>Childhood</slot>
+    <title>ballet student</title>
+    <titleShort>dancer</titleShort>
+    <description>[PAWN_nameDef] trained as a dancer at the national conservatory in Lisbon, spending [PAWN_possessive] childhood in leotards and pointe shoes.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_CatarinaFurtado_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>TV host and ambassador</title>
+    <titleShort>host</titleShort>
+    <description>[PAWN_nameDef] became one of the best-loved faces of Portuguese television, hosting the biggest talent and dance shows and even Eurovision. Away from the cameras, [PAWN_pronoun] spent decades as a United Nations goodwill ambassador, campaigning for the rights of women and girls.</description>
+    <skillGains>
+      <Social>5</Social>
+      <Artistic>2</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Kind>0</Kind>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Daniela Ruah ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_DanielaRuah_Child</defName>
+    <slot>Childhood</slot>
+    <title>teen soap star</title>
+    <titleShort>actress</titleShort>
+    <description>Born in Boston to Portuguese parents, [PAWN_nameDef] moved to Lisbon as a little girl. At sixteen [PAWN_pronoun] landed a role in a Portuguese soap opera and was hooked on acting.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_DanielaRuah_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>Hollywood agent</title>
+    <titleShort>actress</titleShort>
+    <description>[PAWN_nameDef] spent fourteen years playing a federal special agent on an American crime series, kicking down doors and drawing [PAWN_possessive] gun on TV screens around the world. Back home, [PAWN_pronoun] co-hosted Eurovision in Lisbon.</description>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Artistic>3</Artistic>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Joana Vasconcelos ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_JoanaVasconcelos_Child</defName>
+    <slot>Childhood</slot>
+    <title>crafty kid</title>
+    <titleShort>crafter</titleShort>
+    <description>Born in Paris to Portuguese parents living in exile, [PAWN_nameDef] grew up in Lisbon surrounded by needlework, crochet and household objects that [PAWN_pronoun] could never leave alone.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Crafting>1</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_JoanaVasconcelos_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>monumental artist</title>
+    <titleShort>artist</titleShort>
+    <description>[PAWN_nameDef] builds giant artworks out of everyday things: high-heeled shoes made of saucepans, chandeliers made of tampons, sprawling crocheted creatures. [PAWN_nameDef] was the first woman and the youngest artist ever to exhibit at the Palace of Versailles.</description>
+    <skillGains>
+      <Artistic>5</Artistic>
+      <Crafting>3</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Ljubomir Stanisic ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Ljubomir_Child</defName>
+    <slot>Childhood</slot>
+    <title>war-time baker</title>
+    <titleShort>baker</titleShort>
+    <description>[PAWN_nameDef] was a teenager in Sarajevo when the Bosnian war broke out. At fourteen, [PAWN_pronoun] was working nights in a bakery and studying by day to help keep [PAWN_possessive] family fed.</description>
+    <skillGains>
+      <Cooking>3</Cooking>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Ljubomir_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>nightmare chef</title>
+    <titleShort>chef</titleShort>
+    <description>[PAWN_nameDef] arrived in Portugal at nineteen with nothing, and became one of Lisbon's most celebrated chefs. On television [PAWN_pronoun] storms into failing restaurants, shouting, swearing and tasting everything, and somehow leaves them better than before.</description>
+    <skillGains>
+      <Cooking>6</Cooking>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Abrasive>0</Abrasive>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Marcelo Rebelo de Sousa ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Marcelo_Child</defName>
+    <slot>Childhood</slot>
+    <title>precocious student</title>
+    <titleShort>student</titleShort>
+    <description>The son of a politician, [PAWN_nameDef] grew up in Lisbon reading newspapers at breakfast and arguing about politics with anyone who would listen. [PAWN_nameDef] was the best student in every class.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Marcelo_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>president of affections</title>
+    <titleShort>president</titleShort>
+    <description>A law professor and Sunday-night TV commentator for decades, [PAWN_nameDef] was elected President of the Republic and spent ten years hugging, kissing and taking selfies with everyone [PAWN_pronoun] met. Sleeping only a few hours a night, [PAWN_pronoun] seemed to be everywhere at once, and once even swam out to help rescue two people in trouble at sea.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Industriousness>1</Industriousness>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== António Guterres ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Guterres_Child</defName>
+    <slot>Childhood</slot>
+    <title>top of the class</title>
+    <titleShort>student</titleShort>
+    <description>[PAWN_nameDef] was a brilliant student in Lisbon, winning the national prize for the best high school graduate before going on to study engineering.</description>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Guterres_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>world diplomat</title>
+    <titleShort>diplomat</titleShort>
+    <description>After serving as Prime Minister of Portugal, [PAWN_nameDef] spent ten years leading the UN refugee agency and was then chosen as Secretary-General of the United Nations. [PAWN_nameDef] has spent a lifetime trying to talk people out of wars and will not pick up a weapon.</description>
+    <skillGains>
+      <Social>5</Social>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+    <workDisables>Violent</workDisables>
+    <!-- No Pirate: a pawn that can't do violence can't be a raider (the game reports a config error). -->
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ================================================================== -->
+  <!--                    MODERN FIGURES - ENTERTAINERS                    -->
+  <!-- ================================================================== -->
+
+  <!-- ==================== Nuno Markl ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_NunoMarkl_Child</defName>
+    <slot>Childhood</slot>
+    <title>pop culture collector</title>
+    <titleShort>collector</titleShort>
+    <description>[PAWN_nameDef] grew up in 1980s Lisbon filling sticker albums, recording cartoons on VHS and memorising every toy advert on television. [PAWN_pronoun] never threw any of it away.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_NunoMarkl_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>radio storyteller</title>
+    <titleShort>radio host</titleShort>
+    <description>For decades [PAWN_nameDef] has woken the country up on the radio, telling absurd but true news stories about men who bit dogs and paying tribute to long-forgotten toys and TV shows. [PAWN_pronoun] also writes comedy for television and voices cartoon characters.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Artistic>3</Artistic>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Bruno Nogueira ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_BrunoNogueira_Child</defName>
+    <slot>Childhood</slot>
+    <title>restless joker</title>
+    <titleShort>joker</titleShort>
+    <description>[PAWN_nameDef] was the kid who could never sit still in class, always ready with a sarcastic remark that made the whole room laugh, and now and then even the teacher.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_BrunoNogueira_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>lockdown entertainer</title>
+    <titleShort>comedian</titleShort>
+    <description>Comedian and actor [PAWN_nameDef] spent years making Portugal laugh on stage and screen. When the country locked down in 2020, [PAWN_pronoun] went live on Instagram late every night with friends and no script, and more than a hundred thousand people tuned in to keep each other company.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Artistic>3</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <NightOwl>0</NightOwl>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Fernando Rocha ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_FernandoRocha_Child</defName>
+    <slot>Childhood</slot>
+    <title>joke collector</title>
+    <titleShort>joker</titleShort>
+    <description>Growing up in Porto, [PAWN_nameDef] collected jokes the way other kids collected football stickers, and told them to anyone who stood still long enough.</description>
+    <skillGains>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_FernandoRocha_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>joke master</title>
+    <titleShort>comedian</titleShort>
+    <description>[PAWN_nameDef] won a TV comedy contest and became the country's undisputed master of the joke, the saucier the better, telling them on stage, on television and online. [PAWN_pronoun] has a joke for every occasion, and several for the wrong ones.</description>
+    <skillGains>
+      <Social>5</Social>
+      <Artistic>2</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== César Mourão ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_CesarMourao_Child</defName>
+    <slot>Childhood</slot>
+    <title>last-minute student</title>
+    <titleShort>student</titleShort>
+    <description>[PAWN_nameDef] never prepared anything in advance at school, preferring to make it up on the spot. Somehow it always worked.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_CesarMourao_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>improv master</title>
+    <titleShort>improviser</titleShort>
+    <description>A master of improvised theatre, [PAWN_nameDef] can arrive in a village, spend two days listening to the locals' stories and turn them into a full comedy show for those same people, with no script and no safety net.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Artistic>3</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== João Baião ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_JoaoBaiao_Child</defName>
+    <slot>Childhood</slot>
+    <title>scout performer</title>
+    <titleShort>performer</titleShort>
+    <description>[PAWN_nameDef] was putting on plays for anyone who would watch from a very young age, and ended up running the theatre group of [PAWN_possessive] scout troop.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_JoaoBaiao_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>hyperactive host</title>
+    <titleShort>host</titleShort>
+    <description>After years of classical theatre and musical revues, [PAWN_nameDef] became the most energetic host on Portuguese television, presenting variety shows at a pace nobody had seen before. Decades later, [PAWN_pronoun] still has more energy than everyone else in the studio combined.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Artistic>2</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <SpeedOffset>1</SpeedOffset>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Toy ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Toy_Child</defName>
+    <slot>Childhood</slot>
+    <title>Setúbal singer</title>
+    <titleShort>singer</titleShort>
+    <description>[PAWN_nameDef] started singing in Setúbal at five and joined a local theatre group at eleven. At fifteen [PAWN_pronoun] packed [PAWN_possessive] bags and emigrated to Germany.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Toy_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>popular singer</title>
+    <titleShort>singer</titleShort>
+    <description>By day [PAWN_nameDef] worked as a lathe operator in Germany; by night [PAWN_pronoun] sang in bands. Back in Portugal [PAWN_pronoun] became one of the great names of popular music, with hits that whole villages sing at summer festivals, usually all night long.</description>
+    <skillGains>
+      <Artistic>4</Artistic>
+      <Social>2</Social>
+      <Crafting>2</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Luís Franco-Bastos ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_FrancoBastos_Child</defName>
+    <slot>Childhood</slot>
+    <title>voice copycat</title>
+    <titleShort>copycat</titleShort>
+    <description>[PAWN_nameDef] spent [PAWN_possessive] childhood copying the voices of teachers, relatives and TV presenters, much to their irritation.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_FrancoBastos_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>impressionist</title>
+    <titleShort>comedian</titleShort>
+    <description>[PAWN_nameDef] became famous for imitating everyone in public life, from the President to Cristiano Ronaldo, so well that listeners could not tell the difference. These days [PAWN_pronoun] prefers doing stand-up in [PAWN_possessive] own voice, about [PAWN_possessive] own family.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Artistic>3</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Joana Marques ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_JoanaMarques_Child</defName>
+    <slot>Childhood</slot>
+    <title>sharp-eyed kid</title>
+    <titleShort>kid</titleShort>
+    <description>[PAWN_nameDef] grew up noticing every ridiculous thing the adults around [PAWN_objective] said and did, and remembering all of it for later.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_JoanaMarques_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>extremely unpleasant humorist</title>
+    <titleShort>humorist</titleShort>
+    <description>Every morning on the radio, [PAWN_nameDef] picks apart the most embarrassing moments of Portuguese public life in a segment proudly called "Extremely Unpleasant". When a pop duo sued [PAWN_objective] for over a million euros over a joke video, [PAWN_pronoun] went to court, won, and turned the whole affair into new material.</description>
+    <skillGains>
+      <Social>3</Social>
+      <Artistic>3</Artistic>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Abrasive>0</Abrasive>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Maria Rueff ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_MariaRueff_Child</defName>
+    <slot>Childhood</slot>
+    <title>class mimic</title>
+    <titleShort>mimic</titleShort>
+    <description>Born in Mozambique, [PAWN_nameDef] grew up studying the voices, faces and walks of everyone around [PAWN_objective], and could turn any of them into a character in seconds.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_MariaRueff_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>comedy actress</title>
+    <titleShort>actress</titleShort>
+    <description>Herman José's long-time partner in crime, [PAWN_nameDef] has created dozens of unforgettable characters on television and stage, including a very talkative Lisbon taxi driver called Zé Manel. Few people in the country can make an audience cry with laughter quite like [PAWN_objective].</description>
+    <skillGains>
+      <Artistic>5</Artistic>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Teresa Guilherme ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_TeresaGuilherme_Child</defName>
+    <slot>Childhood</slot>
+    <title>backstage kid</title>
+    <titleShort>kid</titleShort>
+    <description>The daughter of a singer and a fado singer, [PAWN_nameDef] grew up between Portugal and Brazil, spending more time backstage than at home and helping put on [PAWN_possessive] parents' shows.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_TeresaGuilherme_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>reality show queen</title>
+    <titleShort>host</titleShort>
+    <description>[PAWN_nameDef] brought Big Brother to Portugal in 2000 and spent years locking strangers in a house and watching them argue, live on national television. In [PAWN_possessive] sixties [PAWN_pronoun] went back to university to study psychology, perhaps to finally understand what [PAWN_pronoun] had seen.</description>
+    <skillGains>
+      <Social>5</Social>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Ana Garcia Martins (A Pipoca Mais Doce) ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_PipocaMaisDoce_Child</defName>
+    <slot>Childhood</slot>
+    <title>Lisbon chatterbox</title>
+    <titleShort>chatterbox</titleShort>
+    <description>[PAWN_nameDef] grew up in Lisbon with an opinion on absolutely everything and an irresistible urge to share it.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_PipocaMaisDoce_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>sarcastic blogger</title>
+    <titleShort>blogger</titleShort>
+    <description>In 2004 [PAWN_nameDef] started a blog as a hobby, writing as "the sweetest popcorn". It became one of the most-read blogs in the country, and its sarcastic, self-deprecating author moved on to books, radio, television and nearly a million followers online.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Artistic>3</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Mariana Cabral (Bumba na Fofinha) ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_BumbaNaFofinha_Child</defName>
+    <slot>Childhood</slot>
+    <title>big-family kid</title>
+    <titleShort>kid</titleShort>
+    <description>Growing up in a large Lisbon family, [PAWN_nameDef] learned early that at a crowded dinner table, the funniest person is the one who gets heard.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_BumbaNaFofinha_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>online comedian</title>
+    <titleShort>comedian</titleShort>
+    <description>What began as a blog for family and friends under the odd name "Bumba na Fofinha" turned [PAWN_nameDef] into one of the country's most popular comedians, with YouTube videos, hit podcasts and stand-up shows that sell out in under an hour.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Artistic>3</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ================================================================== -->
+  <!--               MODERN FIGURES - SCIENCE, ARTS & SPORT                -->
+  <!-- ================================================================== -->
+
+  <!-- ==================== Álvaro Siza Vieira ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_SizaVieira_Child</defName>
+    <slot>Childhood</slot>
+    <title>would-be sculptor</title>
+    <titleShort>sketcher</titleShort>
+    <description>Growing up in Matosinhos, by the sea near Porto, [PAWN_nameDef] drew constantly and dreamed of becoming a sculptor. [PAWN_possessive] father had other ideas, and sent [PAWN_objective] to study architecture instead.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_SizaVieira_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>master architect</title>
+    <titleShort>architect</titleShort>
+    <description>[PAWN_nameDef] became Portugal's most celebrated architect, winning the Pritzker Prize for quiet white buildings that seem to grow out of the landscape. [PAWN_possessive] seawater swimming pools carved into the rocks of Leça are still among the most beautiful places to swim in the world.</description>
+    <skillGains>
+      <Construction>5</Construction>
+      <Artistic>3</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Elvira Fortunato ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_ElviraFortunato_Child</defName>
+    <slot>Childhood</slot>
+    <title>Almada tinkerer</title>
+    <titleShort>tinkerer</titleShort>
+    <description>Growing up in Almada, [PAWN_nameDef] wanted to know how everything worked, and took apart whatever [PAWN_pronoun] could get [PAWN_possessive] hands on to find out.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Crafting>1</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_ElviraFortunato_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>materials scientist</title>
+    <titleShort>scientist</titleShort>
+    <description>Materials scientist [PAWN_nameDef] built the world's first transistor made of paper, opening the way to recyclable chips and electronics printed on everyday materials. [PAWN_possessive] work on sustainable electronics earned some of Europe's highest scientific honours.</description>
+    <skillGains>
+      <Intellectual>5</Intellectual>
+      <Crafting>3</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== António Damásio ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_AntonioDamasio_Child</defName>
+    <slot>Childhood</slot>
+    <title>curious student</title>
+    <titleShort>student</titleShort>
+    <description>[PAWN_nameDef] grew up in Lisbon asking the kind of questions adults could not answer, especially about why people feel what they feel.</description>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_AntonioDamasio_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>neuroscientist</title>
+    <titleShort>neurologist</titleShort>
+    <description>Neurologist [PAWN_nameDef] spent [PAWN_possessive] career in the United States studying the human brain, and showed that emotions are not the enemy of reason but essential to it. [PAWN_possessive] books, starting with "Descartes' Error", have been read around the world.</description>
+    <skillGains>
+      <Medicine>4</Medicine>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <TooSmart>0</TooSmart>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Paula Rego ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_PaulaRego_Child</defName>
+    <slot>Childhood</slot>
+    <title>dark storyteller</title>
+    <titleShort>drawer</titleShort>
+    <description>As a girl in Lisbon, [PAWN_nameDef] grew up on frightening fairy tales and folk stories, and drew them obsessively. [PAWN_possessive] parents sent [PAWN_objective] to study in England to escape the stifling air of the dictatorship.</description>
+    <skillGains>
+      <Artistic>3</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_PaulaRego_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>painter of stories</title>
+    <titleShort>painter</titleShort>
+    <description>From [PAWN_possessive] studio in London, [PAWN_nameDef] became one of the great painters of [PAWN_possessive] time, with powerful, unsettling pictures of women, families and fairy tales. A museum dedicated to [PAWN_possessive] work, the House of Stories, stands in Cascais.</description>
+    <skillGains>
+      <Artistic>6</Artistic>
+      <Crafting>1</Crafting>
+      <Social>-1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Rui Nabeiro ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_RuiNabeiro_Child</defName>
+    <slot>Childhood</slot>
+    <title>border coffee boy</title>
+    <titleShort>coffee boy</titleShort>
+    <description>Born to a poor family in Campo Maior, on the Spanish border, [PAWN_nameDef] was roasting coffee with [PAWN_possessive] father and uncles at twelve, and pushing it across the border into Spain in a wheelbarrow.</description>
+    <skillGains>
+      <Cooking>2</Cooking>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_RuiNabeiro_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>coffee king</title>
+    <titleShort>businessman</titleShort>
+    <description>[PAWN_nameDef] founded Delta Cafés and built it into Portugal's best-known coffee brand, without ever leaving [PAWN_possessive] small Alentejo town. [PAWN_pronoun] knew [PAWN_possessive] workers by name and spent a fortune on [PAWN_possessive] community, and the whole country called [PAWN_objective] simply "o Comendador".</description>
+    <skillGains>
+      <Social>5</Social>
+      <Cooking>2</Cooking>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Kind>0</Kind>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Carlos Lopes ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_CarlosLopes_Child</defName>
+    <slot>Childhood</slot>
+    <title>mine helper</title>
+    <titleShort>helper</titleShort>
+    <description>Born into a humble family in a village near Viseu, [PAWN_nameDef] went to work very young as a helper at a mine, and spent [PAWN_possessive] free time chasing a football around the local pitch.</description>
+    <skillGains>
+      <Mining>2</Mining>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_CarlosLopes_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>marathon gold medallist</title>
+    <titleShort>runner</titleShort>
+    <description>Two weeks before the 1984 Olympics, [PAWN_nameDef] was knocked down by a car while training in Lisbon. [PAWN_pronoun] ran the Los Angeles marathon anyway, won it at 37 with an Olympic record that stood for 24 years, and gave Portugal its first ever Olympic gold medal.</description>
+    <skillGains>
+      <Melee>3</Melee>
+      <Mining>2</Mining>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <SpeedOffset>2</SpeedOffset>
+    </forcedTraits>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Fernanda Ribeiro ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_FernandaRibeiro_Child</defName>
+    <slot>Childhood</slot>
+    <title>too-fast girl</title>
+    <titleShort>runner</titleShort>
+    <description>As a girl in Penafiel, [PAWN_nameDef] beat runners much older than [PAWN_objective], so easily that some organisers refused to believe a child could really have won.</description>
+    <skillGains>
+      <Melee>2</Melee>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_FernandaRibeiro_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>Olympic champion</title>
+    <titleShort>runner</titleShort>
+    <description>In the 10,000 metres final at the 1996 Atlanta Olympics, [PAWN_nameDef] was ten metres behind the world record holder with the finish in sight. [PAWN_pronoun] reeled her in, won gold with an Olympic record, and became one of Portugal's greatest athletes.</description>
+    <skillGains>
+      <Melee>3</Melee>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <SpeedOffset>2</SpeedOffset>
+    </forcedTraits>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Fernando Pimenta ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_FernandoPimenta_Child</defName>
+    <slot>Childhood</slot>
+    <title>hyperactive river kid</title>
+    <titleShort>paddler</titleShort>
+    <description>[PAWN_nameDef] was such a hyperactive child in Ponte de Lima that someone suggested putting [PAWN_objective] in a kayak on the river Lima to burn off the energy. [PAWN_pronoun] never got out again.</description>
+    <skillGains>
+      <Melee>2</Melee>
+      <Construction>1</Construction>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_FernandoPimenta_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>kayak champion</title>
+    <titleShort>kayaker</titleShort>
+    <description>With two Olympic medals, several world titles and well over a hundred international medals, [PAWN_nameDef] is the most decorated paddler in Portuguese history. [PAWN_pronoun] calls the calluses on [PAWN_possessive] hands "invisible medals".</description>
+    <skillGains>
+      <Melee>3</Melee>
+      <Construction>2</Construction>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Industriousness>1</Industriousness>
+    </forcedTraits>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Miguel Oliveira ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_MiguelOliveira_Child</defName>
+    <slot>Childhood</slot>
+    <title>minibike racer</title>
+    <titleShort>racer</titleShort>
+    <description>[PAWN_nameDef] was racing minibikes around Almada almost as soon as [PAWN_possessive] feet could reach the pegs, and spent the rest of [PAWN_possessive] time in the garage with greasy hands.</description>
+    <skillGains>
+      <Crafting>2</Crafting>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_MiguelOliveira_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>MotoGP winner</title>
+    <titleShort>rider</titleShort>
+    <description>"The Falcon of Almada" became the first Portuguese rider to win a MotoGP race, snatching [PAWN_possessive] first victory at the very last corner. [PAWN_nameDef] later won [PAWN_possessive] home Grand Prix in Portimão from pole position, leading every single lap.</description>
+    <skillGains>
+      <Crafting>3</Crafting>
+      <Melee>2</Melee>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Nerves>1</Nerves>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Sophia de Mello Breyner Andresen ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_SophiaMelloBreyner_Child</defName>
+    <slot>Childhood</slot>
+    <title>girl of the sea</title>
+    <titleShort>dreamer</titleShort>
+    <description>[PAWN_nameDef] grew up in an old Porto family, spending long summers on the beach at Granja, where the sea, the light and the gardens of [PAWN_possessive] childhood became the stuff of [PAWN_possessive] poems.</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_SophiaMelloBreyner_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>poet of the sea</title>
+    <titleShort>poet</titleShort>
+    <description>[PAWN_nameDef] became one of Portugal's greatest poets and won the Camões Prize. [PAWN_possessive] children's stories, like "The Girl from the Sea", are read in every Portuguese school, and [PAWN_possessive] poem greeting 25 April 1974 as "the dawn I was waiting for" is part of the revolution's memory.</description>
+    <skillGains>
+      <Artistic>5</Artistic>
+      <Intellectual>2</Intellectual>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Gago Coutinho ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_GagoCoutinho_Child</defName>
+    <slot>Childhood</slot>
+    <title>stargazer</title>
+    <titleShort>stargazer</titleShort>
+    <description>[PAWN_nameDef] grew up in Lisbon fascinated by maps and stars, and joined the navy to see the places on them for [PAWN_objective]self.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Crafting>1</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_GagoCoutinho_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>air navigator</title>
+    <titleShort>navigator</titleShort>
+    <description>Naval officer and mapmaker [PAWN_nameDef] invented a sextant that could be used from the air. In 1922 [PAWN_pronoun] used it to navigate the first flight across the South Atlantic, from Lisbon to Rio de Janeiro, finding tiny islands in the middle of the ocean with nothing but the sun and the stars.</description>
+    <skillGains>
+      <Intellectual>5</Intellectual>
+      <Crafting>2</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Sacadura Cabral ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_SacaduraCabral_Child</defName>
+    <slot>Childhood</slot>
+    <title>daredevil</title>
+    <titleShort>daredevil</titleShort>
+    <description>[PAWN_nameDef] was the boy who climbed the highest trees and jumped off the highest walls. When aeroplanes were invented, it was obvious where [PAWN_pronoun] would end up.</description>
+    <skillGains>
+      <Crafting>2</Crafting>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_SacaduraCabral_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>aviation pioneer</title>
+    <titleShort>pilot</titleShort>
+    <description>Naval aviator [PAWN_nameDef] piloted the seaplane on the first flight across the South Atlantic in 1922, with Gago Coutinho navigating. They wrecked two planes on the way and finished in a third, and were greeted in Rio de Janeiro as heroes.</description>
+    <skillGains>
+      <Crafting>4</Crafting>
+      <Intellectual>2</Intellectual>
+      <Shooting>1</Shooting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Nerves>1</Nerves>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ================================================================== -->
+  <!--                    MORE HISTORICAL FIGURES                          -->
+  <!-- ================================================================== -->
+
+  <!-- ==================== Infante D. Henrique ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_InfanteHenrique_Child</defName>
+    <slot>Childhood</slot>
+    <title>prince of Porto</title>
+    <titleShort>prince</titleShort>
+    <description>Born in Porto, the son of King João I and Philippa of Lancaster, [PAWN_nameDef] grew up at court with [PAWN_possessive] brothers, raised on chivalry, mathematics and tales of lands beyond the known world.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Intellectual>1</Intellectual>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_InfanteHenrique_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>patron of discovery</title>
+    <titleShort>infante</titleShort>
+    <description>Known as Henry the Navigator, [PAWN_nameDef] barely sailed [PAWN_objective]self. Instead [PAWN_pronoun] gathered pilots, mapmakers and shipbuilders, and sent expedition after expedition down the coast of Africa, starting the Age of Discovery.</description>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Social>3</Social>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>ManualDumb</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Fernão de Magalhães ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_FernaoMagalhaes_Child</defName>
+    <slot>Childhood</slot>
+    <title>court page</title>
+    <titleShort>page</titleShort>
+    <description>Born to a minor noble family in the north of Portugal, [PAWN_nameDef] served as a page at the royal court in Lisbon, where the talk was all of spices, ships and the Indies.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_FernaoMagalhaes_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>circumnavigator</title>
+    <titleShort>explorer</titleShort>
+    <description>Snubbed by the Portuguese king, [PAWN_nameDef] sailed for Spain instead and led the first expedition around the world. [PAWN_pronoun] found the strait at the tip of South America that still bears [PAWN_possessive] name and crossed the Pacific, but was killed in battle in the Philippines before the voyage ended.</description>
+    <skillGains>
+      <Social>3</Social>
+      <Melee>3</Melee>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Marquês de Pombal ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_MarquesPombal_Child</defName>
+    <slot>Childhood</slot>
+    <title>ambitious squire</title>
+    <titleShort>squire</titleShort>
+    <description>Born into minor Lisbon gentry, [PAWN_nameDef] grew up with more ambition than money, studying law and history and waiting for [PAWN_possessive] chance.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_MarquesPombal_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>iron-fisted minister</title>
+    <titleShort>minister</titleShort>
+    <description>When the great earthquake of 1755 destroyed Lisbon, chief minister [PAWN_nameDef] took charge: bury the dead, feed the living, rebuild. [PAWN_pronoun] raised a new city of straight streets and earthquake-proof buildings, and ruled the country with an iron fist for over twenty years.</description>
+    <skillGains>
+      <Social>4</Social>
+      <Intellectual>3</Intellectual>
+      <Construction>1</Construction>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Nerves>1</Nerves>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Inês de Castro ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_InesCastro_Child</defName>
+    <slot>Childhood</slot>
+    <title>Galician noblewoman</title>
+    <titleShort>noble</titleShort>
+    <description>[PAWN_nameDef] was born into one of the most powerful noble families of Galicia, and came to Portugal as a lady-in-waiting to the bride of the heir to the throne.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_InesCastro_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>queen after death</title>
+    <titleShort>queen</titleShort>
+    <description>Prince Pedro fell hopelessly in love with [PAWN_nameDef] instead of his wife, and the king, fearing her family's influence, had her killed in Coimbra. When Pedro became king, he hunted down her murderers, and legend says he had her body crowned and the whole court kiss her hand: the queen who was crowned after her death.</description>
+    <skillGains>
+      <Social>3</Social>
+      <Artistic>2</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Beauty>2</Beauty>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Rainha Santa Isabel ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_RainhaSantaIsabel_Child</defName>
+    <slot>Childhood</slot>
+    <title>princess of Aragon</title>
+    <titleShort>princess</titleShort>
+    <description>A princess of Aragon, [PAWN_nameDef] was married off to King Dinis of Portugal at twelve. Even as a girl, [PAWN_pronoun] was known for giving away whatever [PAWN_pronoun] had to the poor.</description>
+    <skillGains>
+      <Social>2</Social>
+      <Medicine>1</Medicine>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_RainhaSantaIsabel_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>saint queen</title>
+    <titleShort>queen</titleShort>
+    <description>Queen [PAWN_nameDef] founded hospitals, fed the hungry and twice rode between armies to stop her husband and son from going to war. Legend says the king once caught her carrying bread to the poor in her lap, but when she opened it, the bread had turned into roses.</description>
+    <skillGains>
+      <Medicine>4</Medicine>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Kind>0</Kind>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Maria da Fonte ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_MariaDaFonte_Child</defName>
+    <slot>Childhood</slot>
+    <title>Minho farm girl</title>
+    <titleShort>farm girl</titleShort>
+    <description>[PAWN_nameDef] grew up working the fields around Póvoa de Lanhoso, in the green hills of the Minho, where people were poor, devout and quick to anger.</description>
+    <skillGains>
+      <Plants>2</Plants>
+      <Melee>1</Melee>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_MariaDaFonte_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>leader of the revolt</title>
+    <titleShort>rebel</titleShort>
+    <description>In 1846, when the government banned burials inside churches and raised taxes, the women of the Minho rose up, armed with pitchforks and sickles. Their leader, remembered as [PAWN_nameDef] though nobody is sure who she really was, started a revolt that spread across the country and brought down the government.</description>
+    <skillGains>
+      <Melee>4</Melee>
+      <Social>3</Social>
+      <Plants>1</Plants>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Brawler>0</Brawler>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Carolina Beatriz Ângelo ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_CarolinaAngelo_Child</defName>
+    <slot>Childhood</slot>
+    <title>girl who wanted more</title>
+    <titleShort>student</titleShort>
+    <description>Growing up in Guarda, [PAWN_nameDef] decided early that she would study medicine, at a time when almost no women in Portugal went to university.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Medicine>1</Medicine>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_CarolinaAngelo_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>pioneer surgeon</title>
+    <titleShort>surgeon</titleShort>
+    <description>[PAWN_nameDef] was the first woman to perform surgery in a Portuguese hospital. In 1911 she noticed the electoral law only required voters to be literate heads of family, and as a widow with a daughter, she was one. She took her case to court, won, and became the first woman ever to vote in Portugal. The law was quickly changed to stop anyone following her.</description>
+    <skillGains>
+      <Medicine>6</Medicine>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Bocage ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_Bocage_Child</defName>
+    <slot>Childhood</slot>
+    <title>Setúbal rhymer</title>
+    <titleShort>rhymer</titleShort>
+    <description>[PAWN_nameDef] was writing verses in Setúbal before most children could write their names, and already used them to mock anyone who annoyed [PAWN_objective].</description>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_Bocage_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>bohemian poet</title>
+    <titleShort>poet</titleShort>
+    <description>After deserting the navy in India, [PAWN_nameDef] came back to Lisbon and became the most brilliant and the most scandalous poet of [PAWN_possessive] age. [PAWN_possessive] satire landed [PAWN_objective] in the prisons of the Inquisition, and two centuries later every dirty joke in Portugal is still told about "Bocage".</description>
+    <skillGains>
+      <Artistic>5</Artistic>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <forcedTraits>
+      <Abrasive>0</Abrasive>
+    </forcedTraits>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- ==================== Eça de Queirós ==================== -->
+
+  <BackstoryDef>
+    <defName>PT_EcaQueiros_Child</defName>
+    <slot>Childhood</slot>
+    <title>bookish boy</title>
+    <titleShort>reader</titleShort>
+    <description>Born in Póvoa de Varzim and raised mostly by [PAWN_possessive] grandparents, [PAWN_nameDef] found [PAWN_possessive] company in books, and later in the student circles of Coimbra.</description>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PT_EcaQueiros_Adult</defName>
+    <slot>Adulthood</slot>
+    <title>novelist and consul</title>
+    <titleShort>novelist</titleShort>
+    <description>While serving as a consul in Havana, England and Paris, [PAWN_nameDef] wrote novels that mercilessly mocked the hypocrisy of Portuguese society. "The Maias" is still considered the great Portuguese novel, and [PAWN_possessive] remains now rest in the National Pantheon.</description>
+    <skillGains>
+      <Artistic>5</Artistic>
+      <Social>2</Social>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+</Defs>

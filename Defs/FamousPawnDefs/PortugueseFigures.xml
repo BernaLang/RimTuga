@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--
+    Famous Portuguese figures. Registered at startup by Assemblies/PortugueseColonists.dll
+    (RimWorld 1.6 has no XML def for famous characters, so the mod provides FamousPawnDef).
+    Backstories live in BackstoryDefs/PortugueseBackstories.xml
+    Note: the nick is what shows on the colonist bar, so keep it short and recognisable.
+  -->
+
+  <!-- ================================================================== -->
+  <!--                          HISTORICAL FIGURES                         -->
+  <!-- ================================================================== -->
+
+  <!-- D. Afonso Henriques -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_AfonsoHenriques</defName>
+    <name>
+      <first>Afonso</first>
+      <nick>O Conquistador</nick>
+      <last>Henriques</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_AfonsoHenriques_Child</childhood>
+    <adulthood>PT_AfonsoHenriques_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Luís de Camões -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_LuisCamoes</defName>
+    <name>
+      <first>Luís</first>
+      <nick>O Zarolho</nick>
+      <last>Camões</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_LuisCamoes_Child</childhood>
+    <adulthood>PT_LuisCamoes_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Vasco da Gama -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_VascoGama</defName>
+    <name>
+      <first>Vasco</first>
+      <nick>Navegador</nick>
+      <last>Gama</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_VascoGama_Child</childhood>
+    <adulthood>PT_VascoGama_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Brites de Almeida (A Padeira de Aljubarrota) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_BritesAlmeida</defName>
+    <name>
+      <first>Brites</first>
+      <nick>A Padeira</nick>
+      <last>Almeida</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_BritesAlmeida_Child</childhood>
+    <adulthood>PT_BritesAlmeida_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- D. Sebastião -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_SebastiaoRei</defName>
+    <name>
+      <first>Sebastião</first>
+      <nick>O Desejado</nick>
+      <last>Avis</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_SebastiaoRei_Child</childhood>
+    <adulthood>PT_SebastiaoRei_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Aristides de Sousa Mendes -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_SousaMendes</defName>
+    <name>
+      <first>Aristides</first>
+      <nick>O Cônsul</nick>
+      <last>Sousa Mendes</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_SousaMendes_Child</childhood>
+    <adulthood>PT_SousaMendes_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Salgueiro Maia -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_SalgueiroMaia</defName>
+    <name>
+      <first>Fernando</first>
+      <nick>Capitão</nick>
+      <last>Salgueiro Maia</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_SalgueiroMaia_Child</childhood>
+    <adulthood>PT_SalgueiroMaia_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- José Saramago -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Saramago</defName>
+    <name>
+      <first>José</first>
+      <nick>Saramago</nick>
+      <last>Saramago</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_Saramago_Child</childhood>
+    <adulthood>PT_Saramago_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Fernando Pessoa -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_FernandoPessoa</defName>
+    <name>
+      <first>Fernando</first>
+      <nick>Heterónimo</nick>
+      <last>Pessoa</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_FernandoPessoa_Child</childhood>
+    <adulthood>PT_FernandoPessoa_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Amália Rodrigues -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_AmaliaRodrigues</defName>
+    <name>
+      <first>Amália</first>
+      <nick>Rainha do Fado</nick>
+      <last>Rodrigues</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_AmaliaRodrigues_Child</childhood>
+    <adulthood>PT_AmaliaRodrigues_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Zeca Afonso -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_ZecaAfonso</defName>
+    <name>
+      <first>José</first>
+      <nick>Zeca</nick>
+      <last>Afonso</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_ZecaAfonso_Child</childhood>
+    <adulthood>PT_ZecaAfonso_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Eusébio -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Eusebio</defName>
+    <name>
+      <first>Eusébio</first>
+      <nick>Pantera Negra</nick>
+      <last>da Silva Ferreira</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_Eusebio_Child</childhood>
+    <adulthood>PT_Eusebio_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- ================================================================== -->
+  <!--                           MODERN FIGURES                            -->
+  <!-- ================================================================== -->
+
+  <!-- Cristiano Ronaldo -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_CristianoRonaldo</defName>
+    <name>
+      <first>Cristiano</first>
+      <nick>CR7</nick>
+      <last>Ronaldo</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_CristianoRonaldo_Child</childhood>
+    <adulthood>PT_CristianoRonaldo_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- José Mourinho -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_JoseMourinho</defName>
+    <name>
+      <first>José</first>
+      <nick>Special One</nick>
+      <last>Mourinho</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_JoseMourinho_Child</childhood>
+    <adulthood>PT_JoseMourinho_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Jorge Jesus -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_JorgeJesus</defName>
+    <name>
+      <first>Jorge</first>
+      <nick>JJ</nick>
+      <last>Jesus</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_JorgeJesus_Child</childhood>
+    <adulthood>PT_JorgeJesus_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Éder -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Eder</defName>
+    <name>
+      <first>Éderzito</first>
+      <nick>Éder</nick>
+      <last>Lopes</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_Eder_Child</childhood>
+    <adulthood>PT_Eder_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Rosa Mota -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_RosaMota</defName>
+    <name>
+      <first>Rosa</first>
+      <nick>Rosa</nick>
+      <last>Mota</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_RosaMota_Child</childhood>
+    <adulthood>PT_RosaMota_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Telma Monteiro -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_TelmaMonteiro</defName>
+    <name>
+      <first>Telma</first>
+      <nick>Telma</nick>
+      <last>Monteiro</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_TelmaMonteiro_Child</childhood>
+    <adulthood>PT_TelmaMonteiro_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Patrícia Mamona -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_PatriciaMamona</defName>
+    <name>
+      <first>Patrícia</first>
+      <nick>Mamona</nick>
+      <last>Mamona</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_PatriciaMamona_Child</childhood>
+    <adulthood>PT_PatriciaMamona_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Iúri Leitão -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_IuriLeitao</defName>
+    <name>
+      <first>Iúri</first>
+      <nick>Iúri</nick>
+      <last>Leitão</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_IuriLeitao_Child</childhood>
+    <adulthood>PT_IuriLeitao_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Mariza -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Mariza</defName>
+    <name>
+      <first>Marisa</first>
+      <nick>Mariza</nick>
+      <last>Nunes</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_Mariza_Child</childhood>
+    <adulthood>PT_Mariza_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Salvador Sobral -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_SalvadorSobral</defName>
+    <name>
+      <first>Salvador</first>
+      <nick>Salvador</nick>
+      <last>Sobral</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_SalvadorSobral_Child</childhood>
+    <adulthood>PT_SalvadorSobral_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Quim Barreiros -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_QuimBarreiros</defName>
+    <name>
+      <first>Joaquim</first>
+      <nick>Quim</nick>
+      <last>Barreiros</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_QuimBarreiros_Child</childhood>
+    <adulthood>PT_QuimBarreiros_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Tony Carreira -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_TonyCarreira</defName>
+    <name>
+      <first>António</first>
+      <nick>Tony</nick>
+      <last>Carreira</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_TonyCarreira_Child</childhood>
+    <adulthood>PT_TonyCarreira_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Fernando Mendes -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_FernandoMendes</defName>
+    <name>
+      <first>Fernando</first>
+      <nick>O Gordo</nick>
+      <last>Mendes</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_FernandoMendes_Child</childhood>
+    <adulthood>PT_FernandoMendes_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Herman José -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_HermanJose</defName>
+    <name>
+      <first>Herman</first>
+      <nick>Herman</nick>
+      <last>José</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_HermanJose_Child</childhood>
+    <adulthood>PT_HermanJose_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Ricardo Araújo Pereira -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_RicardoAraujoPereira</defName>
+    <name>
+      <first>Ricardo</first>
+      <nick>RAP</nick>
+      <last>Araújo Pereira</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_RicardoAraujoPereira_Child</childhood>
+    <adulthood>PT_RicardoAraujoPereira_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Cristina Ferreira -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_CristinaFerreira</defName>
+    <name>
+      <first>Cristina</first>
+      <nick>Cristina</nick>
+      <last>Ferreira</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_CristinaFerreira_Child</childhood>
+    <adulthood>PT_CristinaFerreira_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Manuel Luís Goucha -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Goucha</defName>
+    <name>
+      <first>Manuel Luís</first>
+      <nick>Goucha</nick>
+      <last>Goucha</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_Goucha_Child</childhood>
+    <adulthood>PT_Goucha_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Catarina Furtado -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_CatarinaFurtado</defName>
+    <name>
+      <first>Catarina</first>
+      <nick>Catarina</nick>
+      <last>Furtado</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_CatarinaFurtado_Child</childhood>
+    <adulthood>PT_CatarinaFurtado_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Daniela Ruah -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_DanielaRuah</defName>
+    <name>
+      <first>Daniela</first>
+      <nick>Daniela</nick>
+      <last>Ruah</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_DanielaRuah_Child</childhood>
+    <adulthood>PT_DanielaRuah_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Joana Vasconcelos -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_JoanaVasconcelos</defName>
+    <name>
+      <first>Joana</first>
+      <nick>Joana</nick>
+      <last>Vasconcelos</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_JoanaVasconcelos_Child</childhood>
+    <adulthood>PT_JoanaVasconcelos_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Ljubomir Stanisic -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Ljubomir</defName>
+    <name>
+      <first>Ljubomir</first>
+      <nick>Chef</nick>
+      <last>Stanisic</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_Ljubomir_Child</childhood>
+    <adulthood>PT_Ljubomir_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Marcelo Rebelo de Sousa -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Marcelo</defName>
+    <name>
+      <first>Marcelo</first>
+      <nick>Professor</nick>
+      <last>Rebelo de Sousa</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_Marcelo_Child</childhood>
+    <adulthood>PT_Marcelo_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- António Guterres -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Guterres</defName>
+    <name>
+      <first>António</first>
+      <nick>Guterres</nick>
+      <last>Guterres</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_Guterres_Child</childhood>
+    <adulthood>PT_Guterres_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- ================================================================== -->
+  <!--                    MODERN FIGURES - ENTERTAINERS                    -->
+  <!-- ================================================================== -->
+
+  <!-- Nuno Markl -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_NunoMarkl</defName>
+    <name>
+      <first>Nuno</first>
+      <nick>Markl</nick>
+      <last>Markl</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_NunoMarkl_Child</childhood>
+    <adulthood>PT_NunoMarkl_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Bruno Nogueira -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_BrunoNogueira</defName>
+    <name>
+      <first>Bruno</first>
+      <nick>Bruno</nick>
+      <last>Nogueira</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_BrunoNogueira_Child</childhood>
+    <adulthood>PT_BrunoNogueira_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Fernando Rocha -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_FernandoRocha</defName>
+    <name>
+      <first>Fernando</first>
+      <nick>Rocha</nick>
+      <last>Rocha</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_FernandoRocha_Child</childhood>
+    <adulthood>PT_FernandoRocha_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- César Mourão -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_CesarMourao</defName>
+    <name>
+      <first>César</first>
+      <nick>Mourão</nick>
+      <last>Mourão</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_CesarMourao_Child</childhood>
+    <adulthood>PT_CesarMourao_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- João Baião -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_JoaoBaiao</defName>
+    <name>
+      <first>João</first>
+      <nick>Baião</nick>
+      <last>Baião</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_JoaoBaiao_Child</childhood>
+    <adulthood>PT_JoaoBaiao_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Toy -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Toy</defName>
+    <name>
+      <first>António</first>
+      <nick>Toy</nick>
+      <last>Ferrão</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_Toy_Child</childhood>
+    <adulthood>PT_Toy_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Luís Franco-Bastos -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_FrancoBastos</defName>
+    <name>
+      <first>Luís</first>
+      <nick>Franco-Bastos</nick>
+      <last>Franco-Bastos</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_FrancoBastos_Child</childhood>
+    <adulthood>PT_FrancoBastos_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Joana Marques -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_JoanaMarques</defName>
+    <name>
+      <first>Joana</first>
+      <nick>Marques</nick>
+      <last>Marques</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_JoanaMarques_Child</childhood>
+    <adulthood>PT_JoanaMarques_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Maria Rueff -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_MariaRueff</defName>
+    <name>
+      <first>Maria</first>
+      <nick>Rueff</nick>
+      <last>Rueff</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_MariaRueff_Child</childhood>
+    <adulthood>PT_MariaRueff_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Teresa Guilherme -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_TeresaGuilherme</defName>
+    <name>
+      <first>Teresa</first>
+      <nick>Teresa</nick>
+      <last>Guilherme</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_TeresaGuilherme_Child</childhood>
+    <adulthood>PT_TeresaGuilherme_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Ana Garcia Martins (A Pipoca Mais Doce) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_PipocaMaisDoce</defName>
+    <name>
+      <first>Ana</first>
+      <nick>Pipoca</nick>
+      <last>Garcia Martins</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_PipocaMaisDoce_Child</childhood>
+    <adulthood>PT_PipocaMaisDoce_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Mariana Cabral (Bumba na Fofinha) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_BumbaNaFofinha</defName>
+    <name>
+      <first>Mariana</first>
+      <nick>Bumba</nick>
+      <last>Cabral</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_BumbaNaFofinha_Child</childhood>
+    <adulthood>PT_BumbaNaFofinha_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- ================================================================== -->
+  <!--               MODERN FIGURES - SCIENCE, ARTS & SPORT                -->
+  <!-- ================================================================== -->
+
+  <!-- Álvaro Siza Vieira -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_SizaVieira</defName>
+    <name>
+      <first>Álvaro</first>
+      <nick>Siza</nick>
+      <last>Siza Vieira</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_SizaVieira_Child</childhood>
+    <adulthood>PT_SizaVieira_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Elvira Fortunato -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_ElviraFortunato</defName>
+    <name>
+      <first>Elvira</first>
+      <nick>Elvira</nick>
+      <last>Fortunato</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_ElviraFortunato_Child</childhood>
+    <adulthood>PT_ElviraFortunato_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- António Damásio -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_AntonioDamasio</defName>
+    <name>
+      <first>António</first>
+      <nick>Damásio</nick>
+      <last>Damásio</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_AntonioDamasio_Child</childhood>
+    <adulthood>PT_AntonioDamasio_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Paula Rego -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_PaulaRego</defName>
+    <name>
+      <first>Paula</first>
+      <nick>Paula</nick>
+      <last>Rego</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_PaulaRego_Child</childhood>
+    <adulthood>PT_PaulaRego_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Rui Nabeiro -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_RuiNabeiro</defName>
+    <name>
+      <first>Rui</first>
+      <nick>Comendador</nick>
+      <last>Nabeiro</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_RuiNabeiro_Child</childhood>
+    <adulthood>PT_RuiNabeiro_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Carlos Lopes -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_CarlosLopes</defName>
+    <name>
+      <first>Carlos</first>
+      <nick>Carlos</nick>
+      <last>Lopes</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_CarlosLopes_Child</childhood>
+    <adulthood>PT_CarlosLopes_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Fernanda Ribeiro -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_FernandaRibeiro</defName>
+    <name>
+      <first>Fernanda</first>
+      <nick>Fernanda</nick>
+      <last>Ribeiro</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_FernandaRibeiro_Child</childhood>
+    <adulthood>PT_FernandaRibeiro_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Fernando Pimenta -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_FernandoPimenta</defName>
+    <name>
+      <first>Fernando</first>
+      <nick>Pimenta</nick>
+      <last>Pimenta</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_FernandoPimenta_Child</childhood>
+    <adulthood>PT_FernandoPimenta_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Miguel Oliveira -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_MiguelOliveira</defName>
+    <name>
+      <first>Miguel</first>
+      <nick>Falcão</nick>
+      <last>Oliveira</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_MiguelOliveira_Child</childhood>
+    <adulthood>PT_MiguelOliveira_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Sophia de Mello Breyner Andresen -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_SophiaMelloBreyner</defName>
+    <name>
+      <first>Sophia</first>
+      <nick>Sophia</nick>
+      <last>Mello Breyner</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_SophiaMelloBreyner_Child</childhood>
+    <adulthood>PT_SophiaMelloBreyner_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Gago Coutinho -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_GagoCoutinho</defName>
+    <name>
+      <first>Carlos</first>
+      <nick>Almirante</nick>
+      <last>Gago Coutinho</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_GagoCoutinho_Child</childhood>
+    <adulthood>PT_GagoCoutinho_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Sacadura Cabral -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_SacaduraCabral</defName>
+    <name>
+      <first>Artur</first>
+      <nick>Sacadura</nick>
+      <last>Sacadura Cabral</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_SacaduraCabral_Child</childhood>
+    <adulthood>PT_SacaduraCabral_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- ================================================================== -->
+  <!--                    MORE HISTORICAL FIGURES                          -->
+  <!-- ================================================================== -->
+
+  <!-- Infante D. Henrique (Henry the Navigator) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_InfanteHenrique</defName>
+    <name>
+      <first>Henrique</first>
+      <nick>Infante</nick>
+      <last>Avis</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_InfanteHenrique_Child</childhood>
+    <adulthood>PT_InfanteHenrique_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Fernão de Magalhães (Magellan) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_FernaoMagalhaes</defName>
+    <name>
+      <first>Fernão</first>
+      <nick>Magalhães</nick>
+      <last>Magalhães</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_FernaoMagalhaes_Child</childhood>
+    <adulthood>PT_FernaoMagalhaes_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Marquês de Pombal -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_MarquesPombal</defName>
+    <name>
+      <first>Sebastião José</first>
+      <nick>Marquês</nick>
+      <last>Carvalho e Melo</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_MarquesPombal_Child</childhood>
+    <adulthood>PT_MarquesPombal_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Inês de Castro -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_InesCastro</defName>
+    <name>
+      <first>Inês</first>
+      <nick>Rainha Morta</nick>
+      <last>Castro</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_InesCastro_Child</childhood>
+    <adulthood>PT_InesCastro_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Rainha Santa Isabel -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_RainhaSantaIsabel</defName>
+    <name>
+      <first>Isabel</first>
+      <nick>Rainha Santa</nick>
+      <last>Aragão</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_RainhaSantaIsabel_Child</childhood>
+    <adulthood>PT_RainhaSantaIsabel_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Maria da Fonte (semi-legendary leader of the 1846 Minho revolt) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_MariaDaFonte</defName>
+    <name>
+      <first>Maria</first>
+      <nick>Revoltosa</nick>
+      <last>da Fonte</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_MariaDaFonte_Child</childhood>
+    <adulthood>PT_MariaDaFonte_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Carolina Beatriz Ângelo -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_CarolinaAngelo</defName>
+    <name>
+      <first>Carolina Beatriz</first>
+      <nick>Carolina</nick>
+      <last>Ângelo</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_CarolinaAngelo_Child</childhood>
+    <adulthood>PT_CarolinaAngelo_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Bocage -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_Bocage</defName>
+    <name>
+      <first>Manuel Maria</first>
+      <nick>Bocage</nick>
+      <last>Barbosa du Bocage</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_Bocage_Child</childhood>
+    <adulthood>PT_Bocage_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Eça de Queirós -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_EcaQueiros</defName>
+    <name>
+      <first>José Maria</first>
+      <nick>Eça</nick>
+      <last>Eça de Queirós</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_EcaQueiros_Child</childhood>
+    <adulthood>PT_EcaQueiros_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+</Defs>

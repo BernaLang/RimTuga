@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Portuguese Colonists</name>
+  <author>Blank</author>
+  <packageId>Blank.PortugueseColonists</packageId>
+  <modVersion>1.2.0</modVersion>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Olá! Portuguese Colonists brings Portugal to the Rim.
+
+Adds Portuguese first names, last names and nicknames to the pool used for randomly generated pawns, so your colonists, raiders and traders can be called things like Gonçalo "Tremoço" Magalhães or Matilde "Varina" Sousa.
+
+It also adds famous Portuguese figures, past and present, as unique characters with their own hand-written backstories: kings, queens, navigators, poets, scientists, fadistas, athletes, comedians, TV hosts and more. Who will crash-land next to you: Afonso Henriques, Amália Rodrigues, Cristiano Ronaldo or José Mourinho?
+
+Backstories use vanilla-level skill bonuses, so famous does not mean overpowered.
+
+Safe to add to existing saves. No dependencies.</description>
+</ModMetaData>

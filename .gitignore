@@ -1,0 +1,26 @@
+# Package output (Source/package.ps1)
+releases/
+
+# Built DLL - generated from Source/ by Source/build.ps1 (needs RimWorld installed)
+Assemblies/*.dll
+*.pdb
+
+# C# / IDE leftovers
+bin/
+obj/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local agent settings
+.claude/settings.local.json
+
+# NOTE: About/PublishedFileId.txt (created on first Steam Workshop upload) must stay tracked,
+# so later uploads update the same Workshop page.
