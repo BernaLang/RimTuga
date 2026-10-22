@@ -73,14 +73,16 @@ Add one `Childhood` and one `Adulthood` backstory, named `PT_<Person>_Child` and
   <spawnCategories>
     <li>Offworld</li>
     <li>Outlander</li>
-    <li>Pirate</li>
   </spawnCategories>
   <shuffleable>false</shuffleable>
 </BackstoryDef>
 ```
 
 - **`shuffleable` must be `false`**, otherwise random pawns could get this backstory.
-- **Keep `spawnCategories`**, otherwise the figure never spawns. `Offworld` covers starting colonists, `Outlander` covers outlanders, traders and wanderers, and `Pirate` covers raiders. If the backstory has `<workDisables>Violent</workDisables>`, leave out `Pirate`; the game reports a config error for raiders who can't fight.
+- **`spawnCategories` decide which factions can roll the figure.** Without them the figure never spawns. The game accepts a figure if **either** of their two backstories has the category, so always give both backstories the same list.
+  - **`Offworld`** (starting colonists) **and `Outlander`** (outlander towns, traders, wanderers): **every figure gets both.**
+  - **`Pirate`** (always-hostile pirate factions): **only** for figures with a fighting, military, rebel, criminal or brash story, such as Afonso Henriques, Brites de Almeida, Bocage or Diogo Alves. Peaceful figures like Eça de Queirós don't get it. Never use it with `<workDisables>Violent</workDisables>`; the game reports a config error for raiders who can't fight.
+  - **`Cult`** (Anomaly's hostile cultists): optional, for occult or sinister figures such as Diogo Alves, Maya and O Velho do Restelo. It has no effect without Anomaly.
 - **Text tokens:** `[PAWN_nameDef]` is the name, `[PAWN_pronoun]` is he/she, `[PAWN_possessive]` is his/her, and `[PAWN_objective]` is him/her. Use `\n\n` for a paragraph break.
 - **Skills**: Animals, Artistic, Construction, Cooking, Crafting, Intellectual, Medicine, Melee, Mining, Plants, Shooting, Social.
 - **Balance**, kept close to vanilla:

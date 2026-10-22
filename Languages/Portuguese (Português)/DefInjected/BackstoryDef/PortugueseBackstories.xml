@@ -783,4 +783,118 @@
   <PT_BrunoAleixo_Adult.titleShort>filósofo</PT_BrunoAleixo_Adult.titleShort>
   <PT_BrunoAleixo_Adult.description>Depois da recruta nas Operações Especiais em Lamego, [PAWN_nameDef] instalou-se numa vida de conversas intermináveis e absurdas com os amigos: um busto de Napoleão que fala e um homem pré-histórico da serra do Buçaco que precisa de legendas. Tem conselhos para toda a gente, e nenhum presta.</PT_BrunoAleixo_Adult.description>
 
+  <!-- ================================================================== -->
+  <!--              REIS, INVENTORES E LENDAS CLÁSSICAS                    -->
+  <!-- ================================================================== -->
+
+  <!-- ==================== D. Maria I ==================== -->
+
+  <PT_MariaI_Child.title>princesa piedosa</PT_MariaI_Child.title>
+  <PT_MariaI_Child.titleShort>princesa</PT_MariaI_Child.titleShort>
+  <PT_MariaI_Child.description>Filha mais velha do rei, [PAWN_nameDef] cresceu numa corte ainda abalada pelo grande terramoto de 1755, mais à vontade na capela do que nas festas.</PT_MariaI_Child.description>
+
+  <PT_MariaI_Adult.title>rainha louca</PT_MariaI_Adult.title>
+  <PT_MariaI_Adult.titleShort>rainha</PT_MariaI_Adult.titleShort>
+  <PT_MariaI_Adult.description>[PAWN_nameDef] foi a primeira rainha reinante de Portugal, mas depois de perder o marido, o filho mais velho e o confessor em poucos anos, mergulhou numa loucura melancólica e o filho teve de governar no seu lugar. Quando Napoleão invadiu e a corte fugiu para o Brasil, diz a lenda que ela disse aos cocheiros: «Não corram tanto, que vão pensar que estamos a fugir!»</PT_MariaI_Adult.description>
+
+  <!-- ==================== D. João VI ==================== -->
+
+  <PT_JoaoVI_Child.title>príncipe de reserva</PT_JoaoVI_Child.title>
+  <PT_JoaoVI_Child.titleShort>príncipe</PT_JoaoVI_Child.titleShort>
+  <PT_JoaoVI_Child.description>Como filho mais novo, [PAWN_nameDef] nunca devia ter chegado a rei, e passou a infância sossegado, a apreciar música, cerimónias religiosas e, acima de tudo, o jantar.</PT_JoaoVI_Child.description>
+
+  <PT_JoaoVI_Adult.title>rei fujão</PT_JoaoVI_Adult.title>
+  <PT_JoaoVI_Adult.titleShort>rei</PT_JoaoVI_Adult.titleShort>
+  <PT_JoaoVI_Adult.description>Quando o exército de Napoleão marchou sobre Lisboa, [PAWN_nameDef] meteu a corte inteira, umas quinze mil pessoas, nos navios e partiu para o Brasil, governando o império a partir do Rio de Janeiro durante treze anos. Diz a lenda popular que andava sempre com frango assado nos bolsos do casaco, não fosse o diabo tecê-las.</PT_JoaoVI_Adult.description>
+
+  <!-- ==================== D. Pedro IV ==================== -->
+
+  <PT_PedroIV_Child.title>príncipe selvagem do Rio</PT_PedroIV_Child.title>
+  <PT_PedroIV_Child.titleShort>príncipe</PT_PedroIV_Child.titleShort>
+  <PT_PedroIV_Child.description>Levado para o Brasil em criança quando a corte fugiu de Napoleão, [PAWN_nameDef] cresceu meio selvagem no Rio de Janeiro, a montar a cavalo, à procura de aventuras e a ignorar os preceptores.</PT_PedroIV_Child.description>
+
+  <PT_PedroIV_Adult.title>rei soldado</PT_PedroIV_Adult.title>
+  <PT_PedroIV_Adult.titleShort>rei</PT_PedroIV_Adult.titleShort>
+  <PT_PedroIV_Adult.description>[PAWN_nameDef] declarou a independência do Brasil e tornou-se o seu primeiro imperador, e depois voltou para lutar numa guerra civil pelo trono português, resistindo ao longo cerco do Porto. Deixou o coração à cidade, e ele continua lá guardado num frasco, na Igreja da Lapa.</PT_PedroIV_Adult.description>
+
+  <!-- ==================== Bartolomeu de Gusmão (Padre Voador) ==================== -->
+
+  <PT_PadreVoador_Child.title>sonhador do seminário</PT_PadreVoador_Child.title>
+  <PT_PadreVoador_Child.titleShort>sonhador</PT_PadreVoador_Child.titleShort>
+  <PT_PadreVoador_Child.description>Nascido no Brasil colonial e educado pelos jesuítas, [PAWN_nameDef] passava as aulas a olhar para os pássaros lá fora, a tentar perceber como é que eles conseguiam.</PT_PadreVoador_Child.description>
+
+  <PT_PadreVoador_Adult.title>padre voador</PT_PadreVoador_Adult.title>
+  <PT_PadreVoador_Adult.titleShort>inventor</PT_PadreVoador_Adult.titleShort>
+  <PT_PadreVoador_Adult.description>Em 1709, diante do rei de Portugal, o padre [PAWN_nameDef] fez subir um pequeno balão de ar quente em direção ao teto do paço, setenta anos antes dos irmãos Montgolfier, e quase pegou fogo à sala. Prometeu uma máquina voadora em forma de pássaro, ganhou a alcunha de «Padre Voador» e acabou por fugir às suspeitas da Inquisição.</PT_PadreVoador_Adult.description>
+
+  <!-- ==================== Gil Eanes ==================== -->
+
+  <PT_GilEanes_Child.title>grumete de Lagos</PT_GilEanes_Child.title>
+  <PT_GilEanes_Child.titleShort>grumete</PT_GilEanes_Child.titleShort>
+  <PT_GilEanes_Child.description>[PAWN_nameDef] cresceu em Lagos, no Algarve, a esfregar conveses e a ouvir os marinheiros contar que para lá do Cabo Bojador o mar fervia e estava cheio de monstros.</PT_GilEanes_Child.description>
+
+  <PT_GilEanes_Adult.title>passador do Bojador</PT_GilEanes_Adult.title>
+  <PT_GilEanes_Adult.titleShort>marinheiro</PT_GilEanes_Adult.titleShort>
+  <PT_GilEanes_Adult.description>Durante anos, todas as tripulações mandadas para sul davam meia-volta no Cabo Bojador, aterrorizadas pelo «Mar Tenebroso». Em 1434, [PAWN_nameDef] simplesmente continuou, encontrou do outro lado um mar como os outros e voltou com umas rosas silvestres para o provar.</PT_GilEanes_Adult.description>
+
+  <!-- ==================== António Silva ==================== -->
+
+  <PT_AntonioSilva_Child.title>miúdo dos bairros de Lisboa</PT_AntonioSilva_Child.title>
+  <PT_AntonioSilva_Child.titleShort>miúdo</PT_AntonioSilva_Child.titleShort>
+  <PT_AntonioSilva_Child.description>[PAWN_nameDef] cresceu nos bairros populares de Lisboa, a ver os merceeiros discutir com os fregueses e a guardar cada resmunguice para mais tarde.</PT_AntonioSilva_Child.description>
+
+  <PT_AntonioSilva_Adult.title>ator cómico da época de ouro</PT_AntonioSilva_Adult.title>
+  <PT_AntonioSilva_Adult.titleShort>ator</PT_AntonioSilva_Adult.titleShort>
+  <PT_AntonioSilva_Adult.description>[PAWN_nameDef] foi a grande cara rabugenta da época de ouro do cinema português. Como Evaristo, o merceeiro irascível d'«O Pátio das Cantigas», foi o alvo do «Ó Evaristo, tens cá disto?», uma fala que o país inteiro ainda cita oitenta anos depois.</PT_AntonioSilva_Adult.description>
+
+  <!-- ==================== Beatriz Costa ==================== -->
+
+  <PT_BeatrizCosta_Child.title>corista</PT_BeatrizCosta_Child.title>
+  <PT_BeatrizCosta_Child.titleShort>corista</PT_BeatrizCosta_Child.titleShort>
+  <PT_BeatrizCosta_Child.description>Nascida numa aldeia perto de Mafra, [PAWN_nameDef] foi para Lisboa e entrou num coro de teatro aos dezasseis anos, decidida a ser aquela para quem toda a gente olhava.</PT_BeatrizCosta_Child.description>
+
+  <PT_BeatrizCosta_Adult.title>estrela de cinema da franja</PT_BeatrizCosta_Adult.title>
+  <PT_BeatrizCosta_Adult.titleShort>atriz</PT_BeatrizCosta_Adult.titleShort>
+  <PT_BeatrizCosta_Adult.description>Estrela d'«A Aldeia da Roupa Branca» e uma das atrizes mais bem pagas do seu tempo, [PAWN_nameDef] usou a mesma franja curta durante quase toda a vida, e ainda hoje qualquer cabeleireiro português sabe o que é uma franja «à Beatriz Costa». Mais tarde deixou os palcos para correr mundo e escreveu memórias com títulos como «Sem Papas na Língua».</PT_BeatrizCosta_Adult.description>
+
+  <!-- ==================== Fernando Pessa ==================== -->
+
+  <PT_FernandoPessa_Child.title>miúdo curioso</PT_FernandoPessa_Child.title>
+  <PT_FernandoPessa_Child.titleShort>miúdo</PT_FernandoPessa_Child.titleShort>
+  <PT_FernandoPessa_Child.description>[PAWN_nameDef] cresceu em Aveiro a fazer perguntas a toda a gente, e nunca se contentava com a primeira resposta.</PT_FernandoPessa_Child.description>
+
+  <PT_FernandoPessa_Adult.title>repórter eterno</PT_FernandoPessa_Adult.title>
+  <PT_FernandoPessa_Adult.titleShort>repórter</PT_FernandoPessa_Adult.titleShort>
+  <PT_FernandoPessa_Adult.description>[PAWN_nameDef] relatou a Segunda Guerra Mundial para a BBC a partir de Londres, entrou para os quadros da televisão portuguesa aos setenta e quatro anos e continuou a fazer reportagens até pouco antes de morrer, aos noventa e nove, acabando cada peça sobre os absurdos do país com o seu imortal «E esta, hein?».</PT_FernandoPessa_Adult.description>
+
+  <!-- ==================== Ivone Silva ==================== -->
+
+  <PT_IvoneSilva_Child.title>filha de alfaiates</PT_IvoneSilva_Child.title>
+  <PT_IvoneSilva_Child.titleShort>costureira</PT_IvoneSilva_Child.titleShort>
+  <PT_IvoneSilva_Child.description>Filha de dois alfaiates, [PAWN_nameDef] deixou a escola aos treze anos para trabalhar como costureira, e entretinha a oficina inteira com imitações enquanto as agulhas voavam.</PT_IvoneSilva_Child.description>
+
+  <PT_IvoneSilva_Adult.title>rainha da revista</PT_IvoneSilva_Adult.title>
+  <PT_IvoneSilva_Adult.titleShort>humorista</PT_IvoneSilva_Adult.titleShort>
+  <PT_IvoneSilva_Adult.description>Da mesa de costura para os palcos do Parque Mayer, [PAWN_nameDef] tornou-se uma das grandes estrelas do teatro de revista, e mais tarde pôs o país inteiro a rir em comédias de televisão ao lado de Camilo de Oliveira.</PT_IvoneSilva_Adult.description>
+
+  <!-- ==================== José Cid ==================== -->
+
+  <PT_JoseCid_Child.title>miúdo do piano da Chamusca</PT_JoseCid_Child.title>
+  <PT_JoseCid_Child.titleShort>pianista</PT_JoseCid_Child.titleShort>
+  <PT_JoseCid_Child.description>[PAWN_nameDef] cresceu na Chamusca, no Ribatejo, a martelar o piano da família até as canções que tinha na cabeça começarem a sair.</PT_JoseCid_Child.description>
+
+  <PT_JoseCid_Adult.title>veterano excêntrico do rock</PT_JoseCid_Adult.title>
+  <PT_JoseCid_Adult.titleShort>músico</PT_JoseCid_Adult.titleShort>
+  <PT_JoseCid_Adult.description>[PAWN_nameDef] fez um álbum de rock progressivo espacial hoje considerado uma obra-prima, e depois foi à Eurovisão com uma canção de amor. No início dos anos 90, furioso por as rádios preferirem música estrangeira, posou nu para uma revista tapado apenas por um disco de ouro. Nunca na vida guardou uma opinião para si.</PT_JoseCid_Adult.description>
+
+  <!-- ==================== Pedro Abrunhosa ==================== -->
+
+  <PT_PedroAbrunhosa_Child.title>estudante de música do Porto</PT_PedroAbrunhosa_Child.title>
+  <PT_PedroAbrunhosa_Child.titleShort>estudante</PT_PedroAbrunhosa_Child.titleShort>
+  <PT_PedroAbrunhosa_Child.description>[PAWN_nameDef] cresceu no Porto a estudar música a sério, a tocar contrabaixo e jazz muito antes de alguém lhe conhecer a cara. Ou os olhos.</PT_PedroAbrunhosa_Child.description>
+
+  <PT_PedroAbrunhosa_Adult.title>homem dos óculos escuros</PT_PedroAbrunhosa_Adult.title>
+  <PT_PedroAbrunhosa_Adult.titleShort>cantor</PT_PedroAbrunhosa_Adult.titleShort>
+  <PT_PedroAbrunhosa_Adult.description>Com os Bandemónio, [PAWN_nameDef] tornou-se um dos maiores cantautores portugueses. Em todos estes anos de vida pública, quase ninguém o viu sem os seus óculos escuros, dentro ou fora de casa, de dia ou de noite.</PT_PedroAbrunhosa_Adult.description>
+
 </LanguageData>

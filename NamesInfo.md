@@ -26,7 +26,7 @@ Açoriana, Alentejana, Algarvia, Azeiteira, Bacana, Badalhoca, Beirã, Besuntas,
 #### Unisex nicknames (75)
 Alfacinha, Alho Chocho, Aloquete, Andorinha, Bacalhau, Bagaço, Barona, Benfiquista, Bifana, Bisga, Bitaites, Broa, Cabeça de Giz, Cagarola, Caldo Verde, Canalha, Caracol, Carago, Cegonha, Chaço, Chouriço, Chuço, Cimbalino, Coiras, Cruzeta, Dragão, Espadachim, Estapor, Fadista, Fino, Fixe, Foguete, Formiga, Francesinha, Fronha, Gavião, Ginjinha, Guna, Jeco, Lince, Lisboeta, Lobo, Lontra, Madeirense, Manguela, Marechal, Medronho, Mitra, Mocho, Moina, Molete, Mor, Narizinho de Cheiro, Pastel de Nata, Pimba, Pitosga, Playmobil, Portista, Portuense, Rabelo, Regueifa, Rojão, Sardinha, Saudade, Selo, Sêmea, Sertã, Sostra, Sportinguista, Tecla 3, Toupeira, Touro, Tremoço, Tuga, Xiripiti
 
-## Personas (76)
+## Personas (87)
 
 ### Historical
 
@@ -128,3 +128,19 @@ Alfacinha, Alho Chocho, Aloquete, Andorinha, Bacalhau, Bagaço, Barona, Benfiqui
 | Ana 'Turbinada' Malhoa | Pop and pimba star, the best-selling pop artist in Portugal. |
 | Velho 'Agoirento' do Restelo | The old pessimist from *Os Lusíadas* who cursed Vasco da Gama's voyage. *(Fictional; the name is invented for the game.)* |
 | Bruno 'Aleixo' Aleixo | The cult animated bear-dog creature from Coimbra, created by GANA. *(Fictional.)* |
+
+### Royals, inventors & classic legends
+
+| In game | Who they are |
+|---|---|
+| Maria 'A Louca' Bragança | D. Maria I, Portugal's first reigning queen, remembered as "the Mad". |
+| João 'O Clemente' Bragança | D. João VI, who fled Napoleon to Brazil with the whole court. Legend says he kept roast chicken in his pockets. |
+| Pedro 'Rei Soldado' Bragança | D. Pedro IV, Emperor of Brazil and King of Portugal. His heart is kept in a jar in Porto's Lapa church. |
+| Bartolomeu 'Padre Voador' Gusmão | The "Flying Priest", who floated a hot-air balloon before the king in 1709. |
+| Gil 'Bojador' Eanes | Sailor who finally passed Cape Bojador (1434), despite tales of a boiling sea full of monsters. |
+| António 'Evaristo' Silva | Golden-age comic actor, the grumpy grocer of *"Ó Evaristo, tens cá disto?"* |
+| Beatriz 'Beatriz' Costa | 1930s film star of *A Aldeia da Roupa Branca*, famous for her fringe. |
+| Fernando 'Pessa' Pessa | Reporter who worked into his late nineties. *"E esta, hein?"* |
+| Ivone 'Ivone' Silva | Seamstress turned revue and TV comedy star. |
+| José 'Cid' Cid | Prog-rock pioneer and eccentric veteran who once posed nude behind a gold record. |
+| Pedro 'Abrunhosa' Abrunhosa | Singer-songwriter who is never seen without his dark sunglasses. |

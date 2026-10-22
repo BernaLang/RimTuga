@@ -59,7 +59,11 @@ This was verified by reading the RimWorld 1.6 game code, not assumed:
 
 ### Backstories (`Defs/BackstoryDefs/PortugueseBackstories.xml`)
 - Always `<shuffleable>false</shuffleable>`, so they never appear on random pawns.
-- Always include `spawnCategories` (`Offworld`, `Outlander`, `Pirate`); without them the figure never spawns. **Leave out `Pirate` when the backstory disables `Violent` work**, otherwise the game reports a config error (this happened with Guterres).
+- **`spawnCategories` control which factions can roll a figure.** Without them the figure never spawns. Verified in the 1.6 code: a figure matches a faction if **either** backstory has the category, so give **both** backstories of a figure the same list.
+  - **Every figure** gets `Offworld` (starting colonists) and `Outlander` (outlander towns, traders, wanderers). The user explicitly wants all figures available there.
+  - **`Pirate`** (always-hostile pirate factions) is **only** for figures with a fighting, military, rebel, criminal or brash story. Current list: Afonso Henriques, Camões, Vasco da Gama, Brites de Almeida, D. Sebastião, Fernão de Magalhães, Maria da Fonte, Bocage, Marquês de Pombal, Diogo Alves, Salgueiro Maia, Ljubomir, Jorge Jesus, José Mourinho, Joana Marques, D. Pedro IV and Gil Eanes. Peaceful figures (writers, scientists, saints, TV people...) never get it. Never combine `Pirate` with `<workDisables>Violent</workDisables>`; the game reports a config error.
+  - **`Cult`** (Anomaly's hostile cultists) is optional, for occult or sinister figures: currently Diogo Alves, Maya, O Velho do Restelo and the Padre Voador (suspected of sorcery by the Inquisition). **It's safe without Anomaly, and needs no `MayRequire`.** Verified in the 1.6 code: categories are plain strings, the config-error check never validates their names, and the base game's own Core backstories use `Cult` 115 times. Without Anomaly the category is simply never requested.
+  - When adding a figure, decide its group and say which one in your summary to the user.
 - **Balance stays at vanilla level.** The user explicitly doesn't want overpowered pawns.
   - Childhood: 1–3 skills, biggest bonus +3, total about +3 to +4.
   - Adulthood: 2–3 skills, biggest bonus +5 (+6 at most), total about +6 to +8.

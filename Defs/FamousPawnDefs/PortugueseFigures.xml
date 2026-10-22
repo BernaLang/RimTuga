@@ -1020,4 +1020,151 @@
     <adulthood>PT_BrunoAleixo_Adult</adulthood>
   </PortugueseColonists.FamousPawnDef>
 
+  <!-- ================================================================== -->
+  <!--                ROYALS, INVENTORS & CLASSIC LEGENDS                  -->
+  <!-- ================================================================== -->
+
+  <!-- D. Maria I, "a Louca" -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_MariaI</defName>
+    <name>
+      <first>Maria</first>
+      <nick>A Louca</nick>
+      <last>Bragança</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_MariaI_Child</childhood>
+    <adulthood>PT_MariaI_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- D. João VI, "o Clemente" -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_JoaoVI</defName>
+    <name>
+      <first>João</first>
+      <nick>O Clemente</nick>
+      <last>Bragança</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_JoaoVI_Child</childhood>
+    <adulthood>PT_JoaoVI_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- D. Pedro IV (Pedro I of Brazil), "o Rei Soldado" -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_PedroIV</defName>
+    <name>
+      <first>Pedro</first>
+      <nick>Rei Soldado</nick>
+      <last>Bragança</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_PedroIV_Child</childhood>
+    <adulthood>PT_PedroIV_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Bartolomeu de Gusmão, "o Padre Voador" -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_PadreVoador</defName>
+    <name>
+      <first>Bartolomeu</first>
+      <nick>Padre Voador</nick>
+      <last>Gusmão</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_PadreVoador_Child</childhood>
+    <adulthood>PT_PadreVoador_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Gil Eanes -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_GilEanes</defName>
+    <name>
+      <first>Gil</first>
+      <nick>Bojador</nick>
+      <last>Eanes</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_GilEanes_Child</childhood>
+    <adulthood>PT_GilEanes_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- António Silva (Evaristo) -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_AntonioSilva</defName>
+    <name>
+      <first>António</first>
+      <nick>Evaristo</nick>
+      <last>Silva</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_AntonioSilva_Child</childhood>
+    <adulthood>PT_AntonioSilva_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Beatriz Costa -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_BeatrizCosta</defName>
+    <name>
+      <first>Beatriz</first>
+      <nick>Beatriz</nick>
+      <last>Costa</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_BeatrizCosta_Child</childhood>
+    <adulthood>PT_BeatrizCosta_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Fernando Pessa -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_FernandoPessa</defName>
+    <name>
+      <first>Fernando</first>
+      <nick>Pessa</nick>
+      <last>Pessa</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_FernandoPessa_Child</childhood>
+    <adulthood>PT_FernandoPessa_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Ivone Silva -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_IvoneSilva</defName>
+    <name>
+      <first>Ivone</first>
+      <nick>Ivone</nick>
+      <last>Silva</last>
+    </name>
+    <gender>Female</gender>
+    <childhood>PT_IvoneSilva_Child</childhood>
+    <adulthood>PT_IvoneSilva_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- José Cid -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_JoseCid</defName>
+    <name>
+      <first>José</first>
+      <nick>Cid</nick>
+      <last>Cid</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_JoseCid_Child</childhood>
+    <adulthood>PT_JoseCid_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
+  <!-- Pedro Abrunhosa -->
+  <PortugueseColonists.FamousPawnDef>
+    <defName>PT_PedroAbrunhosa</defName>
+    <name>
+      <first>Pedro</first>
+      <nick>Abrunhosa</nick>
+      <last>Abrunhosa</last>
+    </name>
+    <gender>Male</gender>
+    <childhood>PT_PedroAbrunhosa_Child</childhood>
+    <adulthood>PT_PedroAbrunhosa_Adult</adulthood>
+  </PortugueseColonists.FamousPawnDef>
+
 </Defs>
